@@ -1,0 +1,285 @@
+{
+  "index.qmd": {
+    "index.html": "1491e057"
+  },
+  "about.qmd": {
+    "about.html": "c4baddb7"
+  },
+  "posts/post-with-code/index.qmd": {
+    "index.html": "e7a822b9"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "e4478bf3"
+  },
+  "03-microeconometria/2021-11-01-03-modelos-multinomiales-y-ordenados/index.qmd": {
+    "index.html": "2732bf8b",
+    "index.tex": "e48d45e9",
+    "index.docx": "1d3ff825"
+  },
+  "03-microeconometria/2021-11-15-05-sesgo-de-seleccion/index.qmd": {
+    "index.html": "e22a298c",
+    "index.tex": "eb83ebe0",
+    "index.docx": "6dc6a273"
+  },
+  "03-microeconometria/2021-12-06-08-panel-data-dinamico/index.qmd": {
+    "index.html": "cadd795d",
+    "index.tex": "59470881",
+    "index.docx": "b799a33a"
+  },
+  "03-microeconometria/2021-11-08-04-modelos-con-variables-censuradas-y-truncadas/index.qmd": {
+    "index.html": "63f7686a",
+    "index.tex": "6cec7f20",
+    "index.docx": "13862234"
+  },
+  "03-microeconometria/2021-10-25-02-modelos-fraccionados/index.qmd": {
+    "index.html": "f8496a9b",
+    "index.tex": "725ac5a2",
+    "index.docx": "8f83797d"
+  },
+  "03-microeconometria/2021-12-13-09-/index.qmd": {
+    "index.html": "c8187ccc",
+    "index.tex": "04f4ebdc",
+    "index.docx": "69718878"
+  },
+  "03-microeconometria/2021-11-29-07-panel-data-estatico/index.qmd": {
+    "index.html": "3c680611",
+    "index.tex": "b82f6cde",
+    "index.docx": "0ddab539"
+  },
+  "03-microeconometria/2021-10-18-01-modelos-de-eleccion-discreta-probit-y-logit/index.qmd": {
+    "index.html": "ecd4336d",
+    "index.tex": "146e62a2",
+    "index.docx": "c9998534"
+  },
+  "03-microeconometria/2021-11-22-06-modelos-de-ecuaciones-simultaneas/index.qmd": {
+    "index.html": "cd0ed1cb",
+    "index.tex": "4e2822d7",
+    "index.docx": "91b3a946"
+  },
+  "00-econometria-general/2022-01-11-recaudacion-de-impuestos-y-crecimiento-economico-2017-2019/index.qmd": {
+    "index.html": "078aee6c",
+    "index.tex": "48355d22",
+    "index.docx": "9702872f"
+  },
+  "estadistica/2018-05-16-estadigrafos/index.qmd": {
+    "index.html": "0518fe6b",
+    "index.tex": "81d92796",
+    "index.docx": "b273e049"
+  },
+  "estadistica/2018-12-26-factores-que-influyen-rendimiento-academico/index.qmd": {
+    "index.html": "99d7467f",
+    "index.tex": "29084c87",
+    "index.docx": "4265b386"
+  },
+  "02-macroeconometria/2021-09-20-01-analisis-univariado/index.qmd": {
+    "index.html": "700bc62f",
+    "index.tex": "52572f2e",
+    "index.docx": "c2311a1e"
+  },
+  "02-macroeconometria/2021-10-11-06-modelos-no-lineales-en-la-media/index.qmd": {
+    "index.html": "570c62e5",
+    "index.tex": "1a813155",
+    "index.docx": "e4266d0a"
+  },
+  "02-macroeconometria/2021-10-04-05-modelos-de-factores-latentes/index.qmd": {
+    "index.html": "d6a68706",
+    "index.tex": "040f5d35",
+    "index.docx": "a60beb2b"
+  },
+  "02-macroeconometria/2024-03-31-por-editar/index.qmd": {
+    "index.html": "71287015",
+    "index.tex": "d2baa245",
+    "index.docx": "100c0371"
+  },
+  "02-macroeconometria/2021-09-27-03-analisis-multivariado/index.qmd": {
+    "index.html": "4c778b6f",
+    "index.tex": "acdb4f75",
+    "index.docx": "10e475ae"
+  },
+  "estadistica-para-economistas/2019-12-30-rendimiento-academico-y-genero-de-ingresantes-a-unsch/index.qmd": {
+    "index.html": "fcfd45eb",
+    "index.tex": "b17de2a4",
+    "index.docx": "b2823dd0"
+  },
+  "estadistica-para-economistas/2024-03-31-por-editar/index.qmd": {
+    "index.html": "430b3439",
+    "index.tex": "8af770c1",
+    "index.docx": "70445853"
+  },
+  "06-evaluacion-de-impacto/2022-04-18-03-modelo-de-emparejamiento/index.qmd": {
+    "index.html": "58523eea",
+    "index.tex": "56ae6bb4",
+    "index.docx": "34febb39"
+  },
+  "06-evaluacion-de-impacto/2022-04-04-01-introduccion-a-la-evaluacion-de-impacto/index.qmd": {
+    "index.html": "51505160",
+    "index.tex": "4269083a",
+    "index.docx": "27b40b9f"
+  },
+  "06-evaluacion-de-impacto/2022-05-09-06-analizando-papers-con-rdd-usando-stata-y-r/index.qmd": {
+    "index.html": "4ceb924e",
+    "index.tex": "200026fe",
+    "index.docx": "85354531"
+  },
+  "06-evaluacion-de-impacto/2024-03-31-por-editar/index.qmd": {
+    "index.html": "e5ef7dd8",
+    "index.tex": "29ad49e1",
+    "index.docx": "14f0de90"
+  },
+  "06-evaluacion-de-impacto/2022-04-25-04-regresion-discontinua-rd/index.qmd": {
+    "index.html": "9a1439bb",
+    "index.tex": "0a277539",
+    "index.docx": "82a70133"
+  },
+  "06-evaluacion-de-impacto/2022-05-16-07-metodo-de-control-sintetico-mcs/index.qmd": {
+    "index.html": "8c75b2a8",
+    "index.tex": "18dc95d9",
+    "index.docx": "48e31941"
+  },
+  "06-evaluacion-de-impacto/2022-05-02-05-regresion-discontinua-sharp-vs-fuzzy/index.qmd": {
+    "index.html": "003c83d6",
+    "index.tex": "ebd238f4",
+    "index.docx": "90529579"
+  },
+  "06-evaluacion-de-impacto/2022-04-11-02-introduccion-a-los-experimentos-aleatorios/index.qmd": {
+    "index.html": "d63c9f2a",
+    "index.tex": "a1b46d48",
+    "index.docx": "00bdbfd3"
+  },
+  "01-fundamentos-econometria/2021-03-15-03-algebra-y-geometria-de-mco/index.qmd": {
+    "index.html": "c44c0198",
+    "index.tex": "cb87ad82",
+    "index.docx": "9360cf8b"
+  },
+  "01-fundamentos-econometria/2021-04-19-07-bondad-de-ajuste/index.qmd": {
+    "index.html": "87d4cd4b",
+    "index.tex": "2d603460",
+    "index.docx": "cfc35883"
+  },
+  "01-fundamentos-econometria/2021-04-10-06-el-trade-off-sesgo-varianza/index.qmd": {
+    "index.html": "97e1c76c",
+    "index.tex": "b651fd9d",
+    "index.docx": "7b0b01af"
+  },
+  "01-fundamentos-econometria/2021-05-10-10-el-modelo-general-de-regresion-lineal-permitiendo-heterocedasticidad-en-los-errores/index.qmd": {
+    "index.html": "4e0f683c",
+    "index.tex": "553439d9",
+    "index.docx": "282fa808"
+  },
+  "01-fundamentos-econometria/2021-05-17-11-problemas-de-endogeneidad/index.qmd": {
+    "index.html": "608c4057",
+    "index.tex": "b5aa4509",
+    "index.docx": "4bff32b0"
+  },
+  "01-fundamentos-econometria/2021-03-29-05-propiedades-en-muestras-infinitas-del-estimador-mco/index.qmd": {
+    "index.html": "202bbbf8",
+    "index.tex": "eead9b5d",
+    "index.docx": "b0003497"
+  },
+  "01-fundamentos-econometria/2021-03-08-02-el-estimador-de-minimos-cuadrados-ordinarios-mco/index.qmd": {
+    "index.html": "42732441",
+    "index.tex": "69ca84ef",
+    "index.docx": "4539a39f"
+  },
+  "01-fundamentos-econometria/2021-05-24-12-perturbaciones-no-esfericas/index.qmd": {
+    "index.html": "73a57511",
+    "index.tex": "841054f5",
+    "index.docx": "a1ac24f4"
+  },
+  "01-fundamentos-econometria/2021-03-22-04-propiedades-en-muestras-finitas-del-estimador-mco/index.qmd": {
+    "index.html": "68ae8ce8",
+    "index.tex": "aa4222b4",
+    "index.docx": "92741a7d"
+  },
+  "01-fundamentos-econometria/2021-03-01-01-modelo-clasico-de-regresion-lineal/index.qmd": {
+    "index.html": "948ae5c9",
+    "index.tex": "930aae60",
+    "index.docx": "e5829bfa"
+  },
+  "01-fundamentos-econometria/2021-04-26-08-multicolinealidad/index.qmd": {
+    "index.html": "e24119aa",
+    "index.tex": "ec634aeb",
+    "index.docx": "1e462337"
+  },
+  "01-fundamentos-econometria/2021-05-03-09-inferencia/index.qmd": {
+    "index.html": "58277751",
+    "index.tex": "acbb743f",
+    "index.docx": "39c9cd6e"
+  },
+  "07-topicos-de-econometria/2022-05-16-03-la-herramienta-fundamental-regresiones/index.qmd": {
+    "index.html": "4a9e29b1",
+    "index.tex": "eacd786b",
+    "index.docx": "fa0d0dd2"
+  },
+  "07-topicos-de-econometria/2022-05-09-02-metodos-experimentales-en-economia/index.qmd": {
+    "index.html": "a557559d",
+    "index.tex": "2b64d0ad",
+    "index.docx": "7f89370e"
+  },
+  "07-topicos-de-econometria/2022-05-23-04-variables-instrumentales/index.qmd": {
+    "index.html": "9a264079",
+    "index.tex": "6b01604e",
+    "index.docx": "87c1bec0"
+  },
+  "07-topicos-de-econometria/2022-05-30-05-diseño-de-regresion-discontinua-rdd/index.qmd": {
+    "index.html": "03d181e0",
+    "index.tex": "90335a30",
+    "index.docx": "2183feb9"
+  },
+  "07-topicos-de-econometria/2022-06-06-06-efectos-fijos-diferencias-en-diferencias-y-datos-de-panel/index.qmd": {
+    "index.html": "34c48c66",
+    "index.tex": "5994fb1d",
+    "index.docx": "cf9ce339"
+  },
+  "07-topicos-de-econometria/2022-06-20-08-miscelanea/index.qmd": {
+    "index.html": "93a946cd",
+    "index.tex": "4665a9ce",
+    "index.docx": "1a485c47"
+  },
+  "07-topicos-de-econometria/2022-05-02-01-introduccion-a-la-econometria/index.qmd": {
+    "index.html": "18e9657e",
+    "index.tex": "5ade4674",
+    "index.docx": "b1a9fb59"
+  },
+  "07-topicos-de-econometria/2022-06-13-07-event-studies-en-economia/index.qmd": {
+    "index.html": "8e0f2995",
+    "index.tex": "e6b5a75b",
+    "index.docx": "9801226a"
+  },
+  "04-econometria-financiera/2022-02-28-01-volatilidad-en-las-series-de-tiempo/index.qmd": {
+    "index.html": "76cb2a09",
+    "index.tex": "ca5a5354",
+    "index.docx": "a64e6566"
+  },
+  "05-econometria-bayesiana/2022-03-07-01-introduccion-a-la-econometria-bayesiana/index.qmd": {
+    "index.html": "c2fe5ad4",
+    "index.tex": "55eaebb8",
+    "index.docx": "96d89199"
+  },
+  "05-econometria-bayesiana/2022-03-18-03-familia-de-distribuciones-prior/index.qmd": {
+    "index.html": "96daa017",
+    "index.tex": "13287cb4",
+    "index.docx": "a260c0c2"
+  },
+  "05-econometria-bayesiana/2022-03-21-04-simulacion-y-estimacion-bayesiana/index.qmd": {
+    "index.html": "e31add19",
+    "index.tex": "cd40adf4",
+    "index.docx": "27f38c0f"
+  },
+  "05-econometria-bayesiana/2022-03-28-05-aplicaciones-econometricas/index.qmd": {
+    "index.html": "c6f58a0a",
+    "index.tex": "73e20c17",
+    "index.docx": "b67ea522"
+  },
+  "05-econometria-bayesiana/2022-03-14-02-modelo-de-regresion-lineal/index.qmd": {
+    "index.html": "30fd74e6",
+    "index.tex": "2388d890",
+    "index.docx": "1f17c7a3"
+  },
+  "SECURITY.md": {
+    "SECURITY.html": "babe216d"
+  },
+  "404.qmd": {
+    "404.html": "f986efe0"
+  }
+}

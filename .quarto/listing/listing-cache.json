@@ -1,0 +1,16 @@
+{
+  "listingMap": {
+    "index.qmd": [
+      "00-econometria-general/*/index.qmd",
+      "01-fundamentos-econometria/*/index.qmd",
+      "02-macroeconometria/*/index.qmd",
+      "03-microeconometria/*/index.qmd",
+      "04-econometria-financiera/*/index.qmd",
+      "05-econometria-bayesiana/*/index.qmd",
+      "06-evaluacion-de-impacto/*/index.qmd",
+      "07-topicos-de-econometria/*/index.qmd",
+      "estadistica/*/index.qmd",
+      "estadistica-para-economistas/*/index.qmd"
+    ]
+  }
+}

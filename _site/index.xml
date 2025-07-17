@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Edison Achalma B.Sc. Econ.</title>
+<link>https://achalmaedison.netlify.app/</link>
+<atom:link href="https://achalmaedison.netlify.app/index.xml" rel="self" type="application/rss+xml"/>
+<description>Este es mi blog donde practico compartir mi curiosidad.&lt;br&gt;
+Incluye notas y tutoriales para mi futuro y espero que también para ti.&lt;br&gt;&lt;br&gt;
+{{&lt; fa envelope &gt;}} Sign up for my [newsletter](https://achalmaedison.netlify.app/contact#buttondown) to receive updates about new posts.
+</description>
+<generator>quarto-1.7.32</generator>
+<lastBuildDate>Sun, 31 Mar 2024 05:00:00 GMT</lastBuildDate>
+<item>
+  <title></title>
+  <dc:creator>Edison Achalma</dc:creator>
+  <link>https://achalmaedison.netlify.app/02-macroeconometria/2024-03-31-por-editar/</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>Macroeconometria</category>
+  <guid>https://achalmaedison.netlify.app/02-macroeconometria/2024-03-31-por-editar/</guid>
+  <pubDate>Sun, 31 Mar 2024 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <dc:creator>Edison Achalma</dc:creator>
+  <link>https://achalmaedison.netlify.app/06-evaluacion-de-impacto/2024-03-31-por-editar/</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>Evaluacion Impacto</category>
+  <guid>https://achalmaedison.netlify.app/06-evaluacion-de-impacto/2024-03-31-por-editar/</guid>
+  <pubDate>Sun, 31 Mar 2024 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <dc:creator>Edison Achalma</dc:creator>
+  <link>https://achalmaedison.netlify.app/estadistica-para-economistas/2024-03-31-por-editar/</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>Estadistica Para Economistas</category>
+  <guid>https://achalmaedison.netlify.app/estadistica-para-economistas/2024-03-31-por-editar/</guid>
+  <pubDate>Sun, 31 Mar 2024 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <dc:creator>Edison Achalma</dc:creator>
+  <link>https://achalmaedison.netlify.app/07-topicos-de-econometria/2022-06-20-08-miscelanea/</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>Econometria Y Topicos Economia Empirica</category>
+  <category>Tópicos de Econometría</category>
+  <category>Regresiones</category>
+  <category>Modelos No Lineales</category>
+  <guid>https://achalmaedison.netlify.app/07-topicos-de-econometria/2022-06-20-08-miscelanea/</guid>
+  <pubDate>Mon, 20 Jun 2022 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <dc:creator>Edison Achalma</dc:creator>
+  <link>https://achalmaedison.netlify.app/07-topicos-de-econometria/2022-06-13-07-event-studies-en-economia/</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>Econometria Y Topicos Economia Empirica</category>
+  <category>Tópicos de Econometría</category>
+  <category>Event Studies</category>
+  <category>Análisis de Datos</category>
+  <category>Economía</category>
+  <guid>https://achalmaedison.netlify.app/07-topicos-de-econometria/2022-06-13-07-event-studies-en-economia/</guid>
+  <pubDate>Mon, 13 Jun 2022 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <dc:creator>Edison Achalma</dc:creator>
+  <link>https://achalmaedison.netlify.app/07-topicos-de-econometria/2022-06-06-06-efectos-fijos-diferencias-en-diferencias-y-datos-de-panel/</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>Econometria Y Topicos Economia Empirica</category>
+  <category>Tópicos de Econometría</category>
+  <category>Efectos Fijos</category>
+  <category>Diferencias en Diferencias</category>
+  <category>Datos de Panel</category>
+  <guid>https://achalmaedison.netlify.app/07-topicos-de-econometria/2022-06-06-06-efectos-fijos-diferencias-en-diferencias-y-datos-de-panel/</guid>
+  <pubDate>Mon, 06 Jun 2022 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <dc:creator>Edison Achalma</dc:creator>
+  <link>https://achalmaedison.netlify.app/07-topicos-de-econometria/2022-05-30-05-diseño-de-regresion-discontinua-rdd/</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>Econometria Y Topicos Economia Empirica</category>
+  <category>Tópicos de Econometría</category>
+  <category>Regresión Discontinua</category>
+  <category>Diseño Experimental</category>
+  <category>Análisis de Datos</category>
+  <guid>https://achalmaedison.netlify.app/07-topicos-de-econometria/2022-05-30-05-diseño-de-regresion-discontinua-rdd/</guid>
+  <pubDate>Mon, 30 May 2022 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <dc:creator>Edison Achalma</dc:creator>
+  <link>https://achalmaedison.netlify.app/07-topicos-de-econometria/2022-05-23-04-variables-instrumentales/</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>Econometria Y Topicos Economia Empirica</category>
+  <category>Tópicos de Econometría</category>
+  <category>Variables Instrumentales</category>
+  <category>Causalidad</category>
+  <category>Resultados Potenciales</category>
+  <guid>https://achalmaedison.netlify.app/07-topicos-de-econometria/2022-05-23-04-variables-instrumentales/</guid>
+  <pubDate>Mon, 23 May 2022 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <dc:creator>Edison Achalma</dc:creator>
+  <link>https://achalmaedison.netlify.app/07-topicos-de-econometria/2022-05-16-03-la-herramienta-fundamental-regresiones/</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>Econometria Y Topicos Economia Empirica</category>
+  <category>Tópicos de Econometría</category>
+  <category>Regresiones</category>
+  <category>Análisis de Datos</category>
+  <category>Causalidad</category>
+  <guid>https://achalmaedison.netlify.app/07-topicos-de-econometria/2022-05-16-03-la-herramienta-fundamental-regresiones/</guid>
+  <pubDate>Mon, 16 May 2022 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <dc:creator>Edison Achalma</dc:creator>
+  <link>https://achalmaedison.netlify.app/06-evaluacion-de-impacto/2022-05-16-07-metodo-de-control-sintetico-mcs/</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>Evaluacion Impacto</category>
+  <category>Método de Control Sintético</category>
+  <category>Análisis de Datos</category>
+  <guid>https://achalmaedison.netlify.app/06-evaluacion-de-impacto/2022-05-16-07-metodo-de-control-sintetico-mcs/</guid>
+  <pubDate>Mon, 16 May 2022 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <dc:creator>Edison Achalma</dc:creator>
+  <link>https://achalmaedison.netlify.app/07-topicos-de-econometria/2022-05-09-02-metodos-experimentales-en-economia/</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>Econometria Y Topicos Economia Empirica</category>
+  <category>Tópicos de Econometría</category>
+  <category>Economía Experimental</category>
+  <category>Selección</category>
+  <category>Ensayos Controlados Aleatorios</category>
+  <guid>https://achalmaedison.netlify.app/07-topicos-de-econometria/2022-05-09-02-metodos-experimentales-en-economia/</guid>
+  <pubDate>Mon, 09 May 2022 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <dc:creator>Edison Achalma</dc:creator>
+  <link>https://achalmaedison.netlify.app/06-evaluacion-de-impacto/2022-05-09-06-analizando-papers-con-rdd-usando-stata-y-r/</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>Evaluacion Impacto</category>
+  <category>Regresión Discontinua</category>
+  <category>Análisis de Datos</category>
+  <guid>https://achalmaedison.netlify.app/06-evaluacion-de-impacto/2022-05-09-06-analizando-papers-con-rdd-usando-stata-y-r/</guid>
+  <pubDate>Mon, 09 May 2022 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <dc:creator>Edison Achalma</dc:creator>
+  <link>https://achalmaedison.netlify.app/06-evaluacion-de-impacto/2022-05-02-05-regresion-discontinua-sharp-vs-fuzzy/</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>Evaluacion Impacto</category>
+  <category>Regresión Discontinua</category>
+  <category>Análisis de Datos</category>
+  <guid>https://achalmaedison.netlify.app/06-evaluacion-de-impacto/2022-05-02-05-regresion-discontinua-sharp-vs-fuzzy/</guid>
+  <pubDate>Mon, 02 May 2022 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <dc:creator>Edison Achalma</dc:creator>
+  <link>https://achalmaedison.netlify.app/07-topicos-de-econometria/2022-05-02-01-introduccion-a-la-econometria/</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>Econometria Y Topicos Economia Empirica</category>
+  <category>Tópicos de Econometría</category>
+  <category>Estimación</category>
+  <category>Identificación</category>
+  <guid>https://achalmaedison.netlify.app/07-topicos-de-econometria/2022-05-02-01-introduccion-a-la-econometria/</guid>
+  <pubDate>Mon, 02 May 2022 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <dc:creator>Edison Achalma</dc:creator>
+  <link>https://achalmaedison.netlify.app/06-evaluacion-de-impacto/2022-04-25-04-regresion-discontinua-rd/</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>Evaluacion Impacto</category>
+  <category>Regresión Discontinua</category>
+  <category>Análisis de Datos</category>
+  <guid>https://achalmaedison.netlify.app/06-evaluacion-de-impacto/2022-04-25-04-regresion-discontinua-rd/</guid>
+  <pubDate>Mon, 25 Apr 2022 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <dc:creator>Edison Achalma</dc:creator>
+  <link>https://achalmaedison.netlify.app/06-evaluacion-de-impacto/2022-04-18-03-modelo-de-emparejamiento/</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>Evaluacion Impacto</category>
+  <category>Modelo de Emparejamiento</category>
+  <category>Análisis de Datos</category>
+  <guid>https://achalmaedison.netlify.app/06-evaluacion-de-impacto/2022-04-18-03-modelo-de-emparejamiento/</guid>
+  <pubDate>Mon, 18 Apr 2022 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <dc:creator>Edison Achalma</dc:creator>
+  <link>https://achalmaedison.netlify.app/06-evaluacion-de-impacto/2022-04-11-02-introduccion-a-los-experimentos-aleatorios/</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>Evaluacion Impacto</category>
+  <category>Experimentos Aleatorios</category>
+  <category>Diseño de Investigación</category>
+  <guid>https://achalmaedison.netlify.app/06-evaluacion-de-impacto/2022-04-11-02-introduccion-a-los-experimentos-aleatorios/</guid>
+  <pubDate>Mon, 11 Apr 2022 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <dc:creator>Edison Achalma</dc:creator>
+  <link>https://achalmaedison.netlify.app/06-evaluacion-de-impacto/2022-04-04-01-introduccion-a-la-evaluacion-de-impacto/</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>Evaluacion Impacto</category>
+  <category>Metodologías</category>
+  <category>Políticas Públicas</category>
+  <guid>https://achalmaedison.netlify.app/06-evaluacion-de-impacto/2022-04-04-01-introduccion-a-la-evaluacion-de-impacto/</guid>
+  <pubDate>Mon, 04 Apr 2022 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <dc:creator>Edison Achalma</dc:creator>
+  <link>https://achalmaedison.netlify.app/05-econometria-bayesiana/2022-03-28-05-aplicaciones-econometricas/</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>Econometria Bayesiana</category>
+  <category>Aplicaciones en Series de Tiempo</category>
+  <category>Modelos Dinámicos</category>
+  <category>Econometría Avanzada</category>
+  <guid>https://achalmaedison.netlify.app/05-econometria-bayesiana/2022-03-28-05-aplicaciones-econometricas/</guid>
+  <pubDate>Mon, 28 Mar 2022 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <dc:creator>Edison Achalma</dc:creator>
+  <link>https://achalmaedison.netlify.app/05-econometria-bayesiana/2022-03-21-04-simulacion-y-estimacion-bayesiana/</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>Econometria Bayesiana</category>
+  <category>Métodos de Simulación</category>
+  <category>Econometría Computacional</category>
+  <category>Inferencia Estadística</category>
+  <guid>https://achalmaedison.netlify.app/05-econometria-bayesiana/2022-03-21-04-simulacion-y-estimacion-bayesiana/</guid>
+  <pubDate>Mon, 21 Mar 2022 05:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,54 @@
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics{20230603225440.png}
+
+}
+
+\caption{\label{fig-1}Ayacucho: Impuesto a la renta 2007 - 2019(Miles de
+s/).}
+
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics{20230603225447.png}
+
+}
+
+\caption{\label{fig-2}Ayacucho: Impuesto General a las ventas (IGV) 2007
+- 2019 (Milesde S/).}
+
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics{20230603225455.png}
+
+}
+
+\caption{\label{fig-3}Ayacucho: Impuesto Selectivo al consumo (ISC) 2007
+- 2019 (Miles de s/).}
+
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics{20230603230848.png}
+
+}
+
+\caption{\label{fig-4}Ayacucho: Valor agregado Bruto (VAB) según
+actividad económica 2007-2019 (Tasa de crecimiento, \%)}
+
+\end{figure*}
