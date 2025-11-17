@@ -78,7 +78,7 @@ date: "09/20/2021"
 draft: true  # Modo de borrador (false = final, true = borrador)
 ---
 
-Este artículo está actualmente en proceso de edición, y todas las secciones serán ampliadas y refinadas en futuras revisiones. holaa
+Este artículo está actualmente en proceso de edición, y todas las secciones serán ampliadas y refinadas en futuras revisiones. holaaa, cómo estas por favor
 
 {{< include ../../_contenido-inicio.qmd >}}
 
