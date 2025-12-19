@@ -25,9 +25,11 @@ categories:
   - Modelo de Emparejamiento
   - Análisis de Datos
 tags:
-  - Modelo de Emparejamiento
-  - Propensity Score Matching
-  - Sesgo de Selección
+  - modelo_de_emparejamiento
+  - propensity_score_matching
+  - sesgo_de_seleccion
+  - econometrics
+  - evaluacion_impacto
 
 # Nota del Autor
 author-note:

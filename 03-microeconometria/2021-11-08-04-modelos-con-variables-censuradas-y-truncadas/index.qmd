@@ -25,9 +25,11 @@ categories:
   - Análisis de Datos
   - Econometría
 tags:
-  - Modelo Tobit
-  - Estimación por máxima verosimilitud
-  - Variables truncadas
+  - modelo_tobit
+  - estimacion_por_maxima_verosimilitud
+  - variables_truncadas
+  - econometrics
+  - microeconometria
 
 # Nota del Autor
 author-note:

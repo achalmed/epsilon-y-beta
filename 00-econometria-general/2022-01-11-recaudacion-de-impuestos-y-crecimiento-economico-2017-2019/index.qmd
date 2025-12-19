@@ -23,7 +23,8 @@ keywords: [keyword1, keyword2]
 categories:
   -  Econometria General
 tags:
-  - Econometría General
+  - econometria_general
+  - econometrics
 
 # Nota del Autor
 author-note:

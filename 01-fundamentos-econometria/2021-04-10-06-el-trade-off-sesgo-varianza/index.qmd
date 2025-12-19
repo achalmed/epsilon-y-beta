@@ -25,9 +25,10 @@ categories:
   - Estadística  
   - Aprendizaje Automático
 tags:
-  - Sesgo  
-  - Varianza  
-  - Modelos Predictivos
+  - varianza
+  - modelos_predictivos
+  - econometrics
+  - econometria_general
 
 # Nota del Autor
 author-note:

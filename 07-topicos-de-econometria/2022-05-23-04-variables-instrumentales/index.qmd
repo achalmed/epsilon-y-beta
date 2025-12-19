@@ -27,9 +27,11 @@ categories:
   - Causalidad
   - Resultados Potenciales
 tags:
-  - Variables Instrumentales
-  - Causalidad
-  - Resultados Potenciales
+  - variables_instrumentales
+  - causalidad
+  - resultados_potenciales
+  - econometrics
+  - topicos_econometria
 
 # Nota del Autor
 author-note:

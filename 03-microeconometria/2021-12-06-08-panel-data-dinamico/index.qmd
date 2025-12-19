@@ -25,9 +25,11 @@ categories:
   - Econometría Aplicada
   - Análisis de Datos
 tags:
-  - Estimación por Método Generalizado de Momentos
-  - Sesgo de Nickell
-  - Variables instrumentales
+  - estimacion_por_metodo_generalizado_de_momentos
+  - sesgo_de_nickell
+  - variables_instrumentales
+  - econometrics
+  - microeconometria
 
 # Nota del Autor
 author-note:

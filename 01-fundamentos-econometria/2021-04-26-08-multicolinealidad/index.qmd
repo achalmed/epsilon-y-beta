@@ -25,9 +25,9 @@ categories:
   - Econometría  
   - Estadística
 tags:
-  - Correlación  
-  - Regresión Lineal  
-  - Diagnóstico de Modelos
+  - multicolinealidad
+  - econometrics
+  - econometria_general
 
 # Nota del Autor
 author-note:

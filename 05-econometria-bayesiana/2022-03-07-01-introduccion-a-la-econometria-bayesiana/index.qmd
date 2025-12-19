@@ -25,11 +25,13 @@ categories:
   - Modelado Estadístico
   - Métodos de Simulación
 tags:
-  - Probabilidad y estimación bayesiana
-  - Modelos de regresión bayesianos
-  - Simulación de Monte Carlo
-  - Algoritmos MCMC
-  - Aplicaciones en series de tiempo
+  - probabilidad_y_estimacion_bayesiana
+  - modelos_de_regresion_bayesianos
+  - simulacion_de_monte_carlo
+  - algoritmos_mcmc
+  - aplicaciones_en_series_de_tiempo
+  - econometrics
+  - econometria_bayesiana
 
 # Nota del Autor
 author-note:

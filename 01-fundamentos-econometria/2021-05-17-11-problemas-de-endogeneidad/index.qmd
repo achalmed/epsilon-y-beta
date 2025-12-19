@@ -21,13 +21,13 @@ abstract: |
   Este abstract será actualizado una vez que se complete el contenido final del artículo.
 keywords: [keyword1, keyword2]
 categories:
-  -  Fundamentos Econometria
+  - Fundamentos Econometria
   - Econometría  
   - Economía
 tags:
-  - Variables Instrumentales  
-  - Endogeneidad  
-  - Sesgo de Selección
+  - endogeneidad
+  - econometrics
+  - econometria_general
 
 # Nota del Autor
 author-note:

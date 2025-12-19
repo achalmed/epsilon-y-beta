@@ -25,9 +25,11 @@ categories:
   - Método de Control Sintético
   - Análisis de Datos
 tags:
-  - Método de Control Sintético
-  - Estudios de Casos Comparados
-  - Análisis de Datos
+  - metodo_de_control_sintetico
+  - estudios_de_casos_comparados
+  - analisis_de_datos
+  - econometrics
+  - evaluacion_impacto
 
 # Nota del Autor
 author-note:

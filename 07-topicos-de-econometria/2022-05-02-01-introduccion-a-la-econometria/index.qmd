@@ -26,9 +26,11 @@ categories:
   - Estimación
   - Identificación
 tags:
-  - Econometría
-  - Mínimos Cuadrados
-  - Expectativas Condicionales
+  - econometria
+  - minimos_cuadrados
+  - expectativas_condicionales
+  - econometrics
+  - topicos_econometria
 
 # Nota del Autor
 author-note:

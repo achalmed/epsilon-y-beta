@@ -24,11 +24,12 @@ categories:
   -  Econometria Financiera
   - Series de Tiempo
 tags:
-  - Modelos ARCH y GARCH
-  - Volatilidad condicional
-  - No-normalidad en retornos
-  - Modelos TARCH y EGARCH
-  - Aplicaciones en mercados financieros
+  - modelos_arch_y_garch
+  - volatilidad_condicional
+  - no_normalidad_en_retornos
+  - modelos_tarch_y_egarch
+  - econometrics
+  - econometria_financiera
 
 # Nota del Autor
 author-note:

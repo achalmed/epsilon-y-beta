@@ -25,10 +25,12 @@ categories:
   - Econometría
   - Modelos Estadísticos
 tags:
-  - Modelos Probit y Logit
-  - Máxima verosimilitud
-  - Efecto marginal
-  - Bondad de ajuste
+  - modelos_probit_y_logit
+  - maxima_verosimilitud
+  - efecto_marginal
+  - bondad_de_ajuste
+  - econometrics
+  - microeconometria
 
 # Nota del Autor
 author-note:

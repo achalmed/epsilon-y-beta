@@ -25,10 +25,10 @@ categories:
   - Modelos de Factores Latentes
   - Métodos de Estimación Econométrica
 tags:
-  - Filtro de Kalman
-  - Modelos de espacio-estado
-  - Factores latentes
-  - Modelos multivariados
+  - modelos_de_espacio_estado
+  - modelos_multivariados
+  - econometrics
+  - macroeconometria
 
 # Nota del Autor
 author-note:

@@ -23,9 +23,7 @@ keywords: [keyword1, keyword2]
 categories:
   - Estadistica Para Economistas
 tags:
-  - EstadísticaParaEconomistas
-  - GéneroYEducación
-  - RendimientoAcadémico
+  - estadistica_para_economistas
 
 # Nota del Autor
 author-note:

@@ -25,9 +25,11 @@ categories:
   - Experimentos Aleatorios
   - Diseño de Investigación
 tags:
-  - Experimentos Aleatorios
-  - Inferencia Causal
-  - Aleatorización
+  - experimentos_aleatorios
+  - inferencia_causal
+  - aleatorizacion
+  - econometrics
+  - evaluacion_impacto
 
 # Nota del Autor
 author-note:

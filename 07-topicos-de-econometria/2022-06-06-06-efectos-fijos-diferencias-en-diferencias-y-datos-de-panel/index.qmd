@@ -27,9 +27,11 @@ categories:
   - Diferencias en Diferencias
   - Datos de Panel
 tags:
-  - Efectos Fijos
-  - Diferencias en Diferencias
-  - Análisis de Datos
+  - efectos_fijos
+  - diferencias_en_diferencias
+  - analisis_de_datos
+  - econometrics
+  - topicos_econometria
 
 # Nota del Autor
 author-note:

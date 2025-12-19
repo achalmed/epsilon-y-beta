@@ -25,9 +25,11 @@ categories:
   - Modelos Econométricos
   - Análisis de Datos
 tags:
-  - Transformación log-odds
-  - Regresión fraccionada
-  - Estimación logística
+  - transformacion_log_odds
+  - regresion_fraccionada
+  - estimacion_logistica
+  - econometrics
+  - microeconometria
 
 # Nota del Autor
 author-note:

@@ -25,9 +25,9 @@ categories:
   - Estadística  
   - Análisis de Datos
 tags:
-  - R-cuadrado  
-  - Ajuste de Modelo  
-  - Validación de Modelo
+  - validacion_de_modelo
+  - econometrics
+  - econometria_general
 
 # Nota del Autor
 author-note:

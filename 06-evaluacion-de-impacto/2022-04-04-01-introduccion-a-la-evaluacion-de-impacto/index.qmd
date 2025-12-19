@@ -25,9 +25,11 @@ categories:
   - Metodologías
   - Políticas Públicas
 tags:
-  - Evaluación de Impacto
-  - Teoría de Cambio
-  - Matriz de Marco Lógico
+  - evaluacion_de_impacto
+  - teoria_de_cambio
+  - matriz_de_marco_logico
+  - econometrics
+  - evaluacion_impacto
 
 # Nota del Autor
 author-note:

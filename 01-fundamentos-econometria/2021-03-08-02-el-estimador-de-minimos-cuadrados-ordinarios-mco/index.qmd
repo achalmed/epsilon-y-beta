@@ -25,9 +25,10 @@ categories:
   - Econometría  
   - Métodos Estadísticos
 tags:
-  - Mínimos Cuadrados  
-  - Estimación Paramétrica  
-  - Análisis de Datos
+  - minimos_cuadrados
+  - analisis_de_datos
+  - econometrics
+  - econometria_general
 
 # Nota del Autor
 author-note:

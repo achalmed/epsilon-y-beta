@@ -26,9 +26,10 @@ categories:
   - Matemáticas  
   - Econometría
 tags:
-  - Álgebra Lineal  
-  - Geometría Estadística  
-  - MCO
+  - algebra_lineal
+  - geometria_estadistica
+  - econometrics
+  - econometria_general
 
 # Nota del Autor
 author-note:

@@ -25,9 +25,8 @@ categories:
   - Estadística  
   - Econometría
 tags:
-  - Propiedades Estimador  
-  - Muestras Finitas  
-  - Consistencia
+  - econometrics
+  - econometria_general
 
 # Nota del Autor
 author-note:

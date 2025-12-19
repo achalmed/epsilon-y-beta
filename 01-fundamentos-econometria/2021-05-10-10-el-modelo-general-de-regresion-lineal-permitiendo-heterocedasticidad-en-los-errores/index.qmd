@@ -25,9 +25,9 @@ categories:
   - Econometría  
   - Análisis de Datos
 tags:
-  - Heterocedasticidad  
-  - Varianza No Constante  
-  - Pruebas de Heterocedasticidad
+  - heterocedasticidad
+  - econometrics
+  - econometria_general
 
 # Nota del Autor
 author-note:

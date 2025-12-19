@@ -25,9 +25,9 @@ categories:
   - Estadística  
   - Econometría
 tags:
-  - Asintótica  
-  - Consistencia  
-  - Eficiencia
+  - asintotica
+  - econometrics
+  - econometria_general
 
 # Nota del Autor
 author-note:

@@ -25,11 +25,13 @@ categories:
   - Métodos de Priorización
   - Inferencia Económica
 tags:
-  - Priors conjugadas y difusas
-  - Priors jerárquicas
-  - Priors propias e impropias
-  - Impacto en modelos econométricos
-  - Análisis de sensibilidad
+  - priors_conjugadas_y_difusas
+  - priors_jerarquicas
+  - priors_propias_e_impropias
+  - impacto_en_modelos_econometricos
+  - analisis_de_sensibilidad
+  - econometrics
+  - econometria_bayesiana
 
 # Nota del Autor
 author-note:

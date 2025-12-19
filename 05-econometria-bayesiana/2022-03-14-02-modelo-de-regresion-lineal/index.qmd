@@ -26,11 +26,13 @@ categories:
   - Inferencia Bayesiana
   - Econometría Aplicada
 tags:
-  - Modelos de regresión bayesianos
-  - Perturbaciones no esféricas
-  - Ilustraciones empíricas
-  - Modelos no lineales
-  - Aplicaciones en datos económicos
+  - modelos_de_regresion_bayesianos
+  - perturbaciones_no_esfericas
+  - ilustraciones_empiricas
+  - modelos_no_lineales
+  - aplicaciones_en_datos_economicos
+  - econometrics
+  - econometria_bayesiana
 
 # Nota del Autor
 author-note:

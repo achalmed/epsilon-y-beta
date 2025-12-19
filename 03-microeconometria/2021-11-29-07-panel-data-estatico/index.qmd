@@ -26,9 +26,11 @@ categories:
   - Análisis de Datos
   - Econometría
 tags:
-  - Estimador Within-Group
-  - Mínimos Cuadrados Generalizados
-  - Verosimilitud condicional
+  - estimador_within_group
+  - minimos_cuadrados_generalizados
+  - verosimilitud_condicional
+  - econometrics
+  - microeconometria
 
 # Nota del Autor
 author-note:

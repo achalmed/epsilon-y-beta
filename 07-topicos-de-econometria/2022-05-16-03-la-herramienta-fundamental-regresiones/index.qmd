@@ -27,9 +27,11 @@ categories:
   - Análisis de Datos
   - Causalidad
 tags:
-  - Regresiones
-  - Causalidad
-  - Heterogeneidad
+  - regresiones
+  - causalidad
+  - heterogeneidad
+  - econometrics
+  - topicos_econometria
 
 # Nota del Autor
 author-note:

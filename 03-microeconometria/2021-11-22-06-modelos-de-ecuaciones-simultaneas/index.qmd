@@ -25,9 +25,11 @@ categories:
   - Modelos Estadísticos
   - Métodos de Estimación
 tags:
-  - MCO en dos etapas
-  - Forma estructural y reducida
-  - Problema de identificación
+  - mco_en_dos_etapas
+  - forma_estructural_y_reducida
+  - problema_de_identificacion
+  - econometrics
+  - microeconometria
 
 # Nota del Autor
 author-note:

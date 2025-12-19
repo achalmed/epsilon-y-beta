@@ -26,11 +26,13 @@ categories:
   - Modelos Dinámicos
   - Econometría Avanzada
 tags:
-  - Modelos VAR bayesianos
-  - Modelos de espacio-estado
-  - Estimación DSGE bayesiana
-  - Modelos panel
-  - Variables dependientes multirespuesta
+  - modelos_var_bayesianos
+  - modelos_de_espacio_estado
+  - estimacion_dsge_bayesiana
+  - modelos_panel
+  - variables_dependientes_multirespuesta
+  - econometrics
+  - econometria_bayesiana
 
 # Nota del Autor
 author-note:
@@ -77,7 +79,6 @@ citation:
 date: "03/28/2022"
 draft: true  # Modo de borrador (false = final, true = borrador)
 ---
-
 
 Este artículo está actualmente en proceso de edición, y todas las secciones serán ampliadas y refinadas en futuras revisiones.
 

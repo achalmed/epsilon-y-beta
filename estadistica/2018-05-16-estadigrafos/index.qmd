@@ -23,9 +23,7 @@ keywords: [keyword1, keyword2]
 categories:
   - Estadistica
 tags:
-  - Estadística
-  - CaracterísticasDemográficas
-  - AnálisisSociodemográfico
+  - estadistica
 
 # Nota del Autor
 author-note:
@@ -76,7 +74,6 @@ citation:
 date: "05/16/2018"
 draft: false  # Modo de borrador (false = final, true = borrador)
 ---
-
 
 | Valores | Frecuencia | Porcentaje | Porcentaje válido | Porcentaje acumulado |
 | :-----: | :--------: | :--------: | :---------------: | :------------------: |

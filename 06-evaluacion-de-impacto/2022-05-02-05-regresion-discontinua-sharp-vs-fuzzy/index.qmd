@@ -25,9 +25,11 @@ categories:
   - Regresión Discontinua
   - Análisis de Datos
 tags:
-  - Regresión Discontinua Sharp
-  - Regresión Discontinua Fuzzy
-  - Supuestos de Identificación
+  - regresion_discontinua_sharp
+  - regresion_discontinua_fuzzy
+  - supuestos_de_identificacion
+  - econometrics
+  - evaluacion_impacto
 
 # Nota del Autor
 author-note:

@@ -27,9 +27,11 @@ categories:
   - Selección
   - Ensayos Controlados Aleatorios
 tags:
-  - Métodos Experimentales
-  - Selección
-  - Ensayos Naturales
+  - metodos_experimentales
+  - seleccion
+  - ensayos_naturales
+  - econometrics
+  - topicos_econometria
 
 # Nota del Autor
 author-note:

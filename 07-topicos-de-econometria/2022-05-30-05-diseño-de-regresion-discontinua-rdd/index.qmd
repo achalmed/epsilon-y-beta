@@ -27,9 +27,11 @@ categories:
   - Diseño Experimental
   - Análisis de Datos
 tags:
-  - Regresión Discontinua
-  - Diseño Experimental
-  - Fuzzy vs Sharp
+  - regresion_discontinua
+  - diseno_experimental
+  - fuzzy_vs_sharp
+  - econometrics
+  - topicos_econometria
 
 # Nota del Autor
 author-note:

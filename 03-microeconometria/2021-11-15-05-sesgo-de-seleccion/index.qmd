@@ -25,9 +25,11 @@ categories:
   - Estadística Aplicada
   - Econometría
 tags:
-  - Modelo Heckit
-  - Estimación por máxima verosimilitud
-  - Ecuación de selección
+  - modelo_heckit
+  - estimacion_por_maxima_verosimilitud
+  - ecuacion_de_seleccion
+  - econometrics
+  - microeconometria
 
 # Nota del Autor
 author-note:

@@ -25,11 +25,10 @@ categories:
   - Modelos Econométricos Multivariados
   - Proyecciones Macroeconómicas
 tags:
-  - Modelos VAR y SVAR
-  - Identificación estructural
-  - Función impulso-respuesta
-  - Proyecciones macroeconómicas
-  - Modelos VECM
+  - modelos_var_y_svar
+  - modelos_vecm
+  - econometrics
+  - macroeconometria
 
 # Nota del Autor
 author-note:

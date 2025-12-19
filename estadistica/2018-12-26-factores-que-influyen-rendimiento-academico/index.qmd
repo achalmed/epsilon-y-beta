@@ -23,7 +23,7 @@ keywords: [keyword1, keyword2]
 categories:
   - Estadistica
 tags:
-  - Estadística
+  - estadistica
 
 # Nota del Autor
 author-note:

@@ -25,9 +25,11 @@ categories:
   - Regresión Discontinua
   - Análisis de Datos
 tags:
-  - Regresión Discontinua
-  - STATA
-  - R
+  - regresion_discontinua
+  - stata
+  - r
+  - econometrics
+  - evaluacion_impacto
 
 # Nota del Autor
 author-note:

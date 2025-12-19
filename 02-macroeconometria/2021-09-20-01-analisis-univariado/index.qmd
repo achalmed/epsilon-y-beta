@@ -26,11 +26,10 @@ categories:
   - Modelos ARMA
   - Proyecciones
 tags:
-  - Regresiones con series de tiempo
-  - Test de raíz unitaria
-  - Modelos ARMA
-  - Cointegración uniecuacional
-  - Quiebres estructurales
+  - modelos_arma
+  - cointegracion
+  - econometrics
+  - macroeconometria
 
 # Nota del Autor
 author-note:

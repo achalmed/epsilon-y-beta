@@ -27,9 +27,11 @@ categories:
   - Análisis de Datos
   - Economía
 tags:
-  - Event Studies
-  - Análisis de Datos
-  - Economía
+  - event_studies
+  - analisis_de_datos
+  - economia
+  - econometrics
+  - topicos_econometria
 
 # Nota del Autor
 author-note:

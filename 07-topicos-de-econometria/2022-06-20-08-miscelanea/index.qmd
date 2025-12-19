@@ -26,9 +26,11 @@ categories:
   - Regresiones
   - Modelos No Lineales
 tags:
-  - Econometría
-  - Regresiones
-  - Modelos No Lineales
+  - econometria
+  - regresiones
+  - modelos_no_lineales
+  - econometrics
+  - topicos_econometria
 
 # Nota del Autor
 author-note:

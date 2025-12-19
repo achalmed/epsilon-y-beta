@@ -25,9 +25,11 @@ categories:
   - Regresión Discontinua
   - Análisis de Datos
 tags:
-  - Regresión Discontinua
-  - Sesgo de Selección
-  - Características No Observables
+  - regresion_discontinua
+  - sesgo_de_seleccion
+  - caracteristicas_no_observables
+  - econometrics
+  - evaluacion_impacto
 
 # Nota del Autor
 author-note:

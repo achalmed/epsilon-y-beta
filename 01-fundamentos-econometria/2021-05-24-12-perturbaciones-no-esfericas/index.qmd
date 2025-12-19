@@ -25,9 +25,11 @@ categories:
   - Estadística  
   - Econometría
 tags:
-  - Autocorrelación  
-  - Heterocedasticidad  
-  - Modelos de Errores
+  - autocorrelacion
+  - heterocedasticidad
+  - modelos_de_errores
+  - econometrics
+  - econometria_general
 
 # Nota del Autor
 author-note:

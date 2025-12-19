@@ -26,11 +26,13 @@ categories:
   - Econometría Computacional
   - Inferencia Estadística
 tags:
-  - Gibbs Sampling
-  - Algoritmo Metropolis-Hastings
-  - Métodos MCMC
-  - Aplicaciones computacionales
-  - Estimación de modelos económicos
+  - gibbs_sampling
+  - algoritmo_metropolis_hastings
+  - metodos_mcmc
+  - aplicaciones_computacionales
+  - estimacion_de_modelos_economicos
+  - econometrics
+  - econometria_bayesiana
 
 # Nota del Autor
 author-note:

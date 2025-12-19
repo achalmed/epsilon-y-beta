@@ -25,9 +25,11 @@ categories:
   - Econometría Aplicada
   - Modelos Estadísticos
 tags:
-  - Modelo logit ordenado
-  - Test de Hasman y McFadden
-  - Puntos de corte
+  - modelo_logit_ordenado
+  - test_de_hasman_y_mcfadden
+  - puntos_de_corte
+  - econometrics
+  - microeconometria
 
 # Nota del Autor
 author-note:
