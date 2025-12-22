@@ -1,0 +1,81 @@
+---
+copyrightnotice: 2019
+copyrightext: All rights reserved
+title: Rendimiento académico y género en UNSCH
+abstract: Este abstract será actualizado una vez que se complete el contenido final
+  del artículo.
+keywords:
+- keyword1
+- keyword2
+categories:
+- Estadistica Para Economistas
+tags:
+- estadistica_para_economistas
+- rendimiento_genero
+author-note:
+  status-changes:
+    affiliation-change: null
+    deceased: null
+  disclosures:
+    study-registration: null
+    data-sharing: null
+    related-report: null
+    conflict-of-interest: El autor no tiene conflictos de interés que revelar.
+    financial-support: null
+    gratitude: null
+    authorship-agreements: null
+description: Análisis estadístico de la relación entre género y rendimiento académico
+  de ingresantes a la Universidad Nacional de San Cristóbal de Huamanga.
+eval: false
+citation:
+  type: article-journal
+  author:
+  - Edison Achalma
+  - Geancarlos Alcarraz
+  - Juan Alfaro
+  - Luis De La Cruz
+  - David Pérez
+  pdf-url: https://epsilon-y-beta.netlify.app/estadistica-para-economistas/2019-12-30-rendimiento-academico-y-genero-de-ingresantes-a-unsch/index.pdf
+date: 12/30/2019
+draft: false
+format:
+  html:
+    other-links:
+    - text: NASA Open Data
+      href: https://data.nasa.gov/
+    code-links:
+    - text: Data Import Code
+      icon: file-code
+      href: data-import.py
+image: ../featured.jpg
+---
+
+**Influencia del género en el rendimiento académico de los ingresantes 2010 a la Universidad Nacional de San Cristóbal de Huamanga**
+
+**Introducción:** El presente estudio se enfoca en analizar la relación entre el rendimiento académico y el género de los estudiantes que ingresaron en el año 2010 a la Universidad Nacional de San Cristóbal de Huamanga. Se consideran variables endógenas el rendimiento académico y variables exógenas el género de los estudiantes.
+
+El rendimiento académico se define como el resultado del esfuerzo y la capacidad de trabajo del estudiante. Se ha seleccionado esta variable debido a la existencia de diferencias significativas entre hombres y mujeres en cuanto a las relaciones entre variables reticulares y rendimiento académico (Requena Fèlix, 1998, p. 241).
+
+El género se analiza para determinar cómo ciertas condiciones relacionadas con el mismo influyen en mayor o menor medida en los resultados obtenidos en el rendimiento académico.
+
+**Metodología:** Para la realización de este trabajo, se consultaron los artículos contenidos en el archivo Marco referencial-Trabajos de investigación proporcionados por el profesor encargado del curso de Estadística para Economistas II. Uno de los artículos consultados es "Género, redes de amistad y rendimiento académico" de Félix Requena Santos (1998), publicado por la Universidad de Santiago de Compostela, Departamento de Sociología, España.
+
+Los datos utilizados en este estudio fueron obtenidos de la base de datos proporcionada por el Centro de Información y Sistemas de la Universidad Nacional de San Cristóbal de Huamanga. Estas bases de datos contienen información sobre los alumnos ingresantes en 2010 y su trayectoria académica dentro de la universidad.
+
+**Conclusiones:** Uno de los hallazgos destacables es que el rendimiento estimado para las mujeres es consistentemente superior al de los hombres. De la promoción del año 2010, se encontraron 502 alumnos, de los cuales el 59% (296) son varones y el 41% (206) son mujeres.
+
+Dado que los datos disponibles presentan limitaciones, en este estudio se investigará únicamente la variable exógena del género, la cual tiene un gran impacto en el rendimiento académico.
+
+**Agradecimientos:** Queremos expresar nuestro más sincero agradecimiento al Centro de Información y Sistemas de la Universidad Nacional de San Cristóbal de Huamanga por proporcionarnos los datos necesarios para llevar a cabo este trabajo.
+
+# Publicaciones Similares
+
+Si te interesó este artículo, te recomendamos que explores otros blogs y recursos relacionados que pueden ampliar tus conocimientos. Aquí te dejo algunas sugerencias:
+
+
+1. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/estadistica-para-economistas/2019-12-30-rendimiento-academico-y-genero-de-ingresantes-a-unsch/index.pdf) [Rendimiento Academico Y Genero De Ingresantes A Unsch](https://epsilon-y-beta.netlify.app/estadistica-para-economistas/2019-12-30-rendimiento-academico-y-genero-de-ingresantes-a-unsch)
+
+
+Esperamos que encuentres estas publicaciones igualmente interesantes y útiles. ¡Disfruta de la lectura!
+
+

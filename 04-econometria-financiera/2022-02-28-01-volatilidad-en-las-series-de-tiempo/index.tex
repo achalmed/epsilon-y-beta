@@ -6,6 +6,7 @@
   nolmodern,
   notxfonts,
   notimes,
+  12pt,
   colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{apa7}
 
 \usepackage{amsmath}
@@ -17,8 +18,6 @@
 \babelprovide[main,import]{spanish}
 
 
-\babelfont{rm}[,RawFeature={fallback=mainfontfallback}]{Latin Modern
-Roman}
 % get rid of language-specific shorthands (see #6817):
 \let\LanguageShortHands\languageshorthands
 \def\languageshorthands#1{}
@@ -115,22 +114,19 @@ Roman}
 
 
 
-\usepackage{fontspec} 
+\usepackage{newtx}
 
 \defaultfontfeatures{Scale=MatchLowercase}
 \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 
-  \setmainfont[,RawFeature={fallback=mainfontfallback}]{Latin Modern
-Roman}
 
 
 
 
-\title{Modelos de Volatilidad en Series de Tiempo: Estimación y
-Aplicaciones de ARCH y GARCH en Finanzas}
+\title{Modelando volatilidad en series financieras}
 
 
-\shorttitle{Volatilidad en Series de Tiempo}
+\shorttitle{VOLATILIDAD EN SERIES DE TIEMPO}
 
 
 \usepackage{etoolbox}
@@ -226,14 +222,14 @@ Achalma, Email: \href{mailto:elmer.achalma.09@unsch.edu.pe}{elmer.achalma.09@uns
   \newcommand\contentsname{Tabla de contenidos}
 \fi
 \ifdefined\listfigurename
-  \renewcommand*\listfigurename{List of Figures}
+  \renewcommand*\listfigurename{Lista de Figuras}
 \else
-  \newcommand\listfigurename{List of Figures}
+  \newcommand\listfigurename{Lista de Figuras}
 \fi
 \ifdefined\listtablename
-  \renewcommand*\listtablename{List of Tables}
+  \renewcommand*\listtablename{Lista de Tablas}
 \else
-  \newcommand\listtablename{List of Tables}
+  \newcommand\listtablename{Lista de Tablas}
 \fi
 \ifdefined\figurename
   \renewcommand*\figurename{Figura}
@@ -250,7 +246,7 @@ Achalma, Email: \href{mailto:elmer.achalma.09@unsch.edu.pe}{elmer.achalma.09@uns
 \floatstyle{ruled}
 \@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
 \floatname{codelisting}{Listing}
-\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\newcommand*\listoflistings{\listof{codelisting}{Lista de Listings}}
 \makeatother
 \makeatletter
 \makeatother
@@ -296,14 +292,17 @@ Achalma, Email: \href{mailto:elmer.achalma.09@unsch.edu.pe}{elmer.achalma.09@uns
 
 \maketitle
 
+
 \hypertarget{toc}{}
 \tableofcontents
 \newpage
-\section[Introduction]{Modelos de Volatilidad en Series de Tiempo}
+\section[Introduction]{Modelando volatilidad en series financieras}
 
-\setcounter{secnumdepth}{5}
+\setcounter{secnumdepth}{3}
 
 \setlength\LTleft{0pt}
+
+
 
 
 Este artículo está actualmente en proceso de edición, y todas las
@@ -319,8 +318,8 @@ algunas sugerencias:
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  \href{https://achalmaedison.netlify.app/econometria/04-econometria-financiera/2022-02-28-01-volatilidad-en-las-series-de-tiempo/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/econometria/04-econometria-financiera/2022-02-28-01-volatilidad-en-las-series-de-tiempo}{01
+  \href{https://epsilon-y-beta.netlify.app/04-econometria-financiera/2022-02-28-01-volatilidad-en-las-series-de-tiempo/index.pdf}{\faIcon{file-pdf}}
+  \href{https://epsilon-y-beta.netlify.app/04-econometria-financiera/2022-02-28-01-volatilidad-en-las-series-de-tiempo}{01
   Volatilidad En Las Series De Tiempo}
 \end{enumerate}
 

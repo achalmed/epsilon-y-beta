@@ -6,6 +6,7 @@
   nolmodern,
   notxfonts,
   notimes,
+  12pt,
   colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{apa7}
 
 \usepackage{amsmath}
@@ -17,8 +18,6 @@
 \babelprovide[main,import]{spanish}
 
 
-\babelfont{rm}[,RawFeature={fallback=mainfontfallback}]{Latin Modern
-Roman}
 % get rid of language-specific shorthands (see #6817):
 \let\LanguageShortHands\languageshorthands
 \def\languageshorthands#1{}
@@ -115,22 +114,19 @@ Roman}
 
 
 
-\usepackage{fontspec} 
+\usepackage{newtx}
 
 \defaultfontfeatures{Scale=MatchLowercase}
 \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 
-  \setmainfont[,RawFeature={fallback=mainfontfallback}]{Latin Modern
-Roman}
 
 
 
 
-\title{Modelo de Regresión Lineal con Heterocedasticidad: Enfoques de
-Corrección}
+\title{Modelo general con heterocedasticidad}
 
 
-\shorttitle{Regresión Heterocedástica}
+\shorttitle{REGRESIÓN HETEROCEDÁSTICA}
 
 
 \usepackage{etoolbox}
@@ -226,14 +222,14 @@ Achalma, Email: \href{mailto:elmer.achalma.09@unsch.edu.pe}{elmer.achalma.09@uns
   \newcommand\contentsname{Tabla de contenidos}
 \fi
 \ifdefined\listfigurename
-  \renewcommand*\listfigurename{List of Figures}
+  \renewcommand*\listfigurename{Lista de Figuras}
 \else
-  \newcommand\listfigurename{List of Figures}
+  \newcommand\listfigurename{Lista de Figuras}
 \fi
 \ifdefined\listtablename
-  \renewcommand*\listtablename{List of Tables}
+  \renewcommand*\listtablename{Lista de Tablas}
 \else
-  \newcommand\listtablename{List of Tables}
+  \newcommand\listtablename{Lista de Tablas}
 \fi
 \ifdefined\figurename
   \renewcommand*\figurename{Figura}
@@ -250,7 +246,7 @@ Achalma, Email: \href{mailto:elmer.achalma.09@unsch.edu.pe}{elmer.achalma.09@uns
 \floatstyle{ruled}
 \@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
 \floatname{codelisting}{Listing}
-\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\newcommand*\listoflistings{\listof{codelisting}{Lista de Listings}}
 \makeatother
 \makeatletter
 \makeatother
@@ -296,15 +292,17 @@ Achalma, Email: \href{mailto:elmer.achalma.09@unsch.edu.pe}{elmer.achalma.09@uns
 
 \maketitle
 
+
 \hypertarget{toc}{}
 \tableofcontents
 \newpage
-\section[Introduction]{Modelo de Regresión Lineal con
-Heterocedasticidad}
+\section[Introduction]{Modelo general con heterocedasticidad}
 
-\setcounter{secnumdepth}{5}
+\setcounter{secnumdepth}{3}
 
 \setlength\LTleft{0pt}
+
+
 
 
 Este artículo está actualmente en proceso de edición, y todas las
@@ -320,53 +318,53 @@ algunas sugerencias:
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  \href{https://achalmaedison.netlify.app/econometria/01-fundamentos-econometria/2021-03-01-01-modelo-clasico-de-regresion-lineal/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/econometria/01-fundamentos-econometria/2021-03-01-01-modelo-clasico-de-regresion-lineal}{01
+  \href{https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-03-01-01-modelo-clasico-de-regresion-lineal/index.pdf}{\faIcon{file-pdf}}
+  \href{https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-03-01-01-modelo-clasico-de-regresion-lineal}{01
   Modelo Clasico De Regresion Lineal}
 \item
-  \href{https://achalmaedison.netlify.app/econometria/01-fundamentos-econometria/2021-03-08-02-el-estimador-de-minimos-cuadrados-ordinarios-mco/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/econometria/01-fundamentos-econometria/2021-03-08-02-el-estimador-de-minimos-cuadrados-ordinarios-mco}{02
+  \href{https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-03-08-02-el-estimador-de-minimos-cuadrados-ordinarios-mco/index.pdf}{\faIcon{file-pdf}}
+  \href{https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-03-08-02-el-estimador-de-minimos-cuadrados-ordinarios-mco}{02
   El Estimador De Minimos Cuadrados Ordinarios Mco}
 \item
-  \href{https://achalmaedison.netlify.app/econometria/01-fundamentos-econometria/2021-03-15-03-algebra-y-geometria-de-mco/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/econometria/01-fundamentos-econometria/2021-03-15-03-algebra-y-geometria-de-mco}{03
+  \href{https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-03-15-03-algebra-y-geometria-de-mco/index.pdf}{\faIcon{file-pdf}}
+  \href{https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-03-15-03-algebra-y-geometria-de-mco}{03
   Algebra Y Geometria De Mco}
 \item
-  \href{https://achalmaedison.netlify.app/econometria/01-fundamentos-econometria/2021-03-22-04-propiedades-en-muestras-finitas-del-estimador-mco/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/econometria/01-fundamentos-econometria/2021-03-22-04-propiedades-en-muestras-finitas-del-estimador-mco}{04
+  \href{https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-03-22-04-propiedades-en-muestras-finitas-del-estimador-mco/index.pdf}{\faIcon{file-pdf}}
+  \href{https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-03-22-04-propiedades-en-muestras-finitas-del-estimador-mco}{04
   Propiedades En Muestras Finitas Del Estimador Mco}
 \item
-  \href{https://achalmaedison.netlify.app/econometria/01-fundamentos-econometria/2021-03-29-05-propiedades-en-muestras-infinitas-del-estimador-mco/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/econometria/01-fundamentos-econometria/2021-03-29-05-propiedades-en-muestras-infinitas-del-estimador-mco}{05
+  \href{https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-03-29-05-propiedades-en-muestras-infinitas-del-estimador-mco/index.pdf}{\faIcon{file-pdf}}
+  \href{https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-03-29-05-propiedades-en-muestras-infinitas-del-estimador-mco}{05
   Propiedades En Muestras Infinitas Del Estimador Mco}
 \item
-  \href{https://achalmaedison.netlify.app/econometria/01-fundamentos-econometria/2021-04-10-06-el-trade-off-sesgo-varianza/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/econometria/01-fundamentos-econometria/2021-04-10-06-el-trade-off-sesgo-varianza}{06
+  \href{https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-04-10-06-el-trade-off-sesgo-varianza/index.pdf}{\faIcon{file-pdf}}
+  \href{https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-04-10-06-el-trade-off-sesgo-varianza}{06
   El Trade Off Sesgo Varianza}
 \item
-  \href{https://achalmaedison.netlify.app/econometria/01-fundamentos-econometria/2021-04-19-07-bondad-de-ajuste/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/econometria/01-fundamentos-econometria/2021-04-19-07-bondad-de-ajuste}{07
+  \href{https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-04-19-07-bondad-de-ajuste/index.pdf}{\faIcon{file-pdf}}
+  \href{https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-04-19-07-bondad-de-ajuste}{07
   Bondad De Ajuste}
 \item
-  \href{https://achalmaedison.netlify.app/econometria/01-fundamentos-econometria/2021-04-26-08-multicolinealidad/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/econometria/01-fundamentos-econometria/2021-04-26-08-multicolinealidad}{08
+  \href{https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-04-26-08-multicolinealidad/index.pdf}{\faIcon{file-pdf}}
+  \href{https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-04-26-08-multicolinealidad}{08
   Multicolinealidad}
 \item
-  \href{https://achalmaedison.netlify.app/econometria/01-fundamentos-econometria/2021-05-03-09-inferencia/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/econometria/01-fundamentos-econometria/2021-05-03-09-inferencia}{09
+  \href{https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-05-03-09-inferencia/index.pdf}{\faIcon{file-pdf}}
+  \href{https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-05-03-09-inferencia}{09
   Inferencia}
 \item
-  \href{https://achalmaedison.netlify.app/econometria/01-fundamentos-econometria/2021-05-10-10-el-modelo-general-de-regresion-lineal-permitiendo-heterocedasticidad-en-los-errores/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/econometria/01-fundamentos-econometria/2021-05-10-10-el-modelo-general-de-regresion-lineal-permitiendo-heterocedasticidad-en-los-errores}{10
+  \href{https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-05-10-10-el-modelo-general-de-regresion-lineal-permitiendo-heterocedasticidad-en-los-errores/index.pdf}{\faIcon{file-pdf}}
+  \href{https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-05-10-10-el-modelo-general-de-regresion-lineal-permitiendo-heterocedasticidad-en-los-errores}{10
   El Modelo General De Regresion Lineal Permitiendo Heterocedasticidad
   En Los Errores}
 \item
-  \href{https://achalmaedison.netlify.app/econometria/01-fundamentos-econometria/2021-05-17-11-problemas-de-endogeneidad/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/econometria/01-fundamentos-econometria/2021-05-17-11-problemas-de-endogeneidad}{11
+  \href{https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-05-17-11-problemas-de-endogeneidad/index.pdf}{\faIcon{file-pdf}}
+  \href{https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-05-17-11-problemas-de-endogeneidad}{11
   Problemas De Endogeneidad}
 \item
-  \href{https://achalmaedison.netlify.app/econometria/01-fundamentos-econometria/2021-05-24-12-perturbaciones-no-esfericas/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/econometria/01-fundamentos-econometria/2021-05-24-12-perturbaciones-no-esfericas}{12
+  \href{https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-05-24-12-perturbaciones-no-esfericas/index.pdf}{\faIcon{file-pdf}}
+  \href{https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-05-24-12-perturbaciones-no-esfericas}{12
   Perturbaciones No Esfericas}
 \end{enumerate}
 

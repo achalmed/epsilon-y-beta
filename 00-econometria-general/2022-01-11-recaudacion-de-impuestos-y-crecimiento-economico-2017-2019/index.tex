@@ -6,6 +6,7 @@
   nolmodern,
   notxfonts,
   notimes,
+  12pt,
   colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{apa7}
 
 \usepackage{amsmath}
@@ -17,8 +18,6 @@
 \babelprovide[main,import]{spanish}
 
 
-\babelfont{rm}[,RawFeature={fallback=mainfontfallback}]{Latin Modern
-Roman}
 % get rid of language-specific shorthands (see #6817):
 \let\LanguageShortHands\languageshorthands
 \def\languageshorthands#1{}
@@ -148,23 +147,19 @@ Roman}
 
 
 
-\usepackage{fontspec} 
+\usepackage{newtx}
 
 \defaultfontfeatures{Scale=MatchLowercase}
 \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 
-  \setmainfont[,RawFeature={fallback=mainfontfallback}]{Latin Modern
-Roman}
 
 
 
 
-\title{Análisis del Impacto del Crecimiento Económico en la Recaudación
-de Impuestos en Ayacucho: Relación entre el Valor Agregado Bruto y los
-ingresos fiscales en el periodo 2007-2019}
+\title{Recaudación tributaria y crecimiento 2017-2019}
 
 
-\shorttitle{Editar}
+\shorttitle{Recaudación tributaria y crecimiento 2017-2019}
 
 
 \usepackage{etoolbox}
@@ -260,14 +255,14 @@ Achalma, Email: \href{mailto:elmer.achalma.09@unsch.edu.pe}{elmer.achalma.09@uns
   \newcommand\contentsname{Tabla de contenidos}
 \fi
 \ifdefined\listfigurename
-  \renewcommand*\listfigurename{List of Figures}
+  \renewcommand*\listfigurename{Lista de Figuras}
 \else
-  \newcommand\listfigurename{List of Figures}
+  \newcommand\listfigurename{Lista de Figuras}
 \fi
 \ifdefined\listtablename
-  \renewcommand*\listtablename{List of Tables}
+  \renewcommand*\listtablename{Lista de Tablas}
 \else
-  \newcommand\listtablename{List of Tables}
+  \newcommand\listtablename{Lista de Tablas}
 \fi
 \ifdefined\figurename
   \renewcommand*\figurename{Figura}
@@ -284,7 +279,7 @@ Achalma, Email: \href{mailto:elmer.achalma.09@unsch.edu.pe}{elmer.achalma.09@uns
 \floatstyle{ruled}
 \@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
 \floatname{codelisting}{Listing}
-\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\newcommand*\listoflistings{\listof{codelisting}{Lista de Listings}}
 \makeatother
 \makeatletter
 \makeatother
@@ -330,15 +325,17 @@ Achalma, Email: \href{mailto:elmer.achalma.09@unsch.edu.pe}{elmer.achalma.09@uns
 
 \maketitle
 
+
 \hypertarget{toc}{}
 \tableofcontents
 \newpage
-\section[Introduction]{Análisis del Impacto del Crecimiento Económico en
-la Recaudación de Impuestos en Ayacucho}
+\section[Introduction]{Recaudación tributaria y crecimiento 2017-2019}
 
-\setcounter{secnumdepth}{5}
+\setcounter{secnumdepth}{3}
 
 \setlength\LTleft{0pt}
+
+
 
 
 \section*{Introducción}\label{sec-introducciuxf3n}
@@ -2531,7 +2528,11 @@ principales indicadores macroeconómicos, 2010-2019. \emph{Revista Mapa},
 
 \end{CSLReferences}
 
-\section{Publicaciones Similares}\label{publicaciones-similares}
+\appendix
+
+\section{Publicaciones Similares}\label{apx-publicaciones-similares}
+
+\setlength{\parindent}{1em}
 
 Si te interesó este artículo, te recomendamos que explores otros blogs y
 recursos relacionados que pueden ampliar tus conocimientos. Aquí te dejo
@@ -2541,8 +2542,8 @@ algunas sugerencias:
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  \href{https://achalmaedison.netlify.app/econometria/00-econometria-general/2022-01-11-recaudacion-de-impuestos-y-crecimiento-economico-2017-2019/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/econometria/00-econometria-general/2022-01-11-recaudacion-de-impuestos-y-crecimiento-economico-2017-2019}{Recaudacion
+  \href{https://epsilon-y-beta.netlify.app/00-econometria-general/2022-01-11-recaudacion-de-impuestos-y-crecimiento-economico-2017-2019/index.pdf}{\faIcon{file-pdf}}
+  \href{https://epsilon-y-beta.netlify.app/00-econometria-general/2022-01-11-recaudacion-de-impuestos-y-crecimiento-economico-2017-2019}{Recaudacion
   De Impuestos Y Crecimiento Economico 2017 2019}
 \end{enumerate}
 

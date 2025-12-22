@@ -6,6 +6,7 @@
   nolmodern,
   notxfonts,
   notimes,
+  12pt,
   colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{apa7}
 
 \usepackage{amsmath}
@@ -17,8 +18,6 @@
 \babelprovide[main,import]{spanish}
 
 
-\babelfont{rm}[,RawFeature={fallback=mainfontfallback}]{Latin Modern
-Roman}
 % get rid of language-specific shorthands (see #6817):
 \let\LanguageShortHands\languageshorthands
 \def\languageshorthands#1{}
@@ -115,22 +114,19 @@ Roman}
 
 
 
-\usepackage{fontspec} 
+\usepackage{newtx}
 
 \defaultfontfeatures{Scale=MatchLowercase}
 \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 
-  \setmainfont[,RawFeature={fallback=mainfontfallback}]{Latin Modern
-Roman}
 
 
 
 
-\title{Modelos de Regresión Bayesiana: Análisis Bivariado, Multivariado
-y Consideraciones de Perturbación}
+\title{Regresión lineal desde enfoque bayesiano}
 
 
-\shorttitle{Regresión Bayesiana}
+\shorttitle{REGRESIÓN BAYESIANA}
 
 
 \usepackage{etoolbox}
@@ -226,14 +222,14 @@ Achalma, Email: \href{mailto:elmer.achalma.09@unsch.edu.pe}{elmer.achalma.09@uns
   \newcommand\contentsname{Tabla de contenidos}
 \fi
 \ifdefined\listfigurename
-  \renewcommand*\listfigurename{List of Figures}
+  \renewcommand*\listfigurename{Lista de Figuras}
 \else
-  \newcommand\listfigurename{List of Figures}
+  \newcommand\listfigurename{Lista de Figuras}
 \fi
 \ifdefined\listtablename
-  \renewcommand*\listtablename{List of Tables}
+  \renewcommand*\listtablename{Lista de Tablas}
 \else
-  \newcommand\listtablename{List of Tables}
+  \newcommand\listtablename{Lista de Tablas}
 \fi
 \ifdefined\figurename
   \renewcommand*\figurename{Figura}
@@ -250,7 +246,7 @@ Achalma, Email: \href{mailto:elmer.achalma.09@unsch.edu.pe}{elmer.achalma.09@uns
 \floatstyle{ruled}
 \@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
 \floatname{codelisting}{Listing}
-\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\newcommand*\listoflistings{\listof{codelisting}{Lista de Listings}}
 \makeatother
 \makeatletter
 \makeatother
@@ -296,14 +292,17 @@ Achalma, Email: \href{mailto:elmer.achalma.09@unsch.edu.pe}{elmer.achalma.09@uns
 
 \maketitle
 
+
 \hypertarget{toc}{}
 \tableofcontents
 \newpage
-\section[Introduction]{Modelos de Regresión Bayesiana}
+\section[Introduction]{Regresión lineal desde enfoque bayesiano}
 
-\setcounter{secnumdepth}{5}
+\setcounter{secnumdepth}{3}
 
 \setlength\LTleft{0pt}
+
+
 
 
 Este artículo está actualmente en proceso de edición, y todas las
@@ -319,24 +318,24 @@ algunas sugerencias:
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  \href{https://achalmaedison.netlify.app/econometria/05-econometria-bayesiana/2022-03-07-01-introduccion-a-la-econometria-bayesiana/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/econometria/05-econometria-bayesiana/2022-03-07-01-introduccion-a-la-econometria-bayesiana}{01
+  \href{https://epsilon-y-beta.netlify.app/05-econometria-bayesiana/2022-03-07-01-introduccion-a-la-econometria-bayesiana/index.pdf}{\faIcon{file-pdf}}
+  \href{https://epsilon-y-beta.netlify.app/05-econometria-bayesiana/2022-03-07-01-introduccion-a-la-econometria-bayesiana}{01
   Introduccion A La Econometria Bayesiana}
 \item
-  \href{https://achalmaedison.netlify.app/econometria/05-econometria-bayesiana/2022-03-14-02-modelo-de-regresion-lineal/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/econometria/05-econometria-bayesiana/2022-03-14-02-modelo-de-regresion-lineal}{02
+  \href{https://epsilon-y-beta.netlify.app/05-econometria-bayesiana/2022-03-14-02-modelo-de-regresion-lineal/index.pdf}{\faIcon{file-pdf}}
+  \href{https://epsilon-y-beta.netlify.app/05-econometria-bayesiana/2022-03-14-02-modelo-de-regresion-lineal}{02
   Modelo De Regresion Lineal}
 \item
-  \href{https://achalmaedison.netlify.app/econometria/05-econometria-bayesiana/2022-03-18-03-familia-de-distribuciones-prior/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/econometria/05-econometria-bayesiana/2022-03-18-03-familia-de-distribuciones-prior}{03
+  \href{https://epsilon-y-beta.netlify.app/05-econometria-bayesiana/2022-03-18-03-familia-de-distribuciones-prior/index.pdf}{\faIcon{file-pdf}}
+  \href{https://epsilon-y-beta.netlify.app/05-econometria-bayesiana/2022-03-18-03-familia-de-distribuciones-prior}{03
   Familia De Distribuciones Prior}
 \item
-  \href{https://achalmaedison.netlify.app/econometria/05-econometria-bayesiana/2022-03-21-04-simulacion-y-estimacion-bayesiana/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/econometria/05-econometria-bayesiana/2022-03-21-04-simulacion-y-estimacion-bayesiana}{04
+  \href{https://epsilon-y-beta.netlify.app/05-econometria-bayesiana/2022-03-21-04-simulacion-y-estimacion-bayesiana/index.pdf}{\faIcon{file-pdf}}
+  \href{https://epsilon-y-beta.netlify.app/05-econometria-bayesiana/2022-03-21-04-simulacion-y-estimacion-bayesiana}{04
   Simulacion Y Estimacion Bayesiana}
 \item
-  \href{https://achalmaedison.netlify.app/econometria/05-econometria-bayesiana/2022-03-28-05-aplicaciones-econometricas/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/econometria/05-econometria-bayesiana/2022-03-28-05-aplicaciones-econometricas}{05
+  \href{https://epsilon-y-beta.netlify.app/05-econometria-bayesiana/2022-03-28-05-aplicaciones-econometricas/index.pdf}{\faIcon{file-pdf}}
+  \href{https://epsilon-y-beta.netlify.app/05-econometria-bayesiana/2022-03-28-05-aplicaciones-econometricas}{05
   Aplicaciones Econometricas}
 \end{enumerate}
 

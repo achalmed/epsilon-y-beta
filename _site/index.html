@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -31,22 +31,22 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./assets/img/favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-cd918b563e4f768957f23be5314ee61b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-092403fec9bcbc50b0bb9dfc088d57e2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a04b885fc98d199d60c38db527abd914.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -85,9 +85,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-title','listing-author','listing-description','listing-date','listing-image','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      page: 25,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -104,15 +103,13 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-XGH6TP6RB3"></script>
-
-<script type="text/javascript">
-
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-XGH6TP6RB3', { 'anonymize_ip': true});
-</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W6TSRDX5');</script>
+<!-- End Google Tag Manager -->
 <link rel="stylesheet" href="assets/listing-default.css">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
@@ -129,7 +126,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -145,15 +142,17 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="Edison Achalma B.Sc. Econ." href="index.xml" data-external="1"><meta property="og:title" content="Econometría – Edison Achalma B.Sc. Econ.">
-<meta property="og:description" content="Este es mi blog donde practico compartir mi curiosidad. Incluye notas y tutoriales para mi futuro y espero que también para ti.  Sign up for my newsletter to receive updates about new posts.">
-<meta property="og:site_name" content="AchalmaEdison">
+<link rel="stylesheet" href="assets/styles.css">
+<link rel="alternate" type="application/rss+xml" title="Edison Achalma B.Sc. Econ." href="index.xml" data-external="1"><meta property="og:title" content="Edison Achalma B.Sc. Econ.">
+<meta property="og:description" content="Investigador y educador que aplica la ciencia de datos de forma que se dé prioridad a la equidad social.">
+<meta property="og:image" content="https://epsilon-y-beta.netlify.app//assets/img/sidebar.jpg">
+<meta property="og:site_name" content="Actus mercator">
 <meta property="og:locale" content="es_ES">
 <meta name="twitter:title" content="Econometría – Edison Achalma B.Sc. Econ.">
 <meta name="twitter:description" content="Este es mi blog donde practico compartir mi curiosidad. Incluye notas y tutoriales para mi futuro y espero que también para ti.  Sign up for my newsletter to receive updates about new posts.">
+<meta name="twitter:image" content="https://epsilon-y-beta.netlify.app/00-econometria-general/featured.jpg">
 <meta name="twitter:creator" content="@achalmaedison">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -177,6 +176,59 @@ window.Quarto = {
     <a class="nav-link" href="https://achalmaedison.netlify.app/about/"> 
 <span class="menu-text">About</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-more" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-ellipsis-h" role="img" aria-label="More">
+</i> 
+ <span class="menu-text">More</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-more">    
+        <li>
+    <a class="dropdown-item" href="https://epsilon-y-beta.netlify.app/">
+ <span class="dropdown-text">Econometria</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://dialectica-y-mercado.netlify.app/">
+ <span class="dropdown-text">Filosofía</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://pecunia-fluxus.netlify.app/">
+ <span class="dropdown-text">Finanzas</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://actus-mercator.netlify.app/">
+ <span class="dropdown-text">Gestión empresarial</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://res-publica.netlify.app/">
+ <span class="dropdown-text">Gestión pública</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://methodica.netlify.app/">
+ <span class="dropdown-text">Metodología de la investigación</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://aequilibria.netlify.app/">
+ <span class="dropdown-text">Macroeconomía</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://axiomata.netlify.app/">
+ <span class="dropdown-text">Matemáticas</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://optimums.netlify.app/">
+ <span class="dropdown-text">Microeconomía</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://numerus-scriptum.netlify.app/">
+ <span class="dropdown-text">Programación y Software</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://chaska-x.netlify.app/">
+ <span class="dropdown-text">Seguridad informática</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/achalmed"> <i class="bi bi-github" role="img">
 </i> 
@@ -187,12 +239,20 @@ window.Quarto = {
 </i> 
 <span class="menu-text"></span></a>
   </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="./index.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <div id="quarto-announcement" data-announcement-id="198edcd182a186efde93855487f89d6b" class="alert alert-primary hidden"><i class="bi bi-gift quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p>¡Bienvenidos a mi mundo! ¡Felices fiestas! Gracias por visitar 🎄</p>
+</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
@@ -234,642 +294,18 @@ Si disfrutas mis blogs y artículos sobre economía, finanzas y análisis de dat
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-ultimas-entradas">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="TWFjcm9lY29ub21ldHJpYQ==" data-listing-date-sort="1711861200000" data-listing-file-modified-sort="1744921215646" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./02-macroeconometria/2024-03-31-por-editar/index.html" class="no-external">
-
-<p class="card-img-top"><img src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./02-macroeconometria/2024-03-31-por-editar/index.html" class="no-external">Editar</a>
-</h3>
-<div class="delink listing-description"><a href="./02-macroeconometria/2024-03-31-por-editar/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./02-macroeconometria/2024-03-31-por-editar/index.html" class="no-external">
-<div class="listing-date">
-3/31/24
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="RXZhbHVhY2lvbiUyMEltcGFjdG8=" data-listing-date-sort="1711861200000" data-listing-file-modified-sort="1744921215649" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./06-evaluacion-de-impacto/2024-03-31-por-editar/index.html" class="no-external">
-
-<p class="card-img-top"><img src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./06-evaluacion-de-impacto/2024-03-31-por-editar/index.html" class="no-external">Editar</a>
-</h3>
-<div class="delink listing-description"><a href="./06-evaluacion-de-impacto/2024-03-31-por-editar/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./06-evaluacion-de-impacto/2024-03-31-por-editar/index.html" class="no-external">
-<div class="listing-date">
-3/31/24
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="RXN0YWRpc3RpY2ElMjBQYXJhJTIwRWNvbm9taXN0YXM=" data-listing-date-sort="1711861200000" data-listing-file-modified-sort="1744921215651" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./estadistica-para-economistas/2024-03-31-por-editar/index.html" class="no-external">
-
-<p class="card-img-top"><img src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./estadistica-para-economistas/2024-03-31-por-editar/index.html" class="no-external">Editar</a>
-</h3>
-<div class="delink listing-description"><a href="./estadistica-para-economistas/2024-03-31-por-editar/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./estadistica-para-economistas/2024-03-31-por-editar/index.html" class="no-external">
-<div class="listing-date">
-3/31/24
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="RWNvbm9tZXRyaWElMjBZJTIwVG9waWNvcyUyMEVjb25vbWlhJTIwRW1waXJpY2ElMkNUJUMzJUIzcGljb3MlMjBkZSUyMEVjb25vbWV0ciVDMyVBRGElMkNSZWdyZXNpb25lcyUyQ01vZGVsb3MlMjBObyUyMExpbmVhbGVz" data-listing-date-sort="1655701200000" data-listing-file-modified-sort="1744921215650" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./07-topicos-de-econometria/2022-06-20-08-miscelanea/index.html" class="no-external">
-
-<p class="card-img-top"><img src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./07-topicos-de-econometria/2022-06-20-08-miscelanea/index.html" class="no-external">Temas Avanzados en Econometría</a>
-</h3>
-<div class="delink listing-description"><a href="./07-topicos-de-econometria/2022-06-20-08-miscelanea/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./07-topicos-de-econometria/2022-06-20-08-miscelanea/index.html" class="no-external">
-<div class="listing-date">
-6/20/22
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="RWNvbm9tZXRyaWElMjBZJTIwVG9waWNvcyUyMEVjb25vbWlhJTIwRW1waXJpY2ElMkNUJUMzJUIzcGljb3MlMjBkZSUyMEVjb25vbWV0ciVDMyVBRGElMkNFdmVudCUyMFN0dWRpZXMlMkNBbiVDMyVBMWxpc2lzJTIwZGUlMjBEYXRvcyUyQ0Vjb25vbSVDMyVBRGE=" data-listing-date-sort="1655096400000" data-listing-file-modified-sort="1744921215650" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./07-topicos-de-econometria/2022-06-13-07-event-studies-en-economia/index.html" class="no-external">
-
-<p class="card-img-top"><img src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./07-topicos-de-econometria/2022-06-13-07-event-studies-en-economia/index.html" class="no-external">Event Studies</a>
-</h3>
-<div class="delink listing-description"><a href="./07-topicos-de-econometria/2022-06-13-07-event-studies-en-economia/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./07-topicos-de-econometria/2022-06-13-07-event-studies-en-economia/index.html" class="no-external">
-<div class="listing-date">
-6/13/22
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="RWNvbm9tZXRyaWElMjBZJTIwVG9waWNvcyUyMEVjb25vbWlhJTIwRW1waXJpY2ElMkNUJUMzJUIzcGljb3MlMjBkZSUyMEVjb25vbWV0ciVDMyVBRGElMkNFZmVjdG9zJTIwRmlqb3MlMkNEaWZlcmVuY2lhcyUyMGVuJTIwRGlmZXJlbmNpYXMlMkNEYXRvcyUyMGRlJTIwUGFuZWw=" data-listing-date-sort="1654491600000" data-listing-file-modified-sort="1744921215650" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./07-topicos-de-econometria/2022-06-06-06-efectos-fijos-diferencias-en-diferencias-y-datos-de-panel/index.html" class="no-external">
-
-<p class="card-img-top"><img src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./07-topicos-de-econometria/2022-06-06-06-efectos-fijos-diferencias-en-diferencias-y-datos-de-panel/index.html" class="no-external">Efectos Fijos y Diferencias</a>
-</h3>
-<div class="delink listing-description"><a href="./07-topicos-de-econometria/2022-06-06-06-efectos-fijos-diferencias-en-diferencias-y-datos-de-panel/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./07-topicos-de-econometria/2022-06-06-06-efectos-fijos-diferencias-en-diferencias-y-datos-de-panel/index.html" class="no-external">
-<div class="listing-date">
-6/6/22
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="RWNvbm9tZXRyaWElMjBZJTIwVG9waWNvcyUyMEVjb25vbWlhJTIwRW1waXJpY2ElMkNUJUMzJUIzcGljb3MlMjBkZSUyMEVjb25vbWV0ciVDMyVBRGElMkNSZWdyZXNpJUMzJUIzbiUyMERpc2NvbnRpbnVhJTJDRGlzZSVDMyVCMW8lMjBFeHBlcmltZW50YWwlMkNBbiVDMyVBMWxpc2lzJTIwZGUlMjBEYXRvcw==" data-listing-date-sort="1653886800000" data-listing-file-modified-sort="1744921215650" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./07-topicos-de-econometria/2022-05-30-05-diseño-de-regresion-discontinua-rdd/index.html" class="no-external">
-
-<p class="card-img-top"><img src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./07-topicos-de-econometria/2022-05-30-05-diseño-de-regresion-discontinua-rdd/index.html" class="no-external">Regresión Discontinua</a>
-</h3>
-<div class="delink listing-description"><a href="./07-topicos-de-econometria/2022-05-30-05-diseño-de-regresion-discontinua-rdd/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./07-topicos-de-econometria/2022-05-30-05-diseño-de-regresion-discontinua-rdd/index.html" class="no-external">
-<div class="listing-date">
-5/30/22
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="RWNvbm9tZXRyaWElMjBZJTIwVG9waWNvcyUyMEVjb25vbWlhJTIwRW1waXJpY2ElMkNUJUMzJUIzcGljb3MlMjBkZSUyMEVjb25vbWV0ciVDMyVBRGElMkNWYXJpYWJsZXMlMjBJbnN0cnVtZW50YWxlcyUyQ0NhdXNhbGlkYWQlMkNSZXN1bHRhZG9zJTIwUG90ZW5jaWFsZXM=" data-listing-date-sort="1653282000000" data-listing-file-modified-sort="1744921215650" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./07-topicos-de-econometria/2022-05-23-04-variables-instrumentales/index.html" class="no-external">
-
-<p class="card-img-top"><img src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./07-topicos-de-econometria/2022-05-23-04-variables-instrumentales/index.html" class="no-external">Variables Instrumentales</a>
-</h3>
-<div class="delink listing-description"><a href="./07-topicos-de-econometria/2022-05-23-04-variables-instrumentales/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./07-topicos-de-econometria/2022-05-23-04-variables-instrumentales/index.html" class="no-external">
-<div class="listing-date">
-5/23/22
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-categories="RWNvbm9tZXRyaWElMjBZJTIwVG9waWNvcyUyMEVjb25vbWlhJTIwRW1waXJpY2ElMkNUJUMzJUIzcGljb3MlMjBkZSUyMEVjb25vbWV0ciVDMyVBRGElMkNSZWdyZXNpb25lcyUyQ0FuJUMzJUExbGlzaXMlMjBkZSUyMERhdG9zJTJDQ2F1c2FsaWRhZA==" data-listing-date-sort="1652677200000" data-listing-file-modified-sort="1744921215650" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./07-topicos-de-econometria/2022-05-16-03-la-herramienta-fundamental-regresiones/index.html" class="no-external">
-
-<p class="card-img-top"><img src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./07-topicos-de-econometria/2022-05-16-03-la-herramienta-fundamental-regresiones/index.html" class="no-external">Regresiones</a>
-</h3>
-<div class="delink listing-description"><a href="./07-topicos-de-econometria/2022-05-16-03-la-herramienta-fundamental-regresiones/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./07-topicos-de-econometria/2022-05-16-03-la-herramienta-fundamental-regresiones/index.html" class="no-external">
-<div class="listing-date">
-5/16/22
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="9" data-categories="RXZhbHVhY2lvbiUyMEltcGFjdG8lMkNNJUMzJUE5dG9kbyUyMGRlJTIwQ29udHJvbCUyMFNpbnQlQzMlQTl0aWNvJTJDQW4lQzMlQTFsaXNpcyUyMGRlJTIwRGF0b3M=" data-listing-date-sort="1652677200000" data-listing-file-modified-sort="1744921215649" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./06-evaluacion-de-impacto/2022-05-16-07-metodo-de-control-sintetico-mcs/index.html" class="no-external">
-
-<p class="card-img-top"><img src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./06-evaluacion-de-impacto/2022-05-16-07-metodo-de-control-sintetico-mcs/index.html" class="no-external">Método de Control Sintético</a>
-</h3>
-<div class="delink listing-description"><a href="./06-evaluacion-de-impacto/2022-05-16-07-metodo-de-control-sintetico-mcs/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./06-evaluacion-de-impacto/2022-05-16-07-metodo-de-control-sintetico-mcs/index.html" class="no-external">
-<div class="listing-date">
-5/16/22
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="10" data-categories="RWNvbm9tZXRyaWElMjBZJTIwVG9waWNvcyUyMEVjb25vbWlhJTIwRW1waXJpY2ElMkNUJUMzJUIzcGljb3MlMjBkZSUyMEVjb25vbWV0ciVDMyVBRGElMkNFY29ub20lQzMlQURhJTIwRXhwZXJpbWVudGFsJTJDU2VsZWNjaSVDMyVCM24lMkNFbnNheW9zJTIwQ29udHJvbGFkb3MlMjBBbGVhdG9yaW9z" data-listing-date-sort="1652072400000" data-listing-file-modified-sort="1744921215650" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./07-topicos-de-econometria/2022-05-09-02-metodos-experimentales-en-economia/index.html" class="no-external">
-
-<p class="card-img-top"><img src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./07-topicos-de-econometria/2022-05-09-02-metodos-experimentales-en-economia/index.html" class="no-external">Métodos Experimentales</a>
-</h3>
-<div class="delink listing-description"><a href="./07-topicos-de-econometria/2022-05-09-02-metodos-experimentales-en-economia/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./07-topicos-de-econometria/2022-05-09-02-metodos-experimentales-en-economia/index.html" class="no-external">
-<div class="listing-date">
-5/9/22
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="11" data-categories="RXZhbHVhY2lvbiUyMEltcGFjdG8lMkNSZWdyZXNpJUMzJUIzbiUyMERpc2NvbnRpbnVhJTJDQW4lQzMlQTFsaXNpcyUyMGRlJTIwRGF0b3M=" data-listing-date-sort="1652072400000" data-listing-file-modified-sort="1744921215649" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./06-evaluacion-de-impacto/2022-05-09-06-analizando-papers-con-rdd-usando-stata-y-r/index.html" class="no-external">
-
-<p class="card-img-top"><img src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./06-evaluacion-de-impacto/2022-05-09-06-analizando-papers-con-rdd-usando-stata-y-r/index.html" class="no-external">Análisis de Papers con RDD</a>
-</h3>
-<div class="delink listing-description"><a href="./06-evaluacion-de-impacto/2022-05-09-06-analizando-papers-con-rdd-usando-stata-y-r/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./06-evaluacion-de-impacto/2022-05-09-06-analizando-papers-con-rdd-usando-stata-y-r/index.html" class="no-external">
-<div class="listing-date">
-5/9/22
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="12" data-categories="RXZhbHVhY2lvbiUyMEltcGFjdG8lMkNSZWdyZXNpJUMzJUIzbiUyMERpc2NvbnRpbnVhJTJDQW4lQzMlQTFsaXNpcyUyMGRlJTIwRGF0b3M=" data-listing-date-sort="1651467600000" data-listing-file-modified-sort="1744921215649" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./06-evaluacion-de-impacto/2022-05-02-05-regresion-discontinua-sharp-vs-fuzzy/index.html" class="no-external">
-
-<p class="card-img-top"><img src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./06-evaluacion-de-impacto/2022-05-02-05-regresion-discontinua-sharp-vs-fuzzy/index.html" class="no-external">Regresión Discontinua Sharp vs Fuzzy</a>
-</h3>
-<div class="delink listing-description"><a href="./06-evaluacion-de-impacto/2022-05-02-05-regresion-discontinua-sharp-vs-fuzzy/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./06-evaluacion-de-impacto/2022-05-02-05-regresion-discontinua-sharp-vs-fuzzy/index.html" class="no-external">
-<div class="listing-date">
-5/2/22
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="13" data-categories="RWNvbm9tZXRyaWElMjBZJTIwVG9waWNvcyUyMEVjb25vbWlhJTIwRW1waXJpY2ElMkNUJUMzJUIzcGljb3MlMjBkZSUyMEVjb25vbWV0ciVDMyVBRGElMkNFc3RpbWFjaSVDMyVCM24lMkNJZGVudGlmaWNhY2klQzMlQjNu" data-listing-date-sort="1651467600000" data-listing-file-modified-sort="1744921215649" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./07-topicos-de-econometria/2022-05-02-01-introduccion-a-la-econometria/index.html" class="no-external">
-
-<p class="card-img-top"><img src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./07-topicos-de-econometria/2022-05-02-01-introduccion-a-la-econometria/index.html" class="no-external">Fundamentos de la Econometría</a>
-</h3>
-<div class="delink listing-description"><a href="./07-topicos-de-econometria/2022-05-02-01-introduccion-a-la-econometria/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./07-topicos-de-econometria/2022-05-02-01-introduccion-a-la-econometria/index.html" class="no-external">
-<div class="listing-date">
-5/2/22
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="14" data-categories="RXZhbHVhY2lvbiUyMEltcGFjdG8lMkNSZWdyZXNpJUMzJUIzbiUyMERpc2NvbnRpbnVhJTJDQW4lQzMlQTFsaXNpcyUyMGRlJTIwRGF0b3M=" data-listing-date-sort="1650862800000" data-listing-file-modified-sort="1744921215648" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./06-evaluacion-de-impacto/2022-04-25-04-regresion-discontinua-rd/index.html" class="no-external">
-
-<p class="card-img-top"><img src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./06-evaluacion-de-impacto/2022-04-25-04-regresion-discontinua-rd/index.html" class="no-external">Regresión Discontinua</a>
-</h3>
-<div class="delink listing-description"><a href="./06-evaluacion-de-impacto/2022-04-25-04-regresion-discontinua-rd/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./06-evaluacion-de-impacto/2022-04-25-04-regresion-discontinua-rd/index.html" class="no-external">
-<div class="listing-date">
-4/25/22
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="15" data-categories="RXZhbHVhY2lvbiUyMEltcGFjdG8lMkNNb2RlbG8lMjBkZSUyMEVtcGFyZWphbWllbnRvJTJDQW4lQzMlQTFsaXNpcyUyMGRlJTIwRGF0b3M=" data-listing-date-sort="1650258000000" data-listing-file-modified-sort="1744921215648" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./06-evaluacion-de-impacto/2022-04-18-03-modelo-de-emparejamiento/index.html" class="no-external">
-
-<p class="card-img-top"><img src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./06-evaluacion-de-impacto/2022-04-18-03-modelo-de-emparejamiento/index.html" class="no-external">Modelo de Emparejamiento</a>
-</h3>
-<div class="delink listing-description"><a href="./06-evaluacion-de-impacto/2022-04-18-03-modelo-de-emparejamiento/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./06-evaluacion-de-impacto/2022-04-18-03-modelo-de-emparejamiento/index.html" class="no-external">
-<div class="listing-date">
-4/18/22
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="16" data-categories="RXZhbHVhY2lvbiUyMEltcGFjdG8lMkNFeHBlcmltZW50b3MlMjBBbGVhdG9yaW9zJTJDRGlzZSVDMyVCMW8lMjBkZSUyMEludmVzdGlnYWNpJUMzJUIzbg==" data-listing-date-sort="1649653200000" data-listing-file-modified-sort="1744921215648" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./06-evaluacion-de-impacto/2022-04-11-02-introduccion-a-los-experimentos-aleatorios/index.html" class="no-external">
-
-<p class="card-img-top"><img src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./06-evaluacion-de-impacto/2022-04-11-02-introduccion-a-los-experimentos-aleatorios/index.html" class="no-external">Experimentos Aleatorios</a>
-</h3>
-<div class="delink listing-description"><a href="./06-evaluacion-de-impacto/2022-04-11-02-introduccion-a-los-experimentos-aleatorios/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./06-evaluacion-de-impacto/2022-04-11-02-introduccion-a-los-experimentos-aleatorios/index.html" class="no-external">
-<div class="listing-date">
-4/11/22
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="17" data-categories="RXZhbHVhY2lvbiUyMEltcGFjdG8lMkNNZXRvZG9sb2clQzMlQURhcyUyQ1BvbCVDMyVBRHRpY2FzJTIwUCVDMyVCQWJsaWNhcw==" data-listing-date-sort="1649048400000" data-listing-file-modified-sort="1744921215648" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./06-evaluacion-de-impacto/2022-04-04-01-introduccion-a-la-evaluacion-de-impacto/index.html" class="no-external">
-
-<p class="card-img-top"><img src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./06-evaluacion-de-impacto/2022-04-04-01-introduccion-a-la-evaluacion-de-impacto/index.html" class="no-external">Evaluación de Impacto</a>
-</h3>
-<div class="delink listing-description"><a href="./06-evaluacion-de-impacto/2022-04-04-01-introduccion-a-la-evaluacion-de-impacto/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./06-evaluacion-de-impacto/2022-04-04-01-introduccion-a-la-evaluacion-de-impacto/index.html" class="no-external">
-<div class="listing-date">
-4/4/22
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="18" data-categories="RWNvbm9tZXRyaWElMjBCYXllc2lhbmElMkNBcGxpY2FjaW9uZXMlMjBlbiUyMFNlcmllcyUyMGRlJTIwVGllbXBvJTJDTW9kZWxvcyUyMERpbiVDMyVBMW1pY29zJTJDRWNvbm9tZXRyJUMzJUFEYSUyMEF2YW56YWRh" data-listing-date-sort="1648443600000" data-listing-file-modified-sort="1744921215647" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./05-econometria-bayesiana/2022-03-28-05-aplicaciones-econometricas/index.html" class="no-external">
-
-<p class="card-img-top"><img src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./05-econometria-bayesiana/2022-03-28-05-aplicaciones-econometricas/index.html" class="no-external">Aplicaciones Econométricas de la Inferencia Bayesiana</a>
-</h3>
-<div class="delink listing-description"><a href="./05-econometria-bayesiana/2022-03-28-05-aplicaciones-econometricas/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./05-econometria-bayesiana/2022-03-28-05-aplicaciones-econometricas/index.html" class="no-external">
-<div class="listing-date">
-3/28/22
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="19" data-categories="RWNvbm9tZXRyaWElMjBCYXllc2lhbmElMkNNJUMzJUE5dG9kb3MlMjBkZSUyMFNpbXVsYWNpJUMzJUIzbiUyQ0Vjb25vbWV0ciVDMyVBRGElMjBDb21wdXRhY2lvbmFsJTJDSW5mZXJlbmNpYSUyMEVzdGFkJUMzJUFEc3RpY2E=" data-listing-date-sort="1647838800000" data-listing-file-modified-sort="1744921215647" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./05-econometria-bayesiana/2022-03-21-04-simulacion-y-estimacion-bayesiana/index.html" class="no-external">
-
-<p class="card-img-top"><img src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./05-econometria-bayesiana/2022-03-21-04-simulacion-y-estimacion-bayesiana/index.html" class="no-external">Simulación y Estimación Bayesiana</a>
-</h3>
-<div class="delink listing-description"><a href="./05-econometria-bayesiana/2022-03-21-04-simulacion-y-estimacion-bayesiana/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./05-econometria-bayesiana/2022-03-21-04-simulacion-y-estimacion-bayesiana/index.html" class="no-external">
-<div class="listing-date">
-3/21/22
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="20" data-categories="RWNvbm9tZXRyaWElMjBCYXllc2lhbmElMkNNJUMzJUE5dG9kb3MlMjBkZSUyMFByaW9yaXphY2klQzMlQjNuJTJDSW5mZXJlbmNpYSUyMEVjb24lQzMlQjNtaWNh" data-listing-date-sort="1647579600000" data-listing-file-modified-sort="1744921215647" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./05-econometria-bayesiana/2022-03-18-03-familia-de-distribuciones-prior/index.html" class="no-external">
-
-<p class="card-img-top"><img src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./05-econometria-bayesiana/2022-03-18-03-familia-de-distribuciones-prior/index.html" class="no-external">Priorización Bayesiana</a>
-</h3>
-<div class="delink listing-description"><a href="./05-econometria-bayesiana/2022-03-18-03-familia-de-distribuciones-prior/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./05-econometria-bayesiana/2022-03-18-03-familia-de-distribuciones-prior/index.html" class="no-external">
-<div class="listing-date">
-3/18/22
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="21" data-categories="RWNvbm9tZXRyaWElMjBCYXllc2lhbmElMkNBbiVDMyVBMWxpc2lzJTIwZGUlMjBSZWdyZXNpJUMzJUIzbiUyQ0luZmVyZW5jaWElMjBCYXllc2lhbmElMkNFY29ub21ldHIlQzMlQURhJTIwQXBsaWNhZGE=" data-listing-date-sort="1647234000000" data-listing-file-modified-sort="1744921215647" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./05-econometria-bayesiana/2022-03-14-02-modelo-de-regresion-lineal/index.html" class="no-external">
-
-<p class="card-img-top"><img src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./05-econometria-bayesiana/2022-03-14-02-modelo-de-regresion-lineal/index.html" class="no-external">Modelos de Regresión Bayesiana</a>
-</h3>
-<div class="delink listing-description"><a href="./05-econometria-bayesiana/2022-03-14-02-modelo-de-regresion-lineal/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./05-econometria-bayesiana/2022-03-14-02-modelo-de-regresion-lineal/index.html" class="no-external">
-<div class="listing-date">
-3/14/22
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="22" data-categories="RWNvbm9tZXRyaWElMjBCYXllc2lhbmElMkNNb2RlbGFkbyUyMEVzdGFkJUMzJUFEc3RpY28lMkNNJUMzJUE5dG9kb3MlMjBkZSUyMFNpbXVsYWNpJUMzJUIzbg==" data-listing-date-sort="1646629200000" data-listing-file-modified-sort="1744921215647" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./05-econometria-bayesiana/2022-03-07-01-introduccion-a-la-econometria-bayesiana/index.html" class="no-external">
-
-<p class="card-img-top"><img src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./05-econometria-bayesiana/2022-03-07-01-introduccion-a-la-econometria-bayesiana/index.html" class="no-external">Probabilidad e Inferencia Bayesian</a>
-</h3>
-<div class="delink listing-description"><a href="./05-econometria-bayesiana/2022-03-07-01-introduccion-a-la-econometria-bayesiana/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./05-econometria-bayesiana/2022-03-07-01-introduccion-a-la-econometria-bayesiana/index.html" class="no-external">
-<div class="listing-date">
-3/7/22
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="23" data-categories="RWNvbm9tZXRyaWElMjBGaW5hbmNpZXJhJTJDU2VyaWVzJTIwZGUlMjBUaWVtcG8=" data-listing-date-sort="1646024400000" data-listing-file-modified-sort="1744921215647" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./04-econometria-financiera/2022-02-28-01-volatilidad-en-las-series-de-tiempo/index.html" class="no-external">
-
-<p class="card-img-top"><img src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./04-econometria-financiera/2022-02-28-01-volatilidad-en-las-series-de-tiempo/index.html" class="no-external">Modelos de Volatilidad en Series de Tiempo</a>
-</h3>
-<div class="delink listing-description"><a href="./04-econometria-financiera/2022-02-28-01-volatilidad-en-las-series-de-tiempo/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./04-econometria-financiera/2022-02-28-01-volatilidad-en-las-series-de-tiempo/index.html" class="no-external">
-<div class="listing-date">
-2/28/22
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="24" data-categories="RWNvbm9tZXRyaWElMjBHZW5lcmFs" data-listing-date-sort="1641877200000" data-listing-file-modified-sort="1752700993820" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="85" data-listing-word-count-sort="16931">
+<div class="quarto-post image-right" data-index="0" data-categories="RWNvbm9tZXRyaWE=" data-listing-date-sort="1641877200000" data-listing-file-modified-sort="1766399255114" data-listing-date-modified-sort="1766379600000" data-listing-reading-time-sort="85" data-listing-word-count-sort="16931">
 <div class="thumbnail"><a href="./00-econometria-general/2022-01-11-recaudacion-de-impuestos-y-crecimiento-economico-2017-2019/index.html" class="no-external">
 
-<p class="card-img-top"><img src="00-econometria-general/2022-01-11-recaudacion-de-impuestos-y-crecimiento-economico-2017-2019/data:image/png;base64,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aW7dubWvM582b57Vr1Ai5auhVS+9G84OuV6lSpbTLtWjRIrRtaTkAAACgGHIK8BdeeKGpW7euDevqQqOHn8KuArC61fTu3dvWxW/fvt0MGDAgZjm1a1RI3rVrl/1c/eN1UaDR8HTruTaP6ZarUaNGaNvy310WAAAAKKSc20iOGzfOjk6vWLHCa7GoGvGLLrrI9O/f3wu7nTp1MrVr1zZz5swx27Zts89pJFt3NW3btq39XL3kVTuv0XJXex5kvaDLhbktAAAAoBhyLqHRCLyCuh7ptGzZ0j6S6du3r31kul4my4W5LQAAAKDQQrsTKwAAAID8I8ADAAAAEUKABwAAACKEAA8AAABECAEeAAAAiBACPAAAABAhBHgAAAAgQgjwAAAAQIQQ4AEAAIAIIcADAAAAEUKABwAAACKEAA8AAABECAEeAAAAiBACPAAAABAhBHgAAAAUxZ/Gczbdo0s3nzZvt5lSpVzKBBg8wtt9yScpkuXbqY4cOHmzPOOCPptvft22deffVVM3fuXPPFF1/Y5771rW+Ze++91zRr1izjY5k0aZJ5+eWXE+7r/vvvN9dff733+SeffGIee+wxs3bt2qTnlQsCPAAAAAouUSA+efKkWbdunRd0Fy5caJ544okKyyxatMgcOnTIPPTQQwm3/dVXX5nx48eb9957L+b5bdu22eD/9NNPx4T4IMcSlNYZPXq0d9HgtvXss8+ao0ePmv79+2e0vUQI8AAAACgohVwFZo1Ma0S8a9eu9nmNmn/55Zf24xMnTpjp06fbj/v162duu+02O+LuQv3q1avNwYMHTa1atSpsXwFeoXnUqFHm2muvjVlPz69cudIL8EGOxe+OO+5IGsK131mzZtnwftFFF9kLhdNPP91MmTLF7uOll14yPXv2THjMmSDAAwAAoKCWL19u/69Q7gKz1K1bN+HyKn1x5TINGzZMu/2qVauaxx9/POa5K6+80px11lkxI+PZHEsqe/bssRcE0rdvX++Ye/XqZd810L7XrFkTU26TDQI8AAAACkYj68uWLbMf79y509x5551e3bmCuurJ9X+F8Ouuu86OXD/yyCPm008/NZdccokZO3asXValLUFHsjUy/tprr9kArZH29u3bZ3QsfnpXwL0zoIsJvTvggv/evXu9fZx/vneOroYOPPMMytcPGSLAA8AAICiePvtt2M+V4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"  class="thumbnail-image card-img"/></p>
+<img loading="lazy" src="./00-econometria-general/featured.jpg" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./00-econometria-general/2022-01-11-recaudacion-de-impuestos-y-crecimiento-economico-2017-2019/index.html" class="no-external">Análisis del Impacto del Crecimiento Económico en la Recaudación de Impuestos en Ayacucho</a>
+<a href="./00-econometria-general/2022-01-11-recaudacion-de-impuestos-y-crecimiento-economico-2017-2019/index.html" class="no-external">Recaudación tributaria y crecimiento 2017-2019</a>
 </h3>
 <div class="delink listing-description"><a href="./00-econometria-general/2022-01-11-recaudacion-de-impuestos-y-crecimiento-economico-2017-2019/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
+<p>Estudio empírico sobre la relación entre recaudación de impuestos y crecimiento económico en Perú durante el período 2017-2019 usando técnicas econométricas.</p>
 </a></div>
 </div>
 <div class="metadata">
@@ -884,668 +320,18 @@ Edison Achalma
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="25" data-categories="TWljcm9lY29ub21ldHJpYQ==" data-listing-date-sort="1639371600000" data-listing-file-modified-sort="1744921215647" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./03-microeconometria/2021-12-13-09-/index.html" class="no-external">
-
-<p class="card-img-top"><img data-src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./03-microeconometria/2021-12-13-09-/index.html" class="no-external">Editar</a>
-</h3>
-<div class="delink listing-description"><a href="./03-microeconometria/2021-12-13-09-/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./03-microeconometria/2021-12-13-09-/index.html" class="no-external">
-<div class="listing-date">
-12/13/21
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="26" data-categories="TWljcm9lY29ub21ldHJpYSUyQ0Vjb25vbWV0ciVDMyVBRGElMjBBcGxpY2FkYSUyQ0FuJUMzJUExbGlzaXMlMjBkZSUyMERhdG9z" data-listing-date-sort="1638766800000" data-listing-file-modified-sort="1744921215647" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./03-microeconometria/2021-12-06-08-panel-data-dinamico/index.html" class="no-external">
-
-<p class="card-img-top"><img data-src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./03-microeconometria/2021-12-06-08-panel-data-dinamico/index.html" class="no-external">Modelos de Panel Data Dinámico</a>
-</h3>
-<div class="delink listing-description"><a href="./03-microeconometria/2021-12-06-08-panel-data-dinamico/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./03-microeconometria/2021-12-06-08-panel-data-dinamico/index.html" class="no-external">
-<div class="listing-date">
-12/6/21
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="27" data-categories="TWljcm9lY29ub21ldHJpYSUyQ01pY3JvZWNvbm9tZXRyJUMzJUFEYSUyQ0FuJUMzJUExbGlzaXMlMjBkZSUyMERhdG9zJTJDRWNvbm9tZXRyJUMzJUFEYQ==" data-listing-date-sort="1638162000000" data-listing-file-modified-sort="1744921215647" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./03-microeconometria/2021-11-29-07-panel-data-estatico/index.html" class="no-external">
-
-<p class="card-img-top"><img data-src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./03-microeconometria/2021-11-29-07-panel-data-estatico/index.html" class="no-external">Modelos de Panel Data Estático</a>
-</h3>
-<div class="delink listing-description"><a href="./03-microeconometria/2021-11-29-07-panel-data-estatico/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./03-microeconometria/2021-11-29-07-panel-data-estatico/index.html" class="no-external">
-<div class="listing-date">
-11/29/21
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="28" data-categories="TWljcm9lY29ub21ldHJpYSUyQ01vZGVsb3MlMjBFc3RhZCVDMyVBRHN0aWNvcyUyQ00lQzMlQTl0b2RvcyUyMGRlJTIwRXN0aW1hY2klQzMlQjNu" data-listing-date-sort="1637557200000" data-listing-file-modified-sort="1744921215646" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./03-microeconometria/2021-11-22-06-modelos-de-ecuaciones-simultaneas/index.html" class="no-external">
-
-<p class="card-img-top"><img data-src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./03-microeconometria/2021-11-22-06-modelos-de-ecuaciones-simultaneas/index.html" class="no-external">Modelos de Ecuaciones Simultáneas</a>
-</h3>
-<div class="delink listing-description"><a href="./03-microeconometria/2021-11-22-06-modelos-de-ecuaciones-simultaneas/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./03-microeconometria/2021-11-22-06-modelos-de-ecuaciones-simultaneas/index.html" class="no-external">
-<div class="listing-date">
-11/22/21
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="29" data-categories="TWljcm9lY29ub21ldHJpYSUyQ0VzdGFkJUMzJUFEc3RpY2ElMjBBcGxpY2FkYSUyQ0Vjb25vbWV0ciVDMyVBRGE=" data-listing-date-sort="1636952400000" data-listing-file-modified-sort="1744921215646" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./03-microeconometria/2021-11-15-05-sesgo-de-seleccion/index.html" class="no-external">
-
-<p class="card-img-top"><img data-src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./03-microeconometria/2021-11-15-05-sesgo-de-seleccion/index.html" class="no-external">Sesgo de Selección</a>
-</h3>
-<div class="delink listing-description"><a href="./03-microeconometria/2021-11-15-05-sesgo-de-seleccion/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./03-microeconometria/2021-11-15-05-sesgo-de-seleccion/index.html" class="no-external">
-<div class="listing-date">
-11/15/21
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="30" data-categories="TWljcm9lY29ub21ldHJpYSUyQ0FuJUMzJUExbGlzaXMlMjBkZSUyMERhdG9zJTJDRWNvbm9tZXRyJUMzJUFEYQ==" data-listing-date-sort="1636347600000" data-listing-file-modified-sort="1744921215646" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./03-microeconometria/2021-11-08-04-modelos-con-variables-censuradas-y-truncadas/index.html" class="no-external">
-
-<p class="card-img-top"><img data-src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./03-microeconometria/2021-11-08-04-modelos-con-variables-censuradas-y-truncadas/index.html" class="no-external">Modelos con Variables Censuradas y Truncadas</a>
-</h3>
-<div class="delink listing-description"><a href="./03-microeconometria/2021-11-08-04-modelos-con-variables-censuradas-y-truncadas/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./03-microeconometria/2021-11-08-04-modelos-con-variables-censuradas-y-truncadas/index.html" class="no-external">
-<div class="listing-date">
-11/8/21
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="31" data-categories="TWljcm9lY29ub21ldHJpYSUyQ0Vjb25vbWV0ciVDMyVBRGElMjBBcGxpY2FkYSUyQ01vZGVsb3MlMjBFc3RhZCVDMyVBRHN0aWNvcw==" data-listing-date-sort="1635742800000" data-listing-file-modified-sort="1744921215646" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./03-microeconometria/2021-11-01-03-modelos-multinomiales-y-ordenados/index.html" class="no-external">
-
-<p class="card-img-top"><img data-src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./03-microeconometria/2021-11-01-03-modelos-multinomiales-y-ordenados/index.html" class="no-external">Modelos Multinomiales y Ordenados</a>
-</h3>
-<div class="delink listing-description"><a href="./03-microeconometria/2021-11-01-03-modelos-multinomiales-y-ordenados/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./03-microeconometria/2021-11-01-03-modelos-multinomiales-y-ordenados/index.html" class="no-external">
-<div class="listing-date">
-11/1/21
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="32" data-categories="TWljcm9lY29ub21ldHJpYSUyQ01vZGVsb3MlMjBFY29ub20lQzMlQTl0cmljb3MlMkNBbiVDMyVBMWxpc2lzJTIwZGUlMjBEYXRvcw==" data-listing-date-sort="1635138000000" data-listing-file-modified-sort="1744921215646" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./03-microeconometria/2021-10-25-02-modelos-fraccionados/index.html" class="no-external">
-
-<p class="card-img-top"><img data-src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./03-microeconometria/2021-10-25-02-modelos-fraccionados/index.html" class="no-external">Modelos Fraccionados</a>
-</h3>
-<div class="delink listing-description"><a href="./03-microeconometria/2021-10-25-02-modelos-fraccionados/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./03-microeconometria/2021-10-25-02-modelos-fraccionados/index.html" class="no-external">
-<div class="listing-date">
-10/25/21
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="33" data-categories="TWljcm9lY29ub21ldHJpYSUyQ0Vjb25vbWV0ciVDMyVBRGElMkNNb2RlbG9zJTIwRXN0YWQlQzMlQURzdGljb3M=" data-listing-date-sort="1634533200000" data-listing-file-modified-sort="1744921215646" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./03-microeconometria/2021-10-18-01-modelos-de-eleccion-discreta-probit-y-logit/index.html" class="no-external">
-
-<p class="card-img-top"><img data-src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./03-microeconometria/2021-10-18-01-modelos-de-eleccion-discreta-probit-y-logit/index.html" class="no-external">Modelos de Elección Discreta</a>
-</h3>
-<div class="delink listing-description"><a href="./03-microeconometria/2021-10-18-01-modelos-de-eleccion-discreta-probit-y-logit/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./03-microeconometria/2021-10-18-01-modelos-de-eleccion-discreta-probit-y-logit/index.html" class="no-external">
-<div class="listing-date">
-10/18/21
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="34" data-categories="TWFjcm9lY29ub21ldHJpYSUyQ01vZGVsb3MlMjBObyUyMExpbmVhbGVzJTJDTWFjcm9lY29ub21ldHIlQzMlQURhJTIwQXBsaWNhZGE=" data-listing-date-sort="1633928400000" data-listing-file-modified-sort="1744921215646" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./02-macroeconometria/2021-10-11-06-modelos-no-lineales-en-la-media/index.html" class="no-external">
-
-<p class="card-img-top"><img data-src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./02-macroeconometria/2021-10-11-06-modelos-no-lineales-en-la-media/index.html" class="no-external">Modelos No Lineales en Econometría</a>
-</h3>
-<div class="delink listing-description"><a href="./02-macroeconometria/2021-10-11-06-modelos-no-lineales-en-la-media/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./02-macroeconometria/2021-10-11-06-modelos-no-lineales-en-la-media/index.html" class="no-external">
-<div class="listing-date">
-10/11/21
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="35" data-categories="TWFjcm9lY29ub21ldHJpYSUyQ01vZGVsb3MlMjBkZSUyMEZhY3RvcmVzJTIwTGF0ZW50ZXMlMkNNJUMzJUE5dG9kb3MlMjBkZSUyMEVzdGltYWNpJUMzJUIzbiUyMEVjb25vbSVDMyVBOXRyaWNh" data-listing-date-sort="1633323600000" data-listing-file-modified-sort="1744921215646" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./02-macroeconometria/2021-10-04-05-modelos-de-factores-latentes/index.html" class="no-external">
-
-<p class="card-img-top"><img data-src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./02-macroeconometria/2021-10-04-05-modelos-de-factores-latentes/index.html" class="no-external">Modelos de Factores Latentes en Econometría</a>
-</h3>
-<div class="delink listing-description"><a href="./02-macroeconometria/2021-10-04-05-modelos-de-factores-latentes/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./02-macroeconometria/2021-10-04-05-modelos-de-factores-latentes/index.html" class="no-external">
-<div class="listing-date">
-10/4/21
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="36" data-categories="TWFjcm9lY29ub21ldHJpYSUyQ01vZGVsb3MlMjBFY29ub20lQzMlQTl0cmljb3MlMjBNdWx0aXZhcmlhZG9zJTJDUHJveWVjY2lvbmVzJTIwTWFjcm9lY29uJUMzJUIzbWljYXM=" data-listing-date-sort="1632718800000" data-listing-file-modified-sort="1744921215646" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./02-macroeconometria/2021-09-27-03-analisis-multivariado/index.html" class="no-external">
-
-<p class="card-img-top"><img data-src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./02-macroeconometria/2021-09-27-03-analisis-multivariado/index.html" class="no-external">Análisis Multivariado en Macroeconometría</a>
-</h3>
-<div class="delink listing-description"><a href="./02-macroeconometria/2021-09-27-03-analisis-multivariado/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./02-macroeconometria/2021-09-27-03-analisis-multivariado/index.html" class="no-external">
-<div class="listing-date">
-9/27/21
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="37" data-categories="TWFjcm9lY29ub21ldHJpYSUyQ0FuJUMzJUExbGlzaXMlMjBkZSUyMFNlcmllcyUyMGRlJTIwVGllbXBvJTJDTW9kZWxvcyUyMEFSTUElMkNQcm95ZWNjaW9uZXM=" data-listing-date-sort="1632114000000" data-listing-file-modified-sort="1744921215646" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="29">
-<div class="thumbnail"><a href="./02-macroeconometria/2021-09-20-01-analisis-univariado/index.html" class="no-external">
-
-<p class="card-img-top"><img data-src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./02-macroeconometria/2021-09-20-01-analisis-univariado/index.html" class="no-external">Análisis Univariado de Series de Tiempo</a>
-</h3>
-<div class="delink listing-description"><a href="./02-macroeconometria/2021-09-20-01-analisis-univariado/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./02-macroeconometria/2021-09-20-01-analisis-univariado/index.html" class="no-external">
-<div class="listing-date">
-9/20/21
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="38" data-categories="RnVuZGFtZW50b3MlMjBFY29ub21ldHJpYSUyQ0VzdGFkJUMzJUFEc3RpY2ElMkNFY29ub21ldHIlQzMlQURh" data-listing-date-sort="1621832400000" data-listing-file-modified-sort="1744921215645" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./01-fundamentos-econometria/2021-05-24-12-perturbaciones-no-esfericas/index.html" class="no-external">
-
-<p class="card-img-top"><img data-src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./01-fundamentos-econometria/2021-05-24-12-perturbaciones-no-esfericas/index.html" class="no-external">Perturbaciones No Esféricas en Regresión</a>
-</h3>
-<div class="delink listing-description"><a href="./01-fundamentos-econometria/2021-05-24-12-perturbaciones-no-esfericas/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./01-fundamentos-econometria/2021-05-24-12-perturbaciones-no-esfericas/index.html" class="no-external">
-<div class="listing-date">
-5/24/21
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="39" data-categories="RnVuZGFtZW50b3MlMjBFY29ub21ldHJpYSUyQ0Vjb25vbWV0ciVDMyVBRGElMkNFY29ub20lQzMlQURh" data-listing-date-sort="1621227600000" data-listing-file-modified-sort="1744921215645" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./01-fundamentos-econometria/2021-05-17-11-problemas-de-endogeneidad/index.html" class="no-external">
-
-<p class="card-img-top"><img data-src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./01-fundamentos-econometria/2021-05-17-11-problemas-de-endogeneidad/index.html" class="no-external">Problemas de Endogeneidad en Regresión</a>
-</h3>
-<div class="delink listing-description"><a href="./01-fundamentos-econometria/2021-05-17-11-problemas-de-endogeneidad/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./01-fundamentos-econometria/2021-05-17-11-problemas-de-endogeneidad/index.html" class="no-external">
-<div class="listing-date">
-5/17/21
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="40" data-categories="RnVuZGFtZW50b3MlMjBFY29ub21ldHJpYSUyQ0Vjb25vbWV0ciVDMyVBRGElMkNBbiVDMyVBMWxpc2lzJTIwZGUlMjBEYXRvcw==" data-listing-date-sort="1620622800000" data-listing-file-modified-sort="1744921215645" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./01-fundamentos-econometria/2021-05-10-10-el-modelo-general-de-regresion-lineal-permitiendo-heterocedasticidad-en-los-errores/index.html" class="no-external">
-
-<p class="card-img-top"><img data-src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./01-fundamentos-econometria/2021-05-10-10-el-modelo-general-de-regresion-lineal-permitiendo-heterocedasticidad-en-los-errores/index.html" class="no-external">Modelo de Regresión Lineal con Heterocedasticidad</a>
-</h3>
-<div class="delink listing-description"><a href="./01-fundamentos-econometria/2021-05-10-10-el-modelo-general-de-regresion-lineal-permitiendo-heterocedasticidad-en-los-errores/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./01-fundamentos-econometria/2021-05-10-10-el-modelo-general-de-regresion-lineal-permitiendo-heterocedasticidad-en-los-errores/index.html" class="no-external">
-<div class="listing-date">
-5/10/21
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="41" data-categories="RnVuZGFtZW50b3MlMjBFY29ub21ldHJpYSUyQ0VzdGFkJUMzJUFEc3RpY2ElMkNNJUMzJUE5dG9kb3MlMjBDdWFudGl0YXRpdm9z" data-listing-date-sort="1620018000000" data-listing-file-modified-sort="1744921215645" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./01-fundamentos-econometria/2021-05-03-09-inferencia/index.html" class="no-external">
-
-<p class="card-img-top"><img data-src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./01-fundamentos-econometria/2021-05-03-09-inferencia/index.html" class="no-external">Inferencia Estadística en Regresión Lineal</a>
-</h3>
-<div class="delink listing-description"><a href="./01-fundamentos-econometria/2021-05-03-09-inferencia/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./01-fundamentos-econometria/2021-05-03-09-inferencia/index.html" class="no-external">
-<div class="listing-date">
-5/3/21
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="42" data-categories="RnVuZGFtZW50b3MlMjBFY29ub21ldHJpYSUyQ0Vjb25vbWV0ciVDMyVBRGElMkNFc3RhZCVDMyVBRHN0aWNh" data-listing-date-sort="1619413200000" data-listing-file-modified-sort="1744921215645" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./01-fundamentos-econometria/2021-04-26-08-multicolinealidad/index.html" class="no-external">
-
-<p class="card-img-top"><img data-src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./01-fundamentos-econometria/2021-04-26-08-multicolinealidad/index.html" class="no-external">Multicolinealidad en Modelos de Regresión</a>
-</h3>
-<div class="delink listing-description"><a href="./01-fundamentos-econometria/2021-04-26-08-multicolinealidad/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./01-fundamentos-econometria/2021-04-26-08-multicolinealidad/index.html" class="no-external">
-<div class="listing-date">
-4/26/21
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="43" data-categories="RnVuZGFtZW50b3MlMjBFY29ub21ldHJpYSUyQ0VzdGFkJUMzJUFEc3RpY2ElMkNBbiVDMyVBMWxpc2lzJTIwZGUlMjBEYXRvcw==" data-listing-date-sort="1618808400000" data-listing-file-modified-sort="1744921215644" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./01-fundamentos-econometria/2021-04-19-07-bondad-de-ajuste/index.html" class="no-external">
-
-<p class="card-img-top"><img data-src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./01-fundamentos-econometria/2021-04-19-07-bondad-de-ajuste/index.html" class="no-external">Medidas de Bondad de Ajuste en Regresión</a>
-</h3>
-<div class="delink listing-description"><a href="./01-fundamentos-econometria/2021-04-19-07-bondad-de-ajuste/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./01-fundamentos-econometria/2021-04-19-07-bondad-de-ajuste/index.html" class="no-external">
-<div class="listing-date">
-4/19/21
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="44" data-categories="RnVuZGFtZW50b3MlMjBFY29ub21ldHJpYSUyQ0VzdGFkJUMzJUFEc3RpY2ElMkNBcHJlbmRpemFqZSUyMEF1dG9tJUMzJUExdGljbw==" data-listing-date-sort="1618030800000" data-listing-file-modified-sort="1744921215644" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./01-fundamentos-econometria/2021-04-10-06-el-trade-off-sesgo-varianza/index.html" class="no-external">
-
-<p class="card-img-top"><img data-src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./01-fundamentos-econometria/2021-04-10-06-el-trade-off-sesgo-varianza/index.html" class="no-external">El Trade Off entre Sesgo y Varianza</a>
-</h3>
-<div class="delink listing-description"><a href="./01-fundamentos-econometria/2021-04-10-06-el-trade-off-sesgo-varianza/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./01-fundamentos-econometria/2021-04-10-06-el-trade-off-sesgo-varianza/index.html" class="no-external">
-<div class="listing-date">
-4/10/21
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="45" data-categories="RnVuZGFtZW50b3MlMjBFY29ub21ldHJpYSUyQ0VzdGFkJUMzJUFEc3RpY2ElMkNFY29ub21ldHIlQzMlQURh" data-listing-date-sort="1616994000000" data-listing-file-modified-sort="1744921215644" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./01-fundamentos-econometria/2021-03-29-05-propiedades-en-muestras-infinitas-del-estimador-mco/index.html" class="no-external">
-
-<p class="card-img-top"><img data-src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./01-fundamentos-econometria/2021-03-29-05-propiedades-en-muestras-infinitas-del-estimador-mco/index.html" class="no-external">Propiedades del Estimador MCO en Muestras Infinitas</a>
-</h3>
-<div class="delink listing-description"><a href="./01-fundamentos-econometria/2021-03-29-05-propiedades-en-muestras-infinitas-del-estimador-mco/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./01-fundamentos-econometria/2021-03-29-05-propiedades-en-muestras-infinitas-del-estimador-mco/index.html" class="no-external">
-<div class="listing-date">
-3/29/21
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="46" data-categories="RnVuZGFtZW50b3MlMjBFY29ub21ldHJpYSUyQ0VzdGFkJUMzJUFEc3RpY2ElMkNFY29ub21ldHIlQzMlQURh" data-listing-date-sort="1616389200000" data-listing-file-modified-sort="1744921215644" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./01-fundamentos-econometria/2021-03-22-04-propiedades-en-muestras-finitas-del-estimador-mco/index.html" class="no-external">
-
-<p class="card-img-top"><img data-src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./01-fundamentos-econometria/2021-03-22-04-propiedades-en-muestras-finitas-del-estimador-mco/index.html" class="no-external">Propiedades del Estimador MCO en Muestras Finitas</a>
-</h3>
-<div class="delink listing-description"><a href="./01-fundamentos-econometria/2021-03-22-04-propiedades-en-muestras-finitas-del-estimador-mco/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./01-fundamentos-econometria/2021-03-22-04-propiedades-en-muestras-finitas-del-estimador-mco/index.html" class="no-external">
-<div class="listing-date">
-3/22/21
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="47" data-categories="RnVuZGFtZW50b3MlMjBFY29ub21ldHJpYSUyQ01hdGVtJUMzJUExdGljYXMlMkNFY29ub21ldHIlQzMlQURh" data-listing-date-sort="1615784400000" data-listing-file-modified-sort="1744921215644" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./01-fundamentos-econometria/2021-03-15-03-algebra-y-geometria-de-mco/index.html" class="no-external">
-
-<p class="card-img-top"><img data-src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./01-fundamentos-econometria/2021-03-15-03-algebra-y-geometria-de-mco/index.html" class="no-external">Álgebra y Geometría de Mínimos Cuadrados Ordinarios</a>
-</h3>
-<div class="delink listing-description"><a href="./01-fundamentos-econometria/2021-03-15-03-algebra-y-geometria-de-mco/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./01-fundamentos-econometria/2021-03-15-03-algebra-y-geometria-de-mco/index.html" class="no-external">
-<div class="listing-date">
-3/15/21
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="48" data-categories="RnVuZGFtZW50b3MlMjBFY29ub21ldHJpYSUyQ0Vjb25vbWV0ciVDMyVBRGElMkNNJUMzJUE5dG9kb3MlMjBFc3RhZCVDMyVBRHN0aWNvcw==" data-listing-date-sort="1615179600000" data-listing-file-modified-sort="1744921215644" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./01-fundamentos-econometria/2021-03-08-02-el-estimador-de-minimos-cuadrados-ordinarios-mco/index.html" class="no-external">
-
-<p class="card-img-top"><img data-src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./01-fundamentos-econometria/2021-03-08-02-el-estimador-de-minimos-cuadrados-ordinarios-mco/index.html" class="no-external">Estimador de Mínimos Cuadrados Ordinarios</a>
-</h3>
-<div class="delink listing-description"><a href="./01-fundamentos-econometria/2021-03-08-02-el-estimador-de-minimos-cuadrados-ordinarios-mco/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./01-fundamentos-econometria/2021-03-08-02-el-estimador-de-minimos-cuadrados-ordinarios-mco/index.html" class="no-external">
-<div class="listing-date">
-3/8/21
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="49" data-categories="RnVuZGFtZW50b3MlMjBFY29ub21ldHJpYSUyQ0VzdGFkJUMzJUFEc3RpY2ElMkNFY29ub21ldHIlQzMlQURh" data-listing-date-sort="1614574800000" data-listing-file-modified-sort="1744921215644" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./01-fundamentos-econometria/2021-03-01-01-modelo-clasico-de-regresion-lineal/index.html" class="no-external">
-
-<p class="card-img-top"><img data-src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./01-fundamentos-econometria/2021-03-01-01-modelo-clasico-de-regresion-lineal/index.html" class="no-external">Modelo Clásico de Regresión Lineal</a>
-</h3>
-<div class="delink listing-description"><a href="./01-fundamentos-econometria/2021-03-01-01-modelo-clasico-de-regresion-lineal/index.html" class="no-external">
-<p>Este abstract será actualizado una vez que se complete el contenido final del artículo.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./01-fundamentos-econometria/2021-03-01-01-modelo-clasico-de-regresion-lineal/index.html" class="no-external">
-<div class="listing-date">
-3/1/21
-</div>
-<div class="listing-author">
-Edison Achalma
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="50" data-categories="RXN0YWRpc3RpY2ElMjBQYXJhJTIwRWNvbm9taXN0YXM=" data-listing-date-sort="1577682000000" data-listing-file-modified-sort="1752728704982" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="2" data-listing-word-count-sort="364">
+<div class="quarto-post image-right" data-index="1" data-categories="RXN0YWRpc3RpY2ElMjBQYXJhJTIwRWNvbm9taXN0YXM=" data-listing-date-sort="1577682000000" data-listing-file-modified-sort="1766399255131" data-listing-date-modified-sort="1766379600000" data-listing-reading-time-sort="2" data-listing-word-count-sort="364">
 <div class="thumbnail"><a href="./estadistica-para-economistas/2019-12-30-rendimiento-academico-y-genero-de-ingresantes-a-unsch/index.html" class="no-external">
 
-<p class="card-img-top"><img data-src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
+<img loading="lazy" src="./estadistica-para-economistas/featured.jpg" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./estadistica-para-economistas/2019-12-30-rendimiento-academico-y-genero-de-ingresantes-a-unsch/index.html" class="no-external">Rendimiento académico y genero de los ingresantes 2010</a>
+<a href="./estadistica-para-economistas/2019-12-30-rendimiento-academico-y-genero-de-ingresantes-a-unsch/index.html" class="no-external">Rendimiento académico y género en UNSCH</a>
 </h3>
 <div class="delink listing-description"><a href="./estadistica-para-economistas/2019-12-30-rendimiento-academico-y-genero-de-ingresantes-a-unsch/index.html" class="no-external">
-<p>Primer parrafo de abstrac</p>
+<p>Análisis estadístico de la relación entre género y rendimiento académico de ingresantes a la Universidad Nacional de San Cristóbal de Huamanga.</p>
 </a></div>
 </div>
 <div class="metadata">
@@ -1560,18 +346,18 @@ Edison Achalma
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="51" data-categories="RXN0YWRpc3RpY2E=" data-listing-date-sort="1545800400000" data-listing-file-modified-sort="1744921215652" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="4" data-listing-word-count-sort="613">
+<div class="quarto-post image-right" data-index="2" data-categories="RXN0YWRpc3RpY2E=" data-listing-date-sort="1545800400000" data-listing-file-modified-sort="1766399255161" data-listing-date-modified-sort="1766379600000" data-listing-reading-time-sort="4" data-listing-word-count-sort="613">
 <div class="thumbnail"><a href="./estadistica/2018-12-26-factores-que-influyen-rendimiento-academico/index.html" class="no-external">
 
-<p class="card-img-top"><img data-src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
+<img loading="lazy" src="./estadistica/featured.jpg" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./estadistica/2018-12-26-factores-que-influyen-rendimiento-academico/index.html" class="no-external">Factores que influyen en el rendimiento académico de la serie 100 y 200</a>
+<a href="./estadistica/2018-12-26-factores-que-influyen-rendimiento-academico/index.html" class="no-external">Factores que afectan rendimiento académico</a>
 </h3>
 <div class="delink listing-description"><a href="./estadistica/2018-12-26-factores-que-influyen-rendimiento-academico/index.html" class="no-external">
-<p>Primer parrafo de abstrac</p>
+<p>Estudio estadístico de variables socioeconómicas, demográficas y académicas que influyen en el desempeño universitario de estudiantes.</p>
 </a></div>
 </div>
 <div class="metadata">
@@ -1586,18 +372,18 @@ Edison Achalma
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="52" data-categories="RXN0YWRpc3RpY2E=" data-listing-date-sort="1526446800000" data-listing-file-modified-sort="1744921215651" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="83" data-listing-word-count-sort="16553">
+<div class="quarto-post image-right" data-index="3" data-categories="RXN0YWRpc3RpY2E=" data-listing-date-sort="1526446800000" data-listing-file-modified-sort="1766399255146" data-listing-date-modified-sort="1766379600000" data-listing-reading-time-sort="83" data-listing-word-count-sort="16553">
 <div class="thumbnail"><a href="./estadistica/2018-05-16-estadigrafos/index.html" class="no-external">
 
-<p class="card-img-top"><img data-src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
+<img loading="lazy" src="./estadistica/featured.jpg" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./estadistica/2018-05-16-estadigrafos/index.html" class="no-external">Análisis estadístico de los alumnos de Estadística de la serie 200 de Economía 2018-I</a>
+<a href="./estadistica/2018-05-16-estadigrafos/index.html" class="no-external">Estadígrafos descriptivos fundamentales</a>
 </h3>
 <div class="delink listing-description"><a href="./estadistica/2018-05-16-estadigrafos/index.html" class="no-external">
-<p>Primer parrafo de abstrac</p>
+<p>Medidas de tendencia central, dispersión, posición y forma para resumir y describir conjuntos de datos económicos y sociales.</p>
 </a></div>
 </div>
 <div class="metadata">
@@ -1614,10 +400,10 @@ Edison Achalma
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
-<nav id="ultimas-entradas-pagination" class="listing-pagination" aria-label="Page Navigation">
-  <ul class="pagination"></ul>
-</nav>
 </div></main> <!-- /main -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W6TSRDX5" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -1669,13 +455,14 @@ Edison Achalma
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -1690,7 +477,7 @@ Edison Achalma
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/achalmaedison\.netlify\.app\/");
+        var filterRegex = new RegExp("https:\/\/epsilon-y-beta\.netlify\.app\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -2024,7 +811,7 @@ Edison Achalma
 <p>© 2025 Edison Achalma ∙ Made with <a href="https://quarto.org">Quarto</a></p>
 </div>   
     <div class="nav-footer-center">
-<p><a class="link-dark me-1" href="./accessibility.html" title="Accessibility commitment" target="_blank" rel="noopener"><i class="fa-solid fa-universal-access" aria-label="universal-access"></i></a> <a class="link-dark me-1" href="https://fosstodon.org/@achalmaedison" title="mastodon" target="_blank" rel="noopener"><i class="fa-brands fa-mastodon" aria-label="mastodon"></i></a> <a class="link-dark me-1" href="https://github.com/achalmed" title="github" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-label="github"></i></a> <a class="link-dark me-1" href="https://orcid.org/0000-0001-6996-3364" title="orcid" target="_blank" rel="noopener"><i class="ai  ai-orcid" style="color:black"></i></a> <a class="link-dark me-1" href="https://scholar.google.com/citations?hl=en&amp;user=LvAkIvcAAAAJ" title="Google Scholar" target="_blank" rel="noopener"><i class="ai  ai-google-scholar" style="color:black"></i></a> <a class="link-dark me-1" href="https://linkedin.com/in/achalmaedison" title="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin" aria-label="linkedin"></i></a></p>
+<p><a class="link-dark me-1" href="./accessibility.html" title="Accessibility commitment" target="_blank" rel="noopener"><i class="fa-solid fa-universal-access" aria-label="universal-access"></i></a> <a class="link-dark me-1" href="https://fosstodon.org/@achalmaedison" title="mastodon" target="_blank" rel="noopener"><i class="fa-brands fa-mastodon" aria-label="mastodon"></i></a> <a class="link-dark me-1" href="https://github.com/achalmed" title="github" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-label="github"></i></a> <a class="link-dark me-1" href="https://linkedin.com/in/achalmaedison" title="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin" aria-label="linkedin"></i></a></p>
 </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">

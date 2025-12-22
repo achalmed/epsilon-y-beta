@@ -6,6 +6,7 @@
   nolmodern,
   notxfonts,
   notimes,
+  12pt,
   colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{apa7}
 
 \usepackage{amsmath}
@@ -17,8 +18,6 @@
 \babelprovide[main,import]{spanish}
 
 
-\babelfont{rm}[,RawFeature={fallback=mainfontfallback}]{Latin Modern
-Roman}
 % get rid of language-specific shorthands (see #6817):
 \let\LanguageShortHands\languageshorthands
 \def\languageshorthands#1{}
@@ -115,22 +114,19 @@ Roman}
 
 
 
-\usepackage{fontspec} 
+\usepackage{newtx}
 
 \defaultfontfeatures{Scale=MatchLowercase}
 \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 
-  \setmainfont[,RawFeature={fallback=mainfontfallback}]{Latin Modern
-Roman}
 
 
 
 
-\title{Análisis Multivariado en Macroeconometría: Modelos VAR, SVAR y
-Métodos de Identificación}
+\title{Análisis multivariado de series de tiempo}
 
 
-\shorttitle{Análisis Multivariado}
+\shorttitle{ANÁLISIS MULTIVARIADO}
 
 
 \usepackage{etoolbox}
@@ -226,14 +222,14 @@ Achalma, Email: \href{mailto:elmer.achalma.09@unsch.edu.pe}{elmer.achalma.09@uns
   \newcommand\contentsname{Tabla de contenidos}
 \fi
 \ifdefined\listfigurename
-  \renewcommand*\listfigurename{List of Figures}
+  \renewcommand*\listfigurename{Lista de Figuras}
 \else
-  \newcommand\listfigurename{List of Figures}
+  \newcommand\listfigurename{Lista de Figuras}
 \fi
 \ifdefined\listtablename
-  \renewcommand*\listtablename{List of Tables}
+  \renewcommand*\listtablename{Lista de Tablas}
 \else
-  \newcommand\listtablename{List of Tables}
+  \newcommand\listtablename{Lista de Tablas}
 \fi
 \ifdefined\figurename
   \renewcommand*\figurename{Figura}
@@ -250,7 +246,7 @@ Achalma, Email: \href{mailto:elmer.achalma.09@unsch.edu.pe}{elmer.achalma.09@uns
 \floatstyle{ruled}
 \@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
 \floatname{codelisting}{Listing}
-\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\newcommand*\listoflistings{\listof{codelisting}{Lista de Listings}}
 \makeatother
 \makeatletter
 \makeatother
@@ -296,14 +292,17 @@ Achalma, Email: \href{mailto:elmer.achalma.09@unsch.edu.pe}{elmer.achalma.09@uns
 
 \maketitle
 
+
 \hypertarget{toc}{}
 \tableofcontents
 \newpage
-\section[Introduction]{Análisis Multivariado en Macroeconometría}
+\section[Introduction]{Análisis multivariado de series de tiempo}
 
-\setcounter{secnumdepth}{5}
+\setcounter{secnumdepth}{3}
 
 \setlength\LTleft{0pt}
+
+
 
 
 Este artículo está actualmente en proceso de edición, y todas las
@@ -319,25 +318,21 @@ algunas sugerencias:
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  \href{https://achalmaedison.netlify.app/econometria/02-macroeconometria/2021-09-20-01-analisis-univariado/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/econometria/02-macroeconometria/2021-09-20-01-analisis-univariado}{01
+  \href{https://epsilon-y-beta.netlify.app/02-macroeconometria/2021-09-20-01-analisis-univariado/index.pdf}{\faIcon{file-pdf}}
+  \href{https://epsilon-y-beta.netlify.app/02-macroeconometria/2021-09-20-01-analisis-univariado}{01
   Analisis Univariado}
 \item
-  \href{https://achalmaedison.netlify.app/econometria/02-macroeconometria/2021-09-27-03-analisis-multivariado/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/econometria/02-macroeconometria/2021-09-27-03-analisis-multivariado}{03
+  \href{https://epsilon-y-beta.netlify.app/02-macroeconometria/2021-09-27-03-analisis-multivariado/index.pdf}{\faIcon{file-pdf}}
+  \href{https://epsilon-y-beta.netlify.app/02-macroeconometria/2021-09-27-03-analisis-multivariado}{03
   Analisis Multivariado}
 \item
-  \href{https://achalmaedison.netlify.app/econometria/02-macroeconometria/2021-10-04-05-modelos-de-factores-latentes/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/econometria/02-macroeconometria/2021-10-04-05-modelos-de-factores-latentes}{05
+  \href{https://epsilon-y-beta.netlify.app/02-macroeconometria/2021-10-04-05-modelos-de-factores-latentes/index.pdf}{\faIcon{file-pdf}}
+  \href{https://epsilon-y-beta.netlify.app/02-macroeconometria/2021-10-04-05-modelos-de-factores-latentes}{05
   Modelos De Factores Latentes}
 \item
-  \href{https://achalmaedison.netlify.app/econometria/02-macroeconometria/2021-10-11-06-modelos-no-lineales-en-la-media/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/econometria/02-macroeconometria/2021-10-11-06-modelos-no-lineales-en-la-media}{06
+  \href{https://epsilon-y-beta.netlify.app/02-macroeconometria/2021-10-11-06-modelos-no-lineales-en-la-media/index.pdf}{\faIcon{file-pdf}}
+  \href{https://epsilon-y-beta.netlify.app/02-macroeconometria/2021-10-11-06-modelos-no-lineales-en-la-media}{06
   Modelos No Lineales En La Media}
-\item
-  \href{https://achalmaedison.netlify.app/econometria/02-macroeconometria/2024-03-31-por-editar/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/econometria/02-macroeconometria/2024-03-31-por-editar}{Por
-  Editar}
 \end{enumerate}
 
 Esperamos que encuentres estas publicaciones igualmente interesantes y
