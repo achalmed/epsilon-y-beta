@@ -12,14 +12,14 @@ website:
   image: /assets/img/default-preview.jpg  # Usada cuando ninguna página tiene su propia imagen
 
   # Anuncio
-  announcement:
+  #announcement:
     # Contenido obligatorio (puede incluir markdown)
-    content: "¡Bienvenidos a mi mundo! ¡Felices fiestas! Gracias por visitar 🎄"
+    #content: "¡Bienvenidos a mi mundo! ¡Felices fiestas! Gracias por visitar 🎄"
     # Apariencia (opcional)
-    icon: gift         # Icono de Bootstrap
-    type: primary               # Color del anuncio
-    dismissable: true           # Si se puede cerrar
-    position: below-navbar      # Ubicación
+    #icon: gift         # Icono de Bootstrap
+    #type: primary               # Color del anuncio
+    #dismissable: true           # Si se puede cerrar
+    #position: below-navbar      # Ubicación
     # Colores disponibles para 'type':
     # primary, secondary, success, danger, 
     # warning, info, light, dark
@@ -101,7 +101,7 @@ website:
         href: index.xml
   page-footer:
     left: >-
-      &#169; 2025 Edison Achalma &#8729; Made with [Quarto](https://quarto.org)
+      &#169; 2026 Edison Achalma &#8729; Made with [Quarto](https://quarto.org)
     center: |
       <a class="link-dark me-1" href="/accessibility.html" title="Accessibility commitment" target="_blank" rel="noopener">{{< fa universal-access >}}</a>
       <a class="link-dark me-1" href="https://fosstodon.org/@achalmaedison" title="mastodon" target="_blank" rel="noopener">{{< fa brands mastodon >}}</a>
