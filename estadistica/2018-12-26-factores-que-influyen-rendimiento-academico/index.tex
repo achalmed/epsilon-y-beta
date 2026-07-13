@@ -82,6 +82,7 @@
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \usepackage{longtable,booktabs,array}
+\newcounter{none} % for unnumbered tables
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
@@ -232,6 +233,10 @@ Mendoza, Email: \href{mailto:elmer.achalma.09@unsch.edu.pe}{elmer.achalma.09@uns
 
 
 
+\hypersetup{
+  pdftitle={Factores que Influyen en el Rendimiento Acad\'{e}mico de las Series 100 y 200},
+  pdfauthor={Autor}
+}
 \makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \AtBeginDocument{%
@@ -796,6 +801,7 @@ Estudio}{\label{tbl-horas-estudio}}}}
 {\caption{{Estadísticas Descriptivas del Índice Académico según Horas de
 Estudio}{\label{tbl-horas-estudio}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}lcccc@{}}
 \toprule\noalign{}
 Horas de Estudio & N & Media & DE & Error Estándar \\
@@ -806,6 +812,7 @@ Horas de Estudio & N & Media & DE & Error Estándar \\
 3-5 horas & 18 & 1.78 & 0.43 & 0.10 \\
 6-7 horas & 12 & 1.50 & 0.52 & 0.15 \\
 \end{longtable}
+}
 
 \end{table}
 
@@ -851,6 +858,7 @@ frecuencia de estudiantes por número de cursos.
 {\caption{{Distribución de Estudiantes según Número de Cursos
 Matriculados}{\label{tbl-cursos-matriculados}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}lcc@{}}
 \toprule\noalign{}
 Número de Cursos & Frecuencia & Porcentaje \\
@@ -864,6 +872,7 @@ Número de Cursos & Frecuencia & Porcentaje \\
 7 & 1 & 3.3 \\
 \textbf{Total} & \textbf{30} & \textbf{100} \\
 \end{longtable}
+}
 
 \end{table}
 
@@ -883,6 +892,7 @@ tabulación cruzada.
 {\caption{{Tabla Cruzada Índice Académico y Número de Cursos
 Matriculados}{\label{tbl-indice-cursos}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}lccccc@{}}
 \toprule\noalign{}
 Índice Académico & 4 Cursos & 5 Cursos & 6 Cursos & 7 Cursos & Total \\
@@ -895,6 +905,7 @@ Regular-Bueno & 1 & 2 & 16 & 1 & 20 \\
 \textbf{Total} & \textbf{1} & \textbf{2} & \textbf{26} & \textbf{1} &
 \textbf{30} \\
 \end{longtable}
+}
 
 \end{table}
 
@@ -944,6 +955,7 @@ grupo.
 {\caption{{Estadísticas Descriptivas del Índice según Frecuencia de Uso
 de Biblioteca}{\label{tbl-biblioteca-descriptivos}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}lcccc@{}}
 \toprule\noalign{}
 Frecuencia de Uso & N & Índice Promedio & DE & Error Estándar \\
@@ -954,6 +966,7 @@ Frecuencia de Uso & N & Índice Promedio & DE & Error Estándar \\
 0-2 veces/semana & 23 & 1.70 & 0.47 & 0.10 \\
 3-6 veces/semana & 7 & 1.71 & 0.49 & 0.18 \\
 \end{longtable}
+}
 
 \end{table}
 
@@ -1024,6 +1037,7 @@ Tabla~\ref{tbl-indice-serie} presenta la distribución cruzada.
 {\caption{{Tabla Cruzada Índice Académico y Serie
 Académica}{\label{tbl-indice-serie}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}lccc@{}}
 \toprule\noalign{}
 Índice Académico & Serie 100 & Serie 200 & Total \\
@@ -1035,6 +1049,7 @@ Deficiente & 8 & 1 & 9 \\
 Regular-Bueno & 8 & 13 & 21 \\
 \textbf{Total} & \textbf{16} & \textbf{14} & \textbf{30} \\
 \end{longtable}
+}
 
 \end{table}
 
@@ -1063,6 +1078,7 @@ Tabla~\ref{tbl-redes-descriptivos} presenta las estadísticas.
 {\caption{{Estadísticas Descriptivas del Índice según Uso de Redes
 Sociales}{\label{tbl-redes-descriptivos}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}lcccc@{}}
 \toprule\noalign{}
 Uso de Redes Sociales & N & Índice Promedio & DE & Error Estándar \\
@@ -1073,6 +1089,7 @@ Uso de Redes Sociales & N & Índice Promedio & DE & Error Estándar \\
 1-3 horas/día & 25 & 10.60 & 2.50 & 0.50 \\
 4-7 horas/día & 5 & 11.30 & 1.10 & 0.49 \\
 \end{longtable}
+}
 
 \end{table}
 
@@ -1108,6 +1125,7 @@ descriptivas.
 {\caption{{Estadísticas Descriptivas del Índice Académico según
 Sexo}{\label{tbl-sexo-descriptivos}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}lcccc@{}}
 \toprule\noalign{}
 Sexo & N & Índice Promedio & DE & Error Estándar \\
@@ -1118,6 +1136,7 @@ Sexo & N & Índice Promedio & DE & Error Estándar \\
 Femenino & 15 & 1.60 & 0.51 & 0.13 \\
 Masculino & 15 & 1.80 & 0.41 & 0.11 \\
 \end{longtable}
+}
 
 \end{table}
 
@@ -1141,6 +1160,7 @@ sexo resultó: χ²(1) = 1.43, p = .232; corrección de continuidad: χ²(1) =
 {\caption{{Tabla Cruzada Índice Académico y
 Sexo}{\label{tbl-indice-sexo}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}lccc@{}}
 \toprule\noalign{}
 Índice Académico & Femenino & Masculino & Total \\
@@ -1152,6 +1172,7 @@ Deficiente & 6 & 3 & 9 \\
 Regular-Bueno & 9 & 12 & 21 \\
 \textbf{Total} & \textbf{15} & \textbf{15} & \textbf{30} \\
 \end{longtable}
+}
 
 \end{table}
 

@@ -82,6 +82,7 @@
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \usepackage{longtable,booktabs,array}
+\newcounter{none} % for unnumbered tables
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
@@ -196,9 +197,14 @@ contenido final del artículo. }
 \par{   El autor no tiene conflictos de interés que revelar.    Los
 roles de autor se clasificaron utilizando la taxonomía de roles de
 colaborador (CRediT; https://credit.niso.org/) de la siguiente
-manera:  Edison Achalma:   conceptualización, redacción}
+manera:  Edison Achalma:   conceptualización, metodología, análisis
+formal, investigación, recursos, curación de
+datos, redacción, visualización, supervisión, administración del
+proyecto}
 \par{La correspondencia relativa a este artículo debe dirigirse a Edison
-Achalma, Email: \href{mailto:elmer.achalma.09@unsch.edu.pe}{elmer.achalma.09@unsch.edu.pe}}
+Achalma, Escuela Profesional de Economía, Universidad Nacional de San
+Cristóbal de Huamanga, Portal Independencia N°
+57, Ayacucho, AYA 5001, Perú, Email: \href{mailto:elmer.achalma.09@unsch.edu.pe}{elmer.achalma.09@unsch.edu.pe}}
 }
 
 \usepackage{pbalance}
@@ -246,6 +252,10 @@ Achalma, Email: \href{mailto:elmer.achalma.09@unsch.edu.pe}{elmer.achalma.09@uns
 
 
 
+\hypersetup{
+  pdftitle={Recaudaci\'{o}n tributaria y crecimiento 2017-2019},
+  pdfauthor={Autor}
+}
 \makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \AtBeginDocument{%
@@ -278,8 +288,8 @@ Achalma, Email: \href{mailto:elmer.achalma.09@unsch.edu.pe}{elmer.achalma.09@uns
 \@ifpackageloaded{float}{}{\usepackage{float}}
 \floatstyle{ruled}
 \@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
-\floatname{codelisting}{Listing}
-\newcommand*\listoflistings{\listof{codelisting}{Lista de Listings}}
+\floatname{codelisting}{Listado}
+\newcommand*\listoflistings{\listof{codelisting}{Lista de Listados}}
 \makeatother
 \makeatletter
 \makeatother
@@ -2365,7 +2375,7 @@ es sensible al crecimiento económico.
 
 \section{Referencias}\label{referencias}
 
-\phantomsection\label{refs}
+\protect\phantomsection\label{refs}
 \begin{CSLReferences}{1}{0}
 \bibitem[\citeproctext]{ref-akanbi_impact_2020}
 Akanbi, A. (2020). The Impact of Tax Collection and Incentives on
@@ -2416,8 +2426,8 @@ https://aaep. org. ar/anales/works/works2018/chiappelo. pdf (Consultado:
 
 \bibitem[\citeproctext]{ref-cid_pedraza_espacio_2018}
 Cid Pedraza, C., Matus-López, M., \& Báscolo, E. (2018). Espacio fiscal
-para salud en las Américas:?{}` es suficiente el crecimiento económico?
-\emph{Rev Panam Salud Publica; 42, ago. 2018}.
+para salud en las Américas:?{\kern0pt}` es suficiente el crecimiento
+económico? \emph{Rev Panam Salud Publica; 42, ago. 2018}.
 
 \bibitem[\citeproctext]{ref-engen_taxation_1996}
 Engen, E., \& Skinner, J. (1996). Taxation and economic growth.

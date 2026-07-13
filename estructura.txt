@@ -1,0 +1,399 @@
+# ============================================================
+# Proyecto : pub_epsilon-y-beta
+# Ruta     : /home/achalmaedison/Documents/pub_epsilon-y-beta
+# Generado : 2026-07-10 22:06:49
+# Script   : main.sh v2.1.0
+# Profund. : 6 niveles
+# Formato  : txt
+# Excluye  : _extensions _freeze _partials _site site_libs build __pycache__ log output temp .git .quarto node_modules .Rproj.user index_cache __MACOSX *.aux *.log *.out *.toc *.bbl *.blg *.synctex.gz *.fff *.ttt *.fls *.fdb_latexmk *.pyc *.pyo *.egg-info *.ipynb_checkpoints .DS_Store Thumbs.db .Rhistory .RData estructura.txt
+# ============================================================
+
+[4.0K Jul  2 20:15]  /home/achalmaedison/Documents/pub_epsilon-y-beta
+├── [4.0K Jun 22 23:47]  00-econometria-general
+│   ├── [4.0K Jun 20 11:44]  2022-01-11-recaudacion-de-impuestos-y-crecimiento-economico-2017-2019
+│   │   ├── [4.0K Jun 20 11:44]  data
+│   │   │   ├── [ 12K Jun 20 11:44]  Autocorrelacion.WF1
+│   │   │   ├── [ 55K Jun 20 11:44]  Multicolinealidad.WF1
+│   │   │   ├── [240K Jun 20 11:44]  cdro\ a7.ods
+│   │   │   ├── [ 28K Jun 20 11:44]  data\ endogena.ods
+│   │   │   ├── [ 54K Jun 20 11:44]  data\ exogena.ods
+│   │   │   ├── [ 26K Jun 20 11:44]  data\ investigacion\ h\ y\ n.ods
+│   │   │   ├── [ 80K Jun 20 11:44]  data.ods
+│   │   │   ├── [ 52K Jun 20 11:44]  pbi\ dep.ods
+│   │   │   └── [287K Jun 20 11:44]  recaudacion\ fiscal.ods
+│   │   ├── [ 91K Jun 20 11:44]  index.html.md
+│   │   ├── [ 91K Jun 20 11:44]  index.qmd
+│   │   ├── [114K Jun 20 11:44]  index.tex
+│   │   ├── [4.0K Jun 20 11:44]  index_files
+│   │   │   └── [4.0K Jun 20 11:44]  figure-html
+│   │   │       ├── [ 26K Jun 20 11:44]  20230603225440.png
+│   │   │       ├── [ 25K Jun 20 11:44]  20230603225447.png
+│   │   │       ├── [ 17K Jun 20 11:44]  20230603225455.png
+│   │   │       ├── [ 18K Jun 20 11:44]  20230603230848.png
+│   │   │       └── [103K Jun 20 11:44]  unnamed-chunk-7-1.png
+│   │   └── [ 25K Jun 20 11:44]  references.bib
+│   ├── [ 362 Jun 20 11:44]  _contenido_00-econometria-general.qmd
+│   ├── [ 162 Jun 20 11:44]  _contenido_econometria.qmd
+│   ├── [1.8K Jun 20 11:44]  _contenido_series-de-tiempo.qmd
+│   ├── [ 16K Jul  2 14:59]  _metadata.yml
+│   └── [1.1M Jun 20 11:44]  featured.jpg
+├── [4.0K Jun 22 23:47]  01-fundamentos-econometria
+│   ├── [4.0K Jun 20 11:44]  2021-03-01-01-modelo-clasico-de-regresion-lineal
+│   │   ├── [5.1K Jun 20 11:44]  index.html.md
+│   │   ├── [1.4K Jun 20 11:44]  index.qmd
+│   │   └── [ 11K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2021-03-08-02-el-estimador-de-minimos-cuadrados-ordinarios-mco
+│   │   ├── [5.1K Jun 20 11:44]  index.html.md
+│   │   ├── [1.4K Jun 20 11:44]  index.qmd
+│   │   └── [ 11K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2021-03-15-03-algebra-y-geometria-de-mco
+│   │   ├── [5.1K Jun 20 11:44]  index.html.md
+│   │   ├── [1.4K Jun 20 11:44]  index.qmd
+│   │   └── [ 11K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2021-03-22-04-propiedades-en-muestras-finitas-del-estimador-mco
+│   │   ├── [5.1K Jun 20 11:44]  index.html.md
+│   │   ├── [1.4K Jun 20 11:44]  index.qmd
+│   │   └── [ 11K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2021-03-29-05-propiedades-en-muestras-infinitas-del-estimador-mco
+│   │   ├── [5.2K Jun 20 11:44]  index.html.md
+│   │   ├── [1.4K Jun 20 11:44]  index.qmd
+│   │   └── [ 11K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2021-04-10-06-el-trade-off-sesgo-varianza
+│   │   ├── [5.2K Jun 20 11:44]  index.html.md
+│   │   ├── [1.4K Jun 20 11:44]  index.qmd
+│   │   └── [ 11K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2021-04-19-07-bondad-de-ajuste
+│   │   ├── [5.1K Jun 20 11:44]  index.html.md
+│   │   ├── [1.4K Jun 20 11:44]  index.qmd
+│   │   └── [ 11K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2021-04-26-08-multicolinealidad
+│   │   ├── [5.1K Jun 20 11:44]  index.html.md
+│   │   ├── [1.3K Jun 20 11:44]  index.qmd
+│   │   └── [ 11K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2021-05-03-09-inferencia
+│   │   ├── [5.1K Jun 20 11:44]  index.html.md
+│   │   ├── [1.4K Jun 20 11:44]  index.qmd
+│   │   └── [ 11K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2021-05-10-10-el-modelo-general-de-regresion-lineal-permitiendo-heterocedasticidad-en-los-errores
+│   │   ├── [5.2K Jun 20 11:44]  index.html.md
+│   │   ├── [1.4K Jun 20 11:44]  index.qmd
+│   │   └── [ 11K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2021-05-17-11-problemas-de-endogeneidad
+│   │   ├── [5.1K Jun 20 11:44]  index.html.md
+│   │   ├── [1.4K Jun 20 11:44]  index.qmd
+│   │   └── [ 11K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2021-05-24-12-perturbaciones-no-esfericas
+│   │   ├── [5.2K Jun 20 11:44]  index.html.md
+│   │   ├── [1.4K Jun 20 11:44]  index.qmd
+│   │   └── [ 11K Jun 20 11:44]  index.tex
+│   ├── [3.6K Jun 20 11:44]  _contenido_01-fundamentos-econometria.qmd
+│   ├── [ 16K Jul  2 14:59]  _metadata.yml
+│   └── [1.1M Jun 20 11:44]  featured.jpg
+├── [4.0K Jun 22 23:47]  02-macroeconometria
+│   ├── [4.0K Jun 20 11:44]  2021-09-20-01-analisis-univariado
+│   │   ├── [2.6K Jun 20 11:44]  index.html.md
+│   │   ├── [1.4K Jun 20 11:44]  index.qmd
+│   │   └── [8.6K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2021-09-27-03-analisis-multivariado
+│   │   ├── [2.5K Jun 20 11:44]  index.html.md
+│   │   ├── [1.3K Jun 20 11:44]  index.qmd
+│   │   └── [8.6K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2021-10-04-05-modelos-de-factores-latentes
+│   │   ├── [2.5K Jun 20 11:44]  index.html.md
+│   │   ├── [1.3K Jun 20 11:44]  index.qmd
+│   │   └── [8.6K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2021-10-11-06-modelos-no-lineales-en-la-media
+│   │   ├── [2.5K Jun 20 11:44]  index.html.md
+│   │   ├── [1.3K Jun 20 11:44]  index.qmd
+│   │   └── [8.6K Jun 20 11:44]  index.tex
+│   ├── [1.0K Jun 20 11:44]  _contenido_02-macroeconometria.qmd
+│   ├── [ 16K Jul  2 14:59]  _metadata.yml
+│   └── [1.1M Jun 20 11:44]  featured.jpg
+├── [4.0K Jun 22 23:47]  03-microeconometria
+│   ├── [4.0K Jun 20 11:44]  2021-10-18-01-modelos-de-eleccion-discreta-probit-y-logit
+│   │   ├── [3.7K Jun 20 11:44]  index.html.md
+│   │   ├── [1.4K Jun 20 11:44]  index.qmd
+│   │   └── [9.8K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2021-10-25-02-modelos-fraccionados
+│   │   ├── [3.7K Jun 20 11:44]  index.html.md
+│   │   ├── [1.3K Jun 20 11:44]  index.qmd
+│   │   └── [9.7K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2021-11-01-03-modelos-multinomiales-y-ordenados
+│   │   ├── [3.7K Jun 20 11:44]  index.html.md
+│   │   ├── [1.3K Jun 20 11:44]  index.qmd
+│   │   └── [9.7K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2021-11-08-04-modelos-con-variables-censuradas-y-truncadas
+│   │   ├── [3.7K Jun 20 11:44]  index.html.md
+│   │   ├── [1.4K Jun 20 11:44]  index.qmd
+│   │   └── [9.8K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2021-11-15-05-sesgo-de-seleccion
+│   │   ├── [3.6K Jun 20 11:44]  index.html.md
+│   │   ├── [1.3K Jun 20 11:44]  index.qmd
+│   │   └── [9.7K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2021-11-22-06-modelos-de-ecuaciones-simultaneas
+│   │   ├── [3.7K Jun 20 11:44]  index.html.md
+│   │   ├── [1.3K Jun 20 11:44]  index.qmd
+│   │   └── [9.7K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2021-11-29-07-panel-data-estatico
+│   │   ├── [3.7K Jun 20 11:44]  index.html.md
+│   │   ├── [1.3K Jun 20 11:44]  index.qmd
+│   │   └── [9.7K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2021-12-06-08-panel-data-dinamico
+│   │   ├── [3.6K Jun 20 11:44]  index.html.md
+│   │   ├── [1.3K Jun 20 11:44]  index.qmd
+│   │   └── [9.7K Jun 20 11:44]  index.tex
+│   ├── [2.2K Jun 20 11:44]  _contenido_03-microeconometria.qmd
+│   ├── [ 16K Jul  2 14:59]  _metadata.yml
+│   └── [1.1M Jun 20 11:44]  featured.jpg
+├── [4.0K Jun 22 23:47]  04-econometria-financiera
+│   ├── [4.0K Jun 20 11:44]  2022-02-28-01-volatilidad-en-las-series-de-tiempo
+│   │   ├── [1.8K Jun 20 11:44]  index.html.md
+│   │   ├── [1.4K Jun 20 11:44]  index.qmd
+│   │   └── [7.8K Jun 20 11:44]  index.tex
+│   ├── [ 308 Jun 20 11:44]  _contenido_04-econometria-financiera.qmd
+│   ├── [ 16K Jul  2 14:59]  _metadata.yml
+│   └── [1.1M Jun 20 11:44]  featured.jpg
+├── [4.0K Jun 22 23:47]  05-econometria-bayesiana
+│   ├── [4.0K Jun 20 11:44]  2022-03-07-01-introduccion-a-la-econometria-bayesiana
+│   │   ├── [3.0K Jun 20 11:44]  index.html.md
+│   │   ├── [1.4K Jun 20 11:44]  index.qmd
+│   │   └── [9.0K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2022-03-14-02-modelo-de-regresion-lineal
+│   │   ├── [2.9K Jun 20 11:44]  index.html.md
+│   │   ├── [1.4K Jun 20 11:44]  index.qmd
+│   │   └── [9.0K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2022-03-18-03-familia-de-distribuciones-prior
+│   │   ├── [2.9K Jun 20 11:44]  index.html.md
+│   │   ├── [1.4K Jun 20 11:44]  index.qmd
+│   │   └── [9.0K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2022-03-21-04-simulacion-y-estimacion-bayesiana
+│   │   ├── [2.9K Jun 20 11:44]  index.html.md
+│   │   ├── [1.4K Jun 20 11:44]  index.qmd
+│   │   └── [9.0K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2022-03-28-05-aplicaciones-econometricas
+│   │   ├── [3.0K Jun 20 11:44]  index.html.md
+│   │   ├── [1.4K Jun 20 11:44]  index.qmd
+│   │   └── [9.0K Jun 20 11:44]  index.tex
+│   ├── [1.4K Jun 20 11:44]  _contenido_05-econometria-bayesiana.qmd
+│   ├── [ 16K Jul  2 14:59]  _metadata.yml
+│   └── [1.1M Jun 20 11:44]  featured.jpg
+├── [4.0K Jun 22 23:47]  06-evaluacion-de-impacto
+│   ├── [4.0K Jun 20 11:44]  2022-04-04-01-introduccion-a-la-evaluacion-de-impacto
+│   │   ├── [3.6K Jun 20 11:44]  index.html.md
+│   │   ├── [1.4K Jun 20 11:44]  index.qmd
+│   │   └── [9.7K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2022-04-11-02-introduccion-a-los-experimentos-aleatorios
+│   │   ├── [3.6K Jun 20 11:44]  index.html.md
+│   │   ├── [1.4K Jun 20 11:44]  index.qmd
+│   │   └── [9.6K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2022-04-18-03-modelo-de-emparejamiento
+│   │   ├── [3.6K Jun 20 11:44]  index.html.md
+│   │   ├── [1.4K Jun 20 11:44]  index.qmd
+│   │   └── [9.7K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2022-04-25-04-regresion-discontinua-rd
+│   │   ├── [3.6K Jun 20 11:44]  index.html.md
+│   │   ├── [1.4K Jun 20 11:44]  index.qmd
+│   │   └── [9.7K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2022-05-02-05-regresion-discontinua-sharp-vs-fuzzy
+│   │   ├── [3.6K Jun 20 11:44]  index.html.md
+│   │   ├── [1.4K Jun 20 11:44]  index.qmd
+│   │   └── [9.6K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2022-05-09-06-analizando-papers-con-rdd-usando-stata-y-r
+│   │   ├── [3.6K Jun 20 11:44]  index.html.md
+│   │   ├── [1.4K Jun 20 11:44]  index.qmd
+│   │   └── [9.7K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2022-05-16-07-metodo-de-control-sintetico-mcs
+│   │   ├── [3.6K Jun 20 11:44]  index.html.md
+│   │   ├── [1.4K Jun 20 11:44]  index.qmd
+│   │   └── [9.7K Jun 20 11:44]  index.tex
+│   ├── [2.1K Jun 20 11:44]  _contenido_06-evaluacion-de-impacto.qmd
+│   ├── [ 16K Jul  2 14:59]  _metadata.yml
+│   └── [1.1M Jun 20 11:44]  featured.jpg
+├── [4.0K Jun 22 23:47]  07-topicos-de-econometria
+│   ├── [4.0K Jun 20 11:44]  2022-05-02-01-introduccion-a-la-econometria
+│   │   ├── [3.9K Jun 20 11:44]  index.html.md
+│   │   ├── [1.4K Jun 20 11:44]  index.qmd
+│   │   └── [9.9K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2022-05-09-02-metodos-experimentales-en-economia
+│   │   ├── [3.9K Jun 20 11:44]  index.html.md
+│   │   ├── [1.4K Jun 20 11:44]  index.qmd
+│   │   └── [9.9K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2022-05-16-03-la-herramienta-fundamental-regresiones
+│   │   ├── [3.9K Jun 20 11:44]  index.html.md
+│   │   ├── [1.4K Jun 20 11:44]  index.qmd
+│   │   └── [9.9K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2022-05-23-04-variables-instrumentales
+│   │   ├── [3.9K Jun 20 11:44]  index.html.md
+│   │   ├── [1.4K Jun 20 11:44]  index.qmd
+│   │   └── [9.9K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2022-05-30-05-dise\303\261o-de-regresion-discontinua-rdd
+│   │   ├── [3.8K Jun 20 11:44]  index.html.md
+│   │   ├── [1.4K Jun 20 11:44]  index.qmd
+│   │   └── [9.9K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2022-06-06-06-efectos-fijos-diferencias-en-diferencias-y-datos-de-panel
+│   │   ├── [3.9K Jun 20 11:44]  index.html.md
+│   │   ├── [1.4K Jun 20 11:44]  index.qmd
+│   │   └── [9.9K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2022-06-13-07-event-studies-en-economia
+│   │   ├── [3.8K Jun 20 11:44]  index.html.md
+│   │   ├── [1.3K Jun 20 11:44]  index.qmd
+│   │   └── [9.9K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2022-06-20-08-miscelanea
+│   │   ├── [3.8K Jun 20 11:44]  index.html.md
+│   │   ├── [1.3K Jun 20 11:44]  index.qmd
+│   │   └── [9.9K Jun 20 11:44]  index.tex
+│   ├── [2.3K Jun 20 11:44]  _contenido_07-topicos-de-econometria.qmd
+│   ├── [ 16K Jul  2 14:59]  _metadata.yml
+│   └── [1.1M Jun 20 11:44]  featured.jpg
+├── [ 259 Jun 20 11:43]  404.qmd
+├── [ 940 Jun 20 11:44]  CITATION.cff
+├── [ 16K Jun 20 11:43]  LICENSE
+├── [ 619 Jun 20 11:43]  SECURITY.md
+├── [ 106 Jun 20 11:43]  _contenido-final.qmd
+├── [ 197 Jun 20 11:43]  _contenido-inicio.qmd
+├── [4.0K Jul  2 19:33]  _filters
+│   ├── [1.3K Jun 20 11:46]  _metadata-pdf.lua
+│   └── [6.5K Jul  2 16:52]  apa-floats-html.lua
+├── [6.0K Jul  2 15:14]  _quarto.yml
+├── [4.0K Jul  2 19:33]  assets
+│   ├── [4.0K Jul  2 09:51]  css
+│   │   ├── [4.0K Jul  2 19:33]  components
+│   │   │   └── [2.4K Jul  2 08:13]  bibbase.css
+│   │   ├── [1.9K Jul  2 08:13]  global.css
+│   │   └── [4.0K Jul  2 19:33]  pages
+│   │       ├── [2.8K Jul  9 05:02]  about.css
+│   │       ├── [2.7K Jul  9 05:02]  contact.css
+│   │       ├── [7.6K Jul  9 05:02]  home.css
+│   │       └── [2.2K Jul  9 05:02]  listing.css
+│   ├── [4.0K Jun 20 11:44]  fonts
+│   │   ├── [ 33K Jun 20 11:44]  DankMono-Bold.woff2
+│   │   ├── [ 32K Jun 20 11:44]  DankMono-Italic.woff2
+│   │   ├── [ 30K Jun 20 11:44]  DankMono-Regular.woff2
+│   │   ├── [ 25K Jun 20 11:44]  petrona-v16-latin-500.eot
+│   │   ├── [ 79K Jun 20 11:44]  petrona-v16-latin-500.svg
+│   │   ├── [ 48K Jun 20 11:44]  petrona-v16-latin-500.ttf
+│   │   ├── [ 26K Jun 20 11:44]  petrona-v16-latin-500.woff
+│   │   ├── [ 22K Jun 20 11:44]  petrona-v16-latin-500.woff2
+│   │   ├── [ 25K Jun 20 11:44]  petrona-v16-latin-regular.eot
+│   │   ├── [ 79K Jun 20 11:44]  petrona-v16-latin-regular.svg
+│   │   ├── [ 48K Jun 20 11:44]  petrona-v16-latin-regular.ttf
+│   │   ├── [ 26K Jun 20 11:44]  petrona-v16-latin-regular.woff
+│   │   ├── [ 21K Jun 20 11:44]  petrona-v16-latin-regular.woff2
+│   │   ├── [ 22K Jun 20 11:44]  red-hat-text-v3-latin-500.eot
+│   │   ├── [ 53K Jun 20 11:44]  red-hat-text-v3-latin-500.svg
+│   │   ├── [ 45K Jun 20 11:44]  red-hat-text-v3-latin-500.ttf
+│   │   ├── [ 23K Jun 20 11:44]  red-hat-text-v3-latin-500.woff
+│   │   ├── [ 19K Jun 20 11:44]  red-hat-text-v3-latin-500.woff2
+│   │   ├── [ 22K Jun 20 11:44]  red-hat-text-v3-latin-500italic.eot
+│   │   ├── [ 55K Jun 20 11:44]  red-hat-text-v3-latin-500italic.svg
+│   │   ├── [ 45K Jun 20 11:44]  red-hat-text-v3-latin-500italic.ttf
+│   │   ├── [ 23K Jun 20 11:44]  red-hat-text-v3-latin-500italic.woff
+│   │   ├── [ 19K Jun 20 11:44]  red-hat-text-v3-latin-500italic.woff2
+│   │   ├── [ 22K Jun 20 11:44]  red-hat-text-v3-latin-italic.eot
+│   │   ├── [ 55K Jun 20 11:44]  red-hat-text-v3-latin-italic.svg
+│   │   ├── [ 45K Jun 20 11:44]  red-hat-text-v3-latin-italic.ttf
+│   │   ├── [ 23K Jun 20 11:44]  red-hat-text-v3-latin-italic.woff
+│   │   ├── [ 19K Jun 20 11:44]  red-hat-text-v3-latin-italic.woff2
+│   │   ├── [ 21K Jun 20 11:44]  red-hat-text-v3-latin-regular.eot
+│   │   ├── [ 53K Jun 20 11:44]  red-hat-text-v3-latin-regular.svg
+│   │   ├── [ 44K Jun 20 11:44]  red-hat-text-v3-latin-regular.ttf
+│   │   ├── [ 22K Jun 20 11:44]  red-hat-text-v3-latin-regular.woff
+│   │   └── [ 18K Jun 20 11:44]  red-hat-text-v3-latin-regular.woff2
+│   ├── [ 243 Jun 20 11:44]  gtm-body.html
+│   ├── [ 419 Jun 20 11:44]  gtm-head.html
+│   ├── [4.0K Jun 20 11:44]  img
+│   │   ├── [281K Jun 20 11:44]  achalma-social.png
+│   │   ├── [1.1M Jun 20 11:44]  default-preview.jpg
+│   │   ├── [ 31K Jun 20 11:44]  favicon.png
+│   │   └── [1.1M Jun 20 11:44]  sidebar.jpg
+│   ├── [1.0K Jul  2 10:44]  interactions.html
+│   ├── [4.0K Jul  2 19:33]  js
+│   │   ├── [2.1K Jul  2 10:57]  README.md
+│   │   ├── [1.5K Jul  2 10:43]  cursor.js
+│   │   ├── [1.8K Jul  2 10:43]  hero.js
+│   │   ├── [ 974 Jul  2 10:43]  navbar.js
+│   │   └── [1.6K Jul  2 10:43]  scroll-effects.js
+│   └── [4.0K Jul  2 19:33]  scss
+│       ├── [4.0K Jul  2 19:33]  00-settings
+│       │   ├── [1.9K Jul  2 09:47]  _bootstrap.scss
+│       │   ├── [ 882 Jul  2 09:46]  _layout.scss
+│       │   ├── [1.6K Jul  2 09:45]  _palette-dark.scss
+│       │   ├── [1.9K Jul  2 09:45]  _palette-light.scss
+│       │   ├── [5.1K Jul  2 09:46]  _tokens-dark.scss
+│       │   ├── [5.5K Jul  2 09:46]  _tokens-light.scss
+│       │   └── [1.7K Jul  2 09:46]  _typography.scss
+│       ├── [4.0K Jul  2 19:33]  01-tools
+│       │   └── [1.3K Jul  2 09:47]  _mixins.scss
+│       ├── [4.0K Jul  2 19:33]  02-base
+│       │   ├── [3.8K Jul  2 09:47]  _fonts.scss
+│       │   ├── [1.1K Jul  2 09:47]  _reset.scss
+│       │   ├── [1.5K Jul  2 09:47]  _root.scss
+│       │   └── [3.4K Jul  2 09:48]  _typography.scss
+│       ├── [4.0K Jul  2 19:33]  03-layout
+│       │   ├── [1.3K Jul  2 09:49]  _footer.scss
+│       │   ├── [3.0K Jul  2 09:48]  _navbar.scss
+│       │   ├── [1.3K Jul  2 09:50]  _responsive.scss
+│       │   └── [4.7K Jul  2 12:36]  _toc.scss
+│       ├── [4.0K Jul  2 20:10]  04-components
+│       │   ├── [1.4K Jul  2 09:49]  _buttons.scss
+│       │   ├── [1.0K Jul  2 09:49]  _callouts.scss
+│       │   ├── [1.2K Jul  2 09:49]  _citations.scss
+│       │   ├── [1.9K Jul  2 09:48]  _code.scss
+│       │   ├── [2.6K Jul  2 16:54]  _floats.scss
+│       │   ├── [2.8K Jul  2 09:48]  _listings.scss
+│       │   ├── [ 781 Jul  2 09:49]  _math.scss
+│       │   ├── [1.1K Jul  2 09:49]  _pagination.scss
+│       │   ├── [ 848 Jul  2 09:49]  _search.scss
+│       │   ├── [2.5K Jul  2 11:45]  _section-numbers.scss
+│       │   ├── [ 866 Jul  2 09:49]  _social.scss
+│       │   ├── [1.5K Jul  2 09:49]  _tables.scss
+│       │   └── [1.9K Jul  2 09:48]  _title-block.scss
+│       ├── [4.0K Jul  2 19:33]  05-interactions
+│       │   └── [2.2K Jul  2 09:50]  _microinteractions.scss
+│       ├── [4.0K Jul  2 19:33]  05-pages
+│       │   ├── [ 956 Jul  2 10:42]  _blog.scss
+│       │   ├── [ 946 Jul  2 10:42]  _courses.scss
+│       │   ├── [ 935 Jul  2 10:42]  _post.scss
+│       │   ├── [ 940 Jul  2 10:42]  _projects.scss
+│       │   ├── [1022 Jul  2 10:42]  _publications.scss
+│       │   ├── [3.4K Jul  2 10:42]  about.scss
+│       │   ├── [3.3K Jul  2 10:42]  contact.scss
+│       │   ├── [8.3K Jul  2 10:42]  home.scss
+│       │   └── [2.9K Jul  2 10:42]  listing.scss
+│       ├── [4.0K Jul  2 19:33]  06-themes
+│       │   └── [1.9K Jul  2 09:50]  _dark-adjustments.scss
+│       ├── [6.0K Jul  2 10:57]  README.md
+│       ├── [2.1K Jul  2 20:06]  theme-dark.scss
+│       └── [1.9K Jul  2 20:06]  theme-light.scss
+├── [4.0K Jul  2 20:16]  docs
+│   └── [ 15K Jul  2 19:39]  README.md
+├── [4.0K Jun 22 23:47]  estadistica
+│   ├── [4.0K Jun 20 11:44]  2018-05-16-estadigrafos
+│   │   ├── [ 809 Jun 20 11:44]  demo_introduccion.R
+│   │   ├── [ 34K Jun 20 11:44]  index.html.md
+│   │   ├── [ 33K Jun 20 11:44]  index.qmd
+│   │   └── [ 59K Jun 20 11:44]  index.tex
+│   ├── [4.0K Jun 20 11:44]  2018-12-26-factores-que-influyen-rendimiento-academico
+│   │   ├── [4.0K Jun 20 11:44]  data
+│   │   │   ├── [ 58K Jun 20 11:44]  data\ resultados.spv
+│   │   │   ├── [ 49K Jun 20 11:44]  data.ods
+│   │   │   └── [2.7K Jun 20 11:44]  data.sav
+│   │   ├── [ 56K Jun 20 11:44]  index.html.md
+│   │   ├── [ 56K Jun 20 11:44]  index.qmd
+│   │   └── [ 64K Jun 20 11:44]  index.tex
+│   ├── [ 497 Jun 20 11:44]  _contenido_estadistica.qmd
+│   ├── [ 16K Jul  2 14:59]  _metadata.yml
+│   └── [1.1M Jun 20 11:44]  featured.jpg
+├── [4.0K Jun 22 23:47]  estadistica-para-economistas
+│   ├── [4.0K Jun 20 11:44]  2019-12-30-rendimiento-academico-y-genero-de-ingresantes-a-unsch
+│   │   ├── [4.4K Jun 20 11:44]  index.html.md
+│   │   ├── [3.9K Jun 20 11:44]  index.qmd
+│   │   └── [ 10K Jun 20 11:44]  index.tex
+│   ├── [ 359 Jun 20 11:44]  _contenido_estadistica-para-economistas.qmd
+│   ├── [ 16K Jul  2 14:59]  _metadata.yml
+│   └── [1.1M Jun 20 11:44]  featured.jpg
+├── [2.5K Jul  2 15:08]  index.qmd
+└── [4.0K Jul  2 19:33]  scripts
+    └── [2.2K Jul  2 10:43]  build-page-css.sh
+
+83 directories, 304 files
