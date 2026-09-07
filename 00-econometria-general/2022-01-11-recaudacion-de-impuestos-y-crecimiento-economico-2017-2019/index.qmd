@@ -43,6 +43,7 @@ date: 01/11/2022
 draft: false
 bibliography: references.bib
 image: ../featured.jpg
+curso: econometria_i
 ---
 
 # Introducción {#sec-introducción .unnumbered}

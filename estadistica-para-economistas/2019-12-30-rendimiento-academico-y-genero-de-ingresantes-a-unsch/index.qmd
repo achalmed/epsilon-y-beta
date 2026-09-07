@@ -48,6 +48,7 @@ format:
       icon: file-code
       href: data-import.py
 image: ../featured.jpg
+curso: estadistica_para_economistas
 ---
 
 **Influencia del género en el rendimiento académico de los ingresantes 2010 a la Universidad Nacional de San Cristóbal de Huamanga**

@@ -38,6 +38,7 @@ citation:
 date: 05/16/2022
 draft: true
 image: ../featured.jpg
+curso: econometria_ii
 ---
 
 Este artículo está actualmente en proceso de edición, y todas las secciones serán ampliadas y refinadas en futuras revisiones.

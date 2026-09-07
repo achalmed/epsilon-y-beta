@@ -88,6 +88,7 @@ draft: false
 image: ../featured.jpg
 floatsintext: true
 mask: false
+curso: estadistica
 ---
 
 <!-- YAML Metadata: Asegúrese de que toda la información de autores esté correcta antes de renderizar -->

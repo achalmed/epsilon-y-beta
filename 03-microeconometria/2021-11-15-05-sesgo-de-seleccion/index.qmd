@@ -37,6 +37,7 @@ citation:
 date: 11/15/2021
 draft: true
 image: ../featured.jpg
+curso: microeconometria_aplicada
 ---
 
 Este artículo está actualmente en proceso de edición, y todas las secciones serán ampliadas y refinadas en futuras revisiones.

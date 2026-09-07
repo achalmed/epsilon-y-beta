@@ -39,6 +39,7 @@ citation:
 date: 05/16/2018
 draft: false
 image: ../featured.jpg
+curso: estadistica
 ---
 
 | Valores | Frecuencia | Porcentaje | Porcentaje válido | Porcentaje acumulado |
