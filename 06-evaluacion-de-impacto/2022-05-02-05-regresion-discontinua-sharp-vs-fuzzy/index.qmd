@@ -6,9 +6,7 @@ subtitle: diferencias clave
 shorttitle: REGRESIÓN DISCONTINUA SHARP VS FUZZY
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
-keywords:
-- keyword1
-- keyword2
+keywords: []
 categories:
 - Evaluacion Impacto
 tags:
@@ -35,7 +33,7 @@ citation:
   author:
   - Edison Achalma
   pdf-url: https://epsilon-y-beta.netlify.app/06-evaluacion-de-impacto/2022-05-02-05-regresion-discontinua-sharp-vs-fuzzy/index.pdf
-date: 05/02/2022
+date: 2022-05-02
 draft: true
 image: ../featured.jpg
 curso: microeconometria_aplicada

@@ -1,3 +1,8 @@
+---
+tipo: fragmento
+titulo: Series-de-Tiempo-2021
+---
+
 # Series-de-Tiempo-2021
 
 Curso de Análisis de Series de Tiempo, Otoño 2021

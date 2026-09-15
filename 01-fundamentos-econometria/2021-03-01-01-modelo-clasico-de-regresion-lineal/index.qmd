@@ -5,9 +5,7 @@ title: Modelo clásico de regresión lineal
 shorttitle: MODELO REGRESIÓN LINEAL
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
-keywords:
-- keyword1
-- keyword2
+keywords: []
 categories:
 - Fundamentos Econometria
 tags:
@@ -34,7 +32,7 @@ citation:
   author:
   - Edison Achalma
   pdf-url: https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-03-01-01-modelo-clasico-de-regresion-lineal/index.pdf
-date: 03/01/2021
+date: 2021-03-01
 draft: true
 image: ../featured.jpg
 curso: econometria_i

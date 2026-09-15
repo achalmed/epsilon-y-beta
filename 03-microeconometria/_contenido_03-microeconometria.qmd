@@ -1,3 +1,8 @@
+---
+tipo: fragmento
+titulo: índice de publicaciones de 03-microeconometria; lo genera script_generador_publicacion_similar
+---
+
 1. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/03-microeconometria/2021-10-18-01-modelos-de-eleccion-discreta-probit-y-logit/index.pdf) [01 Modelos De Eleccion Discreta Probit Y Logit](https://epsilon-y-beta.netlify.app/03-microeconometria/2021-10-18-01-modelos-de-eleccion-discreta-probit-y-logit)
 2. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/03-microeconometria/2021-10-25-02-modelos-fraccionados/index.pdf) [02 Modelos Fraccionados](https://epsilon-y-beta.netlify.app/03-microeconometria/2021-10-25-02-modelos-fraccionados)
 3. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/03-microeconometria/2021-11-01-03-modelos-multinomiales-y-ordenados/index.pdf) [03 Modelos Multinomiales Y Ordenados](https://epsilon-y-beta.netlify.app/03-microeconometria/2021-11-01-03-modelos-multinomiales-y-ordenados)

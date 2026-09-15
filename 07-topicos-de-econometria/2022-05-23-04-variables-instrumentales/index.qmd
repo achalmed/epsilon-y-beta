@@ -6,9 +6,7 @@ subtitle: teoría y práctica
 shorttitle: VARIABLES INSTRUMENTALES
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
-keywords:
-- keyword1
-- keyword2
+keywords: []
 categories:
 - Econometria
 - Tópicos de Econometría
@@ -36,7 +34,7 @@ citation:
   author:
   - Edison Achalma
   pdf-url: https://epsilon-y-beta.netlify.app/07-topicos-de-econometria/2022-05-23-04-variables-instrumentales/index.pdf
-date: 05/23/2022
+date: 2022-05-23
 draft: true
 image: ../featured.jpg
 curso: econometria_ii

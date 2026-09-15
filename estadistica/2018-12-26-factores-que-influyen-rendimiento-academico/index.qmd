@@ -83,7 +83,7 @@ citation:
   - Margoth Gómez
   - Luz Guitierrez
   pdf-url: https://epsilon-y-beta.netlify.app/estadistica/2018-12-26-factores-que-influyen-rendimiento-academico/index.pdf
-date: 12/26/2018
+date: 2018-12-26
 draft: false
 image: ../featured.jpg
 floatsintext: true

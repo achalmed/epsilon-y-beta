@@ -4,9 +4,7 @@ copyrightext: All rights reserved
 title: Recaudación tributaria y crecimiento 2017-2019
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
-keywords:
-- keyword1
-- keyword2
+keywords: []
 categories:
 - Econometria
 tags:
@@ -39,7 +37,7 @@ citation:
   - Hans Castro
   - Luz Cuba
   pdf-url: https://epsilon-y-beta.netlify.app/00-econometria-general/2022-01-11-recaudacion-de-impuestos-y-crecimiento-economico-2017-2019/index.pdf
-date: 01/11/2022
+date: 2022-01-11
 draft: false
 bibliography: references.bib
 image: ../featured.jpg

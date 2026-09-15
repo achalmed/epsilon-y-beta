@@ -5,9 +5,7 @@ title: Métodos experimentales en economía
 shorttitle: MÉTODOS EXPERIMENTALES
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
-keywords:
-- keyword1
-- keyword2
+keywords: []
 categories:
 - Econometria
 - Tópicos de Econometría
@@ -35,7 +33,7 @@ citation:
   author:
   - Edison Achalma
   pdf-url: https://epsilon-y-beta.netlify.app/07-topicos-de-econometria/2022-05-09-02-metodos-experimentales-en-economia/index.pdf
-date: 05/09/2022
+date: 2022-05-09
 draft: true
 image: ../featured.jpg
 curso: econometria_ii

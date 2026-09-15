@@ -4,9 +4,7 @@ copyrightext: All rights reserved
 title: Rendimiento académico y género en UNSCH
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
-keywords:
-- keyword1
-- keyword2
+keywords: []
 categories:
 - Estadistica Para Economistas
 tags:
@@ -36,7 +34,7 @@ citation:
   - Luis De La Cruz
   - David Pérez
   pdf-url: https://epsilon-y-beta.netlify.app/estadistica-para-economistas/2019-12-30-rendimiento-academico-y-genero-de-ingresantes-a-unsch/index.pdf
-date: 12/30/2019
+date: 2019-12-30
 draft: false
 format:
   html:

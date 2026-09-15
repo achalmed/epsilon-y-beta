@@ -5,9 +5,7 @@ title: Diseño robusto de regresión discontinua
 shorttitle: REGRESIÓN DISCONTINUA
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
-keywords:
-- keyword1
-- keyword2
+keywords: []
 categories:
 - Econometria
 - Tópicos de Econometría
@@ -35,7 +33,7 @@ citation:
   author:
   - Edison Achalma
   pdf-url: https://epsilon-y-beta.netlify.app/07-topicos-de-econometria/2022-05-30-05-diseño-de-regresion-discontinua-rdd/index.pdf
-date: 05/30/2022
+date: 2022-05-30
 draft: true
 image: ../featured.jpg
 curso: econometria_ii

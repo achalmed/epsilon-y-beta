@@ -1,1 +1,6 @@
+---
+tipo: fragmento
+titulo: índice de publicaciones de 00-econometria-general; lo genera script_generador_publicacion_similar
+---
+
 1. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/00-econometria-general/2022-01-11-recaudacion-de-impuestos-y-crecimiento-economico-2017-2019/index.pdf) [Recaudacion De Impuestos Y Crecimiento Economico 2017 2019](https://epsilon-y-beta.netlify.app/00-econometria-general/2022-01-11-recaudacion-de-impuestos-y-crecimiento-economico-2017-2019)

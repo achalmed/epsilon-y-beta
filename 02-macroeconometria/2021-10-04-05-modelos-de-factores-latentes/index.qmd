@@ -5,9 +5,7 @@ title: Modelos de factores latentes dinámicos
 shorttitle: FACTORES LATENTES
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
-keywords:
-- keyword1
-- keyword2
+keywords: []
 categories:
 - Macroeconometria
 tags:
@@ -34,7 +32,7 @@ citation:
   author:
   - Edison Achalma
   pdf-url: https://epsilon-y-beta.netlify.app/02-macroeconometria/2021-10-04-05-modelos-de-factores-latentes/index.pdf
-date: 10/04/2021
+date: 2021-10-04
 draft: true
 image: ../featured.jpg
 curso: econometria_ii

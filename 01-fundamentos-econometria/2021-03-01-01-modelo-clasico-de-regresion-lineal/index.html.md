@@ -5,9 +5,7 @@ title: Modelo clásico de regresión lineal
 shorttitle: MODELO REGRESIÓN LINEAL
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
-keywords:
-- keyword1
-- keyword2
+keywords: []
 categories:
 - Fundamentos Econometria
 tags:
@@ -34,17 +32,28 @@ citation:
   author:
   - Edison Achalma
   pdf-url: https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-03-01-01-modelo-clasico-de-regresion-lineal/index.pdf
-date: 03/01/2021
+date: 2021-03-01
 draft: true
 image: ../featured.jpg
+curso: econometria_i
 ---
 
 Este artículo está actualmente en proceso de edición, y todas las secciones serán ampliadas y refinadas en futuras revisiones.
+
+---
+tipo: fragmento
+titulo: texto de apertura del bloque «Publicaciones similares» (incluido en cada post)
+---
 
 # Publicaciones Similares
 
 Si te interesó este artículo, te recomendamos que explores otros blogs y recursos relacionados que pueden ampliar tus conocimientos. Aquí te dejo algunas sugerencias:
 
+
+---
+tipo: fragmento
+titulo: índice de publicaciones de 01-fundamentos-econometria; lo genera script_generador_publicacion_similar
+---
 
 1. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-03-01-01-modelo-clasico-de-regresion-lineal/index.pdf) [01 Modelo Clasico De Regresion Lineal](https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-03-01-01-modelo-clasico-de-regresion-lineal)
 2. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-03-08-02-el-estimador-de-minimos-cuadrados-ordinarios-mco/index.pdf) [02 El Estimador De Minimos Cuadrados Ordinarios Mco](https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-03-08-02-el-estimador-de-minimos-cuadrados-ordinarios-mco)
@@ -59,6 +68,11 @@ Si te interesó este artículo, te recomendamos que explores otros blogs y recur
 11. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-05-17-11-problemas-de-endogeneidad/index.pdf) [11 Problemas De Endogeneidad](https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-05-17-11-problemas-de-endogeneidad)
 12. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-05-24-12-perturbaciones-no-esfericas/index.pdf) [12 Perturbaciones No Esfericas](https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-05-24-12-perturbaciones-no-esfericas)
 
+
+---
+tipo: fragmento
+titulo: texto de cierre del bloque «Publicaciones similares» (incluido en cada post)
+---
 
 Esperamos que encuentres estas publicaciones igualmente interesantes y útiles. ¡Disfruta de la lectura!
 

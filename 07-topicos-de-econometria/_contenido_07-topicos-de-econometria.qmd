@@ -1,3 +1,8 @@
+---
+tipo: fragmento
+titulo: índice de publicaciones de 07-topicos-de-econometria; lo genera script_generador_publicacion_similar
+---
+
 1. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/07-topicos-de-econometria/2022-05-02-01-introduccion-a-la-econometria/index.pdf) [01 Introduccion A La Econometria](https://epsilon-y-beta.netlify.app/07-topicos-de-econometria/2022-05-02-01-introduccion-a-la-econometria)
 2. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/07-topicos-de-econometria/2022-05-09-02-metodos-experimentales-en-economia/index.pdf) [02 Metodos Experimentales En Economia](https://epsilon-y-beta.netlify.app/07-topicos-de-econometria/2022-05-09-02-metodos-experimentales-en-economia)
 3. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/07-topicos-de-econometria/2022-05-16-03-la-herramienta-fundamental-regresiones/index.pdf) [03 La Herramienta Fundamental Regresiones](https://epsilon-y-beta.netlify.app/07-topicos-de-econometria/2022-05-16-03-la-herramienta-fundamental-regresiones)

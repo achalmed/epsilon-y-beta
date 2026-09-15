@@ -5,9 +5,7 @@ title: Modelos probit y logit de elección discreta
 shorttitle: ELECCIÓN DISCRETA
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
-keywords:
-- keyword1
-- keyword2
+keywords: []
 categories:
 - Microeconometria
 tags:
@@ -34,7 +32,7 @@ citation:
   author:
   - Edison Achalma
   pdf-url: https://epsilon-y-beta.netlify.app/03-microeconometria/2021-10-18-01-modelos-de-eleccion-discreta-probit-y-logit/index.pdf
-date: 10/18/2021
+date: 2021-10-18
 draft: true
 image: ../featured.jpg
 curso: microeconometria_aplicada

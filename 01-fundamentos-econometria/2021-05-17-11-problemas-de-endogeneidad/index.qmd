@@ -6,9 +6,7 @@ subtitle: causas y consecuencias
 shorttitle: ENDOGENEIDAD EN REGRESIÓN
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
-keywords:
-- keyword1
-- keyword2
+keywords: []
 categories:
 - Fundamentos Econometria
 tags:
@@ -35,7 +33,7 @@ citation:
   author:
   - Edison Achalma
   pdf-url: https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-05-17-11-problemas-de-endogeneidad/index.pdf
-date: 05/17/2021
+date: 2021-05-17
 draft: true
 image: ../featured.jpg
 curso: econometria_i

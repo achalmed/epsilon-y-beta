@@ -5,9 +5,7 @@ title: Modelos dinámicos de datos de panel
 shorttitle: PANEL DATA DINÁMICO
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
-keywords:
-- keyword1
-- keyword2
+keywords: []
 categories:
 - Microeconometria
 tags:
@@ -34,7 +32,7 @@ citation:
   author:
   - Edison Achalma
   pdf-url: https://epsilon-y-beta.netlify.app/03-microeconometria/2021-12-06-08-panel-data-dinamico/index.pdf
-date: 12/06/2021
+date: 2021-12-06
 draft: true
 image: ../featured.jpg
 curso: microeconometria_aplicada

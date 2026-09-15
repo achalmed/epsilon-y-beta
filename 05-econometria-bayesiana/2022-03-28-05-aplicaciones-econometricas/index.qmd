@@ -5,9 +5,7 @@ title: Aplicaciones bayesianas en econometría
 shorttitle: APLICACIONES BAYESIANAS EN ECONOMETRÍA
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
-keywords:
-- keyword1
-- keyword2
+keywords: []
 categories:
 - Econometria Bayesiana
 tags:
@@ -34,7 +32,7 @@ citation:
   author:
   - Edison Achalma
   pdf-url: https://epsilon-y-beta.netlify.app/05-econometria-bayesiana/2022-03-28-05-aplicaciones-econometricas/index.pdf
-date: 03/28/2022
+date: 2022-03-28
 draft: true
 image: ../featured.jpg
 curso: econometria_ii

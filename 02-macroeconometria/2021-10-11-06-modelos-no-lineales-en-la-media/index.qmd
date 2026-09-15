@@ -5,9 +5,7 @@ title: Modelos no lineales en la media condicional
 shorttitle: MODELOS NO LINEALES
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
-keywords:
-- keyword1
-- keyword2
+keywords: []
 categories:
 - Macroeconometria
 tags:
@@ -34,7 +32,7 @@ citation:
   author:
   - Edison Achalma
   pdf-url: https://epsilon-y-beta.netlify.app/02-macroeconometria/2021-10-11-06-modelos-no-lineales-en-la-media/index.pdf
-date: 10/11/2021
+date: 2021-10-11
 draft: true
 image: ../featured.jpg
 curso: econometria_ii

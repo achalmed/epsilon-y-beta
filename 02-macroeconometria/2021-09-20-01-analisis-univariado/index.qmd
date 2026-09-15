@@ -5,9 +5,7 @@ title: Análisis univariado de series temporales
 shorttitle: ANÁLISIS UNIVARIADO
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
-keywords:
-- keyword1
-- keyword2
+keywords: []
 categories:
 - Macroeconometria
 tags:
@@ -34,7 +32,7 @@ citation:
   author:
   - Edison Achalma
   pdf-url: https://epsilon-y-beta.netlify.app/02-macroeconometria/2021-09-20-01-analisis-univariado/index.pdf
-date: 09/20/2021
+date: 2021-09-20
 draft: true
 image: ../featured.jpg
 curso: econometria_ii

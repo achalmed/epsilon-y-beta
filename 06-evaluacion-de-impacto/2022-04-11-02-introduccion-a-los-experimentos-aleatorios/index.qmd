@@ -5,9 +5,7 @@ title: Experimentos aleatorios controlados
 shorttitle: EXPERIMENTOS ALEATORIOS
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
-keywords:
-- keyword1
-- keyword2
+keywords: []
 categories:
 - Evaluacion Impacto
 tags:
@@ -34,7 +32,7 @@ citation:
   author:
   - Edison Achalma
   pdf-url: https://epsilon-y-beta.netlify.app/06-evaluacion-de-impacto/2022-04-11-02-introduccion-a-los-experimentos-aleatorios/index.pdf
-date: 04/11/2022
+date: 2022-04-11
 draft: true
 image: ../featured.jpg
 curso: microeconometria_aplicada

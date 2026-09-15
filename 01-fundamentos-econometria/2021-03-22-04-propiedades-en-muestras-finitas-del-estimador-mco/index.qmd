@@ -5,9 +5,7 @@ title: Propiedades en muestras finitas de MCO
 shorttitle: PROPIEDADES MCO FINITAS
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
-keywords:
-- keyword1
-- keyword2
+keywords: []
 categories:
 - Fundamentos Econometria
 tags:
@@ -34,7 +32,7 @@ citation:
   author:
   - Edison Achalma
   pdf-url: https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-03-22-04-propiedades-en-muestras-finitas-del-estimador-mco/index.pdf
-date: 03/22/2021
+date: 2021-03-22
 draft: true
 image: ../featured.jpg
 curso: econometria_i

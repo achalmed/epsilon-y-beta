@@ -1,3 +1,8 @@
+---
+tipo: fragmento
+titulo: índice de publicaciones de 05-econometria-bayesiana; lo genera script_generador_publicacion_similar
+---
+
 1. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/05-econometria-bayesiana/2022-03-07-01-introduccion-a-la-econometria-bayesiana/index.pdf) [01 Introduccion A La Econometria Bayesiana](https://epsilon-y-beta.netlify.app/05-econometria-bayesiana/2022-03-07-01-introduccion-a-la-econometria-bayesiana)
 2. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/05-econometria-bayesiana/2022-03-14-02-modelo-de-regresion-lineal/index.pdf) [02 Modelo De Regresion Lineal](https://epsilon-y-beta.netlify.app/05-econometria-bayesiana/2022-03-14-02-modelo-de-regresion-lineal)
 3. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/05-econometria-bayesiana/2022-03-18-03-familia-de-distribuciones-prior/index.pdf) [03 Familia De Distribuciones Prior](https://epsilon-y-beta.netlify.app/05-econometria-bayesiana/2022-03-18-03-familia-de-distribuciones-prior)

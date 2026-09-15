@@ -5,9 +5,7 @@ title: Modelo general con heterocedasticidad
 shorttitle: REGRESIÓN HETEROCEDÁSTICA
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
-keywords:
-- keyword1
-- keyword2
+keywords: []
 categories:
 - Fundamentos Econometria
 tags:
@@ -34,7 +32,7 @@ citation:
   author:
   - Edison Achalma
   pdf-url: https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-05-10-10-el-modelo-general-de-regresion-lineal-permitiendo-heterocedasticidad-en-los-errores/index.pdf
-date: 05/10/2021
+date: 2021-05-10
 draft: true
 image: ../featured.jpg
 curso: econometria_i

@@ -5,9 +5,7 @@ title: Modelos de datos de panel estáticos
 shorttitle: PANEL DATA ESTÁTICO
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
-keywords:
-- keyword1
-- keyword2
+keywords: []
 categories:
 - Microeconometria
 tags:
@@ -34,7 +32,7 @@ citation:
   author:
   - Edison Achalma
   pdf-url: https://epsilon-y-beta.netlify.app/03-microeconometria/2021-11-29-07-panel-data-estatico/index.pdf
-date: 11/29/2021
+date: 2021-11-29
 draft: true
 image: ../featured.jpg
 curso: microeconometria_aplicada

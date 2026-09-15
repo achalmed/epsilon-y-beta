@@ -5,9 +5,7 @@ title: Consistencia y propiedades asintóticas MCO
 shorttitle: PROPIEDADES MCO INFINITAS
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
-keywords:
-- keyword1
-- keyword2
+keywords: []
 categories:
 - Fundamentos Econometria
 tags:
@@ -35,7 +33,7 @@ citation:
   author:
   - Edison Achalma
   pdf-url: https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2021-03-29-05-propiedades-en-muestras-infinitas-del-estimador-mco/index.pdf
-date: 03/29/2021
+date: 2021-03-29
 draft: true
 image: ../featured.jpg
 curso: econometria_i

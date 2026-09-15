@@ -4,9 +4,7 @@ copyrightext: All rights reserved
 title: Estadígrafos descriptivos fundamentales
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
-keywords:
-- keyword1
-- keyword2
+keywords: []
 categories:
 - Estadistica
 tags:
@@ -36,7 +34,7 @@ citation:
   - Annie Lope
   - Yuditza Mendivil
   pdf-url: https://epsilon-y-beta.netlify.app/estadistica/2018-05-16-estadigrafos/index.pdf
-date: 05/16/2018
+date: 2018-05-16
 draft: false
 image: ../featured.jpg
 curso: estadistica

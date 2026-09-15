@@ -1,1 +1,6 @@
+---
+tipo: fragmento
+titulo: índice de publicaciones de estadistica-para-economistas; lo genera script_generador_publicacion_similar
+---
+
 1. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/estadistica-para-economistas/2019-12-30-rendimiento-academico-y-genero-de-ingresantes-a-unsch/index.pdf) [Rendimiento Academico Y Genero De Ingresantes A Unsch](https://epsilon-y-beta.netlify.app/estadistica-para-economistas/2019-12-30-rendimiento-academico-y-genero-de-ingresantes-a-unsch)

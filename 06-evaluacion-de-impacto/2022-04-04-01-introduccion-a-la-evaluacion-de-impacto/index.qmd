@@ -5,9 +5,7 @@ title: Introducción evaluación de impacto causal
 shorttitle: EVALUACIÓN DE IMPACTO
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
-keywords:
-- keyword1
-- keyword2
+keywords: []
 categories:
 - Evaluacion Impacto
 tags:
@@ -34,7 +32,7 @@ citation:
   author:
   - Edison Achalma
   pdf-url: https://epsilon-y-beta.netlify.app/06-evaluacion-de-impacto/2022-04-04-01-introduccion-a-la-evaluacion-de-impacto/index.pdf
-date: 04/04/2022
+date: 2022-04-04
 draft: true
 image: ../featured.jpg
 curso: microeconometria_aplicada
