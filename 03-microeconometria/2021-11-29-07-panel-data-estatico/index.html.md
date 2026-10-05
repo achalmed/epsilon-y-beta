@@ -5,9 +5,7 @@ title: Modelos de datos de panel estáticos
 shorttitle: PANEL DATA ESTÁTICO
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
-keywords:
-- keyword1
-- keyword2
+keywords: []
 categories:
 - Microeconometria
 tags:
@@ -34,17 +32,28 @@ citation:
   author:
   - Edison Achalma
   pdf-url: https://epsilon-y-beta.netlify.app/03-microeconometria/2021-11-29-07-panel-data-estatico/index.pdf
-date: 11/29/2021
+date: 2021-11-29
 draft: true
 image: ../featured.jpg
+curso: microeconometria_aplicada
 ---
 
 Este artículo está actualmente en proceso de edición, y todas las secciones serán ampliadas y refinadas en futuras revisiones.
+
+---
+tipo: fragmento
+titulo: texto de apertura del bloque «Publicaciones similares» (incluido en cada post)
+---
 
 # Publicaciones Similares
 
 Si te interesó este artículo, te recomendamos que explores otros blogs y recursos relacionados que pueden ampliar tus conocimientos. Aquí te dejo algunas sugerencias:
 
+
+---
+tipo: fragmento
+titulo: índice de publicaciones de 03-microeconometria; lo genera script_generador_publicacion_similar
+---
 
 1. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/03-microeconometria/2021-10-18-01-modelos-de-eleccion-discreta-probit-y-logit/index.pdf) [01 Modelos De Eleccion Discreta Probit Y Logit](https://epsilon-y-beta.netlify.app/03-microeconometria/2021-10-18-01-modelos-de-eleccion-discreta-probit-y-logit)
 2. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/03-microeconometria/2021-10-25-02-modelos-fraccionados/index.pdf) [02 Modelos Fraccionados](https://epsilon-y-beta.netlify.app/03-microeconometria/2021-10-25-02-modelos-fraccionados)
@@ -55,6 +64,11 @@ Si te interesó este artículo, te recomendamos que explores otros blogs y recur
 7. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/03-microeconometria/2021-11-29-07-panel-data-estatico/index.pdf) [07 Panel Data Estatico](https://epsilon-y-beta.netlify.app/03-microeconometria/2021-11-29-07-panel-data-estatico)
 8. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/03-microeconometria/2021-12-06-08-panel-data-dinamico/index.pdf) [08 Panel Data Dinamico](https://epsilon-y-beta.netlify.app/03-microeconometria/2021-12-06-08-panel-data-dinamico)
 
+
+---
+tipo: fragmento
+titulo: texto de cierre del bloque «Publicaciones similares» (incluido en cada post)
+---
 
 Esperamos que encuentres estas publicaciones igualmente interesantes y útiles. ¡Disfruta de la lectura!
 

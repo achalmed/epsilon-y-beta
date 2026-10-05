@@ -83,11 +83,12 @@ citation:
   - Margoth Gómez
   - Luz Guitierrez
   pdf-url: https://epsilon-y-beta.netlify.app/estadistica/2018-12-26-factores-que-influyen-rendimiento-academico/index.pdf
-date: 12/26/2018
+date: 2018-12-26
 draft: false
 image: ../featured.jpg
 floatsintext: true
 mask: false
+curso: estadistica
 ---
 
 <!-- YAML Metadata: Asegúrese de que toda la información de autores esté correcta antes de renderizar -->
@@ -489,14 +490,29 @@ Con base en los hallazgos de esta investigación, se concluye que:
 6. El índice académico es independiente del sexo del estudiante (p = .426). Mujeres y varones presentan rendimientos equivalentes sin diferencias significativas en proporciones de aprobados/desaprobados. Este hallazgo sugiere equidad de género en el desempeño académico en la Escuela de Economía, reflejando acceso equitativo a oportunidades educativas y ausencia de sesgos de género en la evaluación académica.
 
 
+---
+tipo: fragmento
+titulo: texto de apertura del bloque «Publicaciones similares» (incluido en cada post)
+---
+
 # Publicaciones Similares
 
 Si te interesó este artículo, te recomendamos que explores otros blogs y recursos relacionados que pueden ampliar tus conocimientos. Aquí te dejo algunas sugerencias:
 
 
+---
+tipo: fragmento
+titulo: índice de publicaciones de estadistica; lo genera script_generador_publicacion_similar
+---
+
 1. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/estadistica/2018-05-16-estadigrafos/index.pdf) [Estadigrafos](https://epsilon-y-beta.netlify.app/estadistica/2018-05-16-estadigrafos)
 2. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/estadistica/2018-12-26-factores-que-influyen-rendimiento-academico/index.pdf) [Factores Que Influyen Rendimiento Academico](https://epsilon-y-beta.netlify.app/estadistica/2018-12-26-factores-que-influyen-rendimiento-academico)
 
+
+---
+tipo: fragmento
+titulo: texto de cierre del bloque «Publicaciones similares» (incluido en cada post)
+---
 
 Esperamos que encuentres estas publicaciones igualmente interesantes y útiles. ¡Disfruta de la lectura!
 

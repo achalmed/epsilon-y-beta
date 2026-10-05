@@ -5,9 +5,7 @@ title: Modelando volatilidad en series financieras
 shorttitle: VOLATILIDAD EN SERIES DE TIEMPO
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
-keywords:
-- keyword1
-- keyword2
+keywords: []
 categories:
 - Econometria Financiera
 tags:
@@ -34,20 +32,36 @@ citation:
   author:
   - Edison Achalma
   pdf-url: https://epsilon-y-beta.netlify.app/04-econometria-financiera/2022-02-28-01-volatilidad-en-las-series-de-tiempo/index.pdf
-date: 02/28/2022
+date: 2022-02-28
 draft: true
 image: ../featured.jpg
+curso: econometria_ii
 ---
 
 Este artículo está actualmente en proceso de edición, y todas las secciones serán ampliadas y refinadas en futuras revisiones.
+
+---
+tipo: fragmento
+titulo: texto de apertura del bloque «Publicaciones similares» (incluido en cada post)
+---
 
 # Publicaciones Similares
 
 Si te interesó este artículo, te recomendamos que explores otros blogs y recursos relacionados que pueden ampliar tus conocimientos. Aquí te dejo algunas sugerencias:
 
 
+---
+tipo: fragmento
+titulo: índice de publicaciones de 04-econometria-financiera; lo genera script_generador_publicacion_similar
+---
+
 1. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/04-econometria-financiera/2022-02-28-01-volatilidad-en-las-series-de-tiempo/index.pdf) [01 Volatilidad En Las Series De Tiempo](https://epsilon-y-beta.netlify.app/04-econometria-financiera/2022-02-28-01-volatilidad-en-las-series-de-tiempo)
 
+
+---
+tipo: fragmento
+titulo: texto de cierre del bloque «Publicaciones similares» (incluido en cada post)
+---
 
 Esperamos que encuentres estas publicaciones igualmente interesantes y útiles. ¡Disfruta de la lectura!
 

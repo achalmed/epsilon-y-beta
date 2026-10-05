@@ -1,8 +1,8 @@
 ---
 copyrightnotice: 2022
 copyrightext: All rights reserved
-title: Métodos de emparejamiento (propensity score)
-shorttitle: MODELO DE EMPAREJAMIENTO
+title: Experimentos aleatorios controlados
+shorttitle: EXPERIMENTOS ALEATORIOS
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
 keywords: []
@@ -11,7 +11,7 @@ categories:
 tags:
 - econometrics
 - evaluacion_impacto
-- propensity_score
+- experimentos_aleatorios
 author-note:
   status-changes:
     affiliation-change: null
@@ -24,15 +24,15 @@ author-note:
     financial-support: null
     gratitude: null
     authorship-agreements: null
-description: Técnicas de matching basadas en propensity score para estimar efectos
-  causales en datos observacionales no experimentales.
+description: Diseño, implementación y análisis de randomized controlled trials (RCT)
+  como estándar de oro en evaluación de impacto causal.
 eval: false
 citation:
   type: article-journal
   author:
   - Edison Achalma
-  pdf-url: https://epsilon-y-beta.netlify.app/06-evaluacion-de-impacto/2022-04-18-03-modelo-de-emparejamiento/index.pdf
-date: 2022-04-18
+  pdf-url: https://epsilon-y-beta.netlify.app/06-evaluacion-de-impacto/2022-04-11-02-introduccion-a-los-experimentos-aleatorios/index.pdf
+date: 2022-04-11
 draft: true
 image: ../featured.jpg
 curso: microeconometria_aplicada
