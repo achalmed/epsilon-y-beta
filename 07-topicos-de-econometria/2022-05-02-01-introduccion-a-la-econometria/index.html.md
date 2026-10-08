@@ -41,20 +41,14 @@ curso: econometria_ii
 
 Este artículo está actualmente en proceso de edición, y todas las secciones serán ampliadas y refinadas en futuras revisiones.
 
----
-tipo: fragmento
-titulo: texto de apertura del bloque «Publicaciones similares» (incluido en cada post)
----
+<!-- fragmento de inclusión — texto de apertura del bloque «Publicaciones similares» (incluido en cada post) -->
 
 # Publicaciones Similares
 
 Si te interesó este artículo, te recomendamos que explores otros blogs y recursos relacionados que pueden ampliar tus conocimientos. Aquí te dejo algunas sugerencias:
 
 
----
-tipo: fragmento
-titulo: índice de publicaciones de 07-topicos-de-econometria; lo genera script_generador_publicacion_similar
----
+<!-- fragmento de inclusión — índice de publicaciones de 07-topicos-de-econometria; lo genera script_generador_publicacion_similar -->
 
 1. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/07-topicos-de-econometria/2022-05-02-01-introduccion-a-la-econometria/index.pdf) [01 Introduccion A La Econometria](https://epsilon-y-beta.netlify.app/07-topicos-de-econometria/2022-05-02-01-introduccion-a-la-econometria)
 2. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/07-topicos-de-econometria/2022-05-09-02-metodos-experimentales-en-economia/index.pdf) [02 Metodos Experimentales En Economia](https://epsilon-y-beta.netlify.app/07-topicos-de-econometria/2022-05-09-02-metodos-experimentales-en-economia)
@@ -66,10 +60,7 @@ titulo: índice de publicaciones de 07-topicos-de-econometria; lo genera script_
 8. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/07-topicos-de-econometria/2022-06-20-08-miscelanea/index.pdf) [08 Miscelanea](https://epsilon-y-beta.netlify.app/07-topicos-de-econometria/2022-06-20-08-miscelanea)
 
 
----
-tipo: fragmento
-titulo: texto de cierre del bloque «Publicaciones similares» (incluido en cada post)
----
+<!-- fragmento de inclusión — texto de cierre del bloque «Publicaciones similares» (incluido en cada post) -->
 
 Esperamos que encuentres estas publicaciones igualmente interesantes y útiles. ¡Disfruta de la lectura!
 

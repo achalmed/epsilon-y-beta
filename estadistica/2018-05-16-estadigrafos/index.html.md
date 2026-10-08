@@ -446,29 +446,20 @@ Interpretación:
 
 : Número de hijos de los alumnos de Estadística de la serie 200 de Economía durante el período 2018-I. {#tbl-26}
 
----
-tipo: fragmento
-titulo: texto de apertura del bloque «Publicaciones similares» (incluido en cada post)
----
+<!-- fragmento de inclusión — texto de apertura del bloque «Publicaciones similares» (incluido en cada post) -->
 
 # Publicaciones Similares
 
 Si te interesó este artículo, te recomendamos que explores otros blogs y recursos relacionados que pueden ampliar tus conocimientos. Aquí te dejo algunas sugerencias:
 
 
----
-tipo: fragmento
-titulo: índice de publicaciones de estadistica; lo genera script_generador_publicacion_similar
----
+<!-- fragmento de inclusión — índice de publicaciones de estadistica; lo genera script_generador_publicacion_similar -->
 
 1. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/estadistica/2018-05-16-estadigrafos/index.pdf) [Estadigrafos](https://epsilon-y-beta.netlify.app/estadistica/2018-05-16-estadigrafos)
 2. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/estadistica/2018-12-26-factores-que-influyen-rendimiento-academico/index.pdf) [Factores Que Influyen Rendimiento Academico](https://epsilon-y-beta.netlify.app/estadistica/2018-12-26-factores-que-influyen-rendimiento-academico)
 
 
----
-tipo: fragmento
-titulo: texto de cierre del bloque «Publicaciones similares» (incluido en cada post)
----
+<!-- fragmento de inclusión — texto de cierre del bloque «Publicaciones similares» (incluido en cada post) -->
 
 Esperamos que encuentres estas publicaciones igualmente interesantes y útiles. ¡Disfruta de la lectura!
 

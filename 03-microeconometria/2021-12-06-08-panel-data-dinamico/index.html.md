@@ -40,20 +40,14 @@ curso: microeconometria_aplicada
 
 Este artículo está actualmente en proceso de edición, y todas las secciones serán ampliadas y refinadas en futuras revisiones.
 
----
-tipo: fragmento
-titulo: texto de apertura del bloque «Publicaciones similares» (incluido en cada post)
----
+<!-- fragmento de inclusión — texto de apertura del bloque «Publicaciones similares» (incluido en cada post) -->
 
 # Publicaciones Similares
 
 Si te interesó este artículo, te recomendamos que explores otros blogs y recursos relacionados que pueden ampliar tus conocimientos. Aquí te dejo algunas sugerencias:
 
 
----
-tipo: fragmento
-titulo: índice de publicaciones de 03-microeconometria; lo genera script_generador_publicacion_similar
----
+<!-- fragmento de inclusión — índice de publicaciones de 03-microeconometria; lo genera script_generador_publicacion_similar -->
 
 1. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/03-microeconometria/2021-10-18-01-modelos-de-eleccion-discreta-probit-y-logit/index.pdf) [01 Modelos De Eleccion Discreta Probit Y Logit](https://epsilon-y-beta.netlify.app/03-microeconometria/2021-10-18-01-modelos-de-eleccion-discreta-probit-y-logit)
 2. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/03-microeconometria/2021-10-25-02-modelos-fraccionados/index.pdf) [02 Modelos Fraccionados](https://epsilon-y-beta.netlify.app/03-microeconometria/2021-10-25-02-modelos-fraccionados)
@@ -65,10 +59,7 @@ titulo: índice de publicaciones de 03-microeconometria; lo genera script_genera
 8. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/03-microeconometria/2021-12-06-08-panel-data-dinamico/index.pdf) [08 Panel Data Dinamico](https://epsilon-y-beta.netlify.app/03-microeconometria/2021-12-06-08-panel-data-dinamico)
 
 
----
-tipo: fragmento
-titulo: texto de cierre del bloque «Publicaciones similares» (incluido en cada post)
----
+<!-- fragmento de inclusión — texto de cierre del bloque «Publicaciones similares» (incluido en cada post) -->
 
 Esperamos que encuentres estas publicaciones igualmente interesantes y útiles. ¡Disfruta de la lectura!
 

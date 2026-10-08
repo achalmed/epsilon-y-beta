@@ -1267,13 +1267,16 @@ Tello, Antonio Favila, y Enrique Armas Arévalos. 2018. <span>«Determinantes de
 Velepucha, Stalin Alexander Espinoza, María José Ramírez Gutiérrez, Patricia Alexandra Uriguen Aguirre, y Jorge Guido Sotomayor Pereira. 2021. <span>«Ecuador: Recaudación de tributos comparado con principales indicadores macroeconómicos, 2010-2019»</span>. <em>Revista Mapa</em> 5 (22).
 </div>
 </div>
+<!-- fragmento de inclusión — texto de apertura del bloque «Publicaciones similares» (incluido en cada post) -->
 </section>
 <section id="publicaciones-similares" class="level1" data-number="12">
 <h1 data-number="12"><span class="header-section-number">12</span> Publicaciones Similares</h1>
 <p>Si te interesó este artículo, te recomendamos que explores otros blogs y recursos relacionados que pueden ampliar tus conocimientos. Aquí te dejo algunas sugerencias:</p>
+<!-- fragmento de inclusión — índice de publicaciones de 00-econometria-general; lo genera script_generador_publicacion_similar -->
 <ol type="1">
 <li><a href="https://epsilon-y-beta.netlify.app/00-econometria-general/2022-01-11-recaudacion-de-impuestos-y-crecimiento-economico-2017-2019/index.pdf"><i class="fa-regular fa-file-pdf" aria-label="file-pdf"></i></a> <a href="https://epsilon-y-beta.netlify.app/00-econometria-general/2022-01-11-recaudacion-de-impuestos-y-crecimiento-economico-2017-2019">Recaudacion De Impuestos Y Crecimiento Economico 2017 2019</a></li>
 </ol>
+<!-- fragmento de inclusión — texto de cierre del bloque «Publicaciones similares» (incluido en cada post) -->
 <p>Esperamos que encuentres estas publicaciones igualmente interesantes y útiles. ¡Disfruta de la lectura!</p>
 
 
@@ -1350,12 +1353,15 @@ January 11. <a href="https://epsilon-y-beta.netlify.app/00-econometria-general/2
 <p><strong>Conclusiones:</strong> Uno de los hallazgos destacables es que el rendimiento estimado para las mujeres es consistentemente superior al de los hombres. De la promoción del año 2010, se encontraron 502 alumnos, de los cuales el 59% (296) son varones y el 41% (206) son mujeres.</p>
 <p>Dado que los datos disponibles presentan limitaciones, en este estudio se investigará únicamente la variable exógena del género, la cual tiene un gran impacto en el rendimiento académico.</p>
 <p><strong>Agradecimientos:</strong> Queremos expresar nuestro más sincero agradecimiento al Centro de Información y Sistemas de la Universidad Nacional de San Cristóbal de Huamanga por proporcionarnos los datos necesarios para llevar a cabo este trabajo.</p>
+<!-- fragmento de inclusión — texto de apertura del bloque «Publicaciones similares» (incluido en cada post) -->
 <section id="publicaciones-similares" class="level1" data-number="1">
 <h1 data-number="1"><span class="header-section-number">1</span> Publicaciones Similares</h1>
 <p>Si te interesó este artículo, te recomendamos que explores otros blogs y recursos relacionados que pueden ampliar tus conocimientos. Aquí te dejo algunas sugerencias:</p>
+<!-- fragmento de inclusión — índice de publicaciones de estadistica-para-economistas; lo genera script_generador_publicacion_similar -->
 <ol type="1">
 <li><a href="https://epsilon-y-beta.netlify.app/estadistica-para-economistas/2019-12-30-rendimiento-academico-y-genero-de-ingresantes-a-unsch/index.pdf"><i class="fa-regular fa-file-pdf" aria-label="file-pdf"></i></a> <a href="https://epsilon-y-beta.netlify.app/estadistica-para-economistas/2019-12-30-rendimiento-academico-y-genero-de-ingresantes-a-unsch">Rendimiento Academico Y Genero De Ingresantes A Unsch</a></li>
 </ol>
+<!-- fragmento de inclusión — texto de cierre del bloque «Publicaciones similares» (incluido en cada post) -->
 <p>Esperamos que encuentres estas publicaciones igualmente interesantes y útiles. ¡Disfruta de la lectura!</p>
 
 
@@ -1927,9 +1933,11 @@ Tabla&nbsp;9: Tabla Cruzada Índice Académico y Sexo
 <li><p>Existe dependencia estadísticamente significativa entre el índice académico y la serie académica (p = .031). Estudiantes de serie 200 presentan mayor proporción de índices aprobatorios (92.9%) comparados con serie 100 (50%). Esta diferencia puede explicarse por madurez académica acumulada (desarrollo de habilidades de estudio, conocimientos previos, redes de apoyo) y selección natural (estudiantes de bajo rendimiento tienden a desertar o rezagarse). Este hallazgo confirma la importancia de intervenciones tempranas de apoyo académico en series iniciales para prevenir deserción y promover trayectorias exitosas.</p></li>
 <li><p>El índice académico es independiente del uso de redes sociales (p = .549). Estudiantes que dedican 1-3 horas diarias a redes sociales no presentan índices significativamente diferentes de quienes dedican 4-7 horas. Este resultado contradice la hipótesis de que uso intensivo de redes sociales perjudica el rendimiento académico, sugiriendo que estudiantes exitosos gestionan eficientemente su tiempo, combinando uso recreativo de tecnologías con estudio efectivo, o que el uso académico de redes sociales compensa efectos negativos del uso recreativo.</p></li>
 <li><p>El índice académico es independiente del sexo del estudiante (p = .426). Mujeres y varones presentan rendimientos equivalentes sin diferencias significativas en proporciones de aprobados/desaprobados. Este hallazgo sugiere equidad de género en el desempeño académico en la Escuela de Economía, reflejando acceso equitativo a oportunidades educativas y ausencia de sesgos de género en la evaluación académica.</p></li>
-</ol></section><section id="publicaciones-similares" class="level1" data-number="6"><h1 data-number="6">
+</ol>
+<!-- fragmento de inclusión — texto de apertura del bloque «Publicaciones similares» (incluido en cada post) --></section><section id="publicaciones-similares" class="level1" data-number="6"><h1 data-number="6">
 <span class="header-section-number">6</span> Publicaciones Similares</h1>
 <p>Si te interesó este artículo, te recomendamos que explores otros blogs y recursos relacionados que pueden ampliar tus conocimientos. Aquí te dejo algunas sugerencias:</p>
+<!-- fragmento de inclusión — índice de publicaciones de estadistica; lo genera script_generador_publicacion_similar -->
 <ol type="1">
 <li>
 <a href="https://epsilon-y-beta.netlify.app/estadistica/2018-05-16-estadigrafos/index.pdf"><i class="fa-regular fa-file-pdf" aria-label="file-pdf"></i></a> <a href="https://epsilon-y-beta.netlify.app/estadistica/2018-05-16-estadigrafos">Estadigrafos</a>
@@ -1938,7 +1946,7 @@ Tabla&nbsp;9: Tabla Cruzada Índice Académico y Sexo
 <a href="https://epsilon-y-beta.netlify.app/estadistica/2018-12-26-factores-que-influyen-rendimiento-academico/index.pdf"><i class="fa-regular fa-file-pdf" aria-label="file-pdf"></i></a> <a href="https://epsilon-y-beta.netlify.app/estadistica/2018-12-26-factores-que-influyen-rendimiento-academico">Factores Que Influyen Rendimiento Academico</a>
 </li>
 </ol>
-<p>Esperamos que encuentres estas publicaciones igualmente interesantes y útiles. ¡Disfruta de la lectura!</p>
+<!-- fragmento de inclusión — texto de cierre del bloque «Publicaciones similares» (incluido en cada post) --><p>Esperamos que encuentres estas publicaciones igualmente interesantes y útiles. ¡Disfruta de la lectura!</p>
 
 
 </section><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reutilización</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Cómo citar</h2><div><div class="quarto-appendix-secondary-label">Por favor, cita este trabajo como:</div><div id="ref-achalma2018" class="csl-entry quarto-appendix-citeas">
@@ -4372,13 +4380,16 @@ Tabla&nbsp;26: Número de hijos de los alumnos de Estadística de la serie 200 d
 </div>
 </figure>
 </div>
+<!-- fragmento de inclusión — texto de apertura del bloque «Publicaciones similares» (incluido en cada post) -->
 <section id="publicaciones-similares" class="level1" data-number="1">
 <h1 data-number="1"><span class="header-section-number">1</span> Publicaciones Similares</h1>
 <p>Si te interesó este artículo, te recomendamos que explores otros blogs y recursos relacionados que pueden ampliar tus conocimientos. Aquí te dejo algunas sugerencias:</p>
+<!-- fragmento de inclusión — índice de publicaciones de estadistica; lo genera script_generador_publicacion_similar -->
 <ol type="1">
 <li><a href="https://epsilon-y-beta.netlify.app/estadistica/2018-05-16-estadigrafos/index.pdf"><i class="fa-regular fa-file-pdf" aria-label="file-pdf"></i></a> <a href="https://epsilon-y-beta.netlify.app/estadistica/2018-05-16-estadigrafos">Estadigrafos</a></li>
 <li><a href="https://epsilon-y-beta.netlify.app/estadistica/2018-12-26-factores-que-influyen-rendimiento-academico/index.pdf"><i class="fa-regular fa-file-pdf" aria-label="file-pdf"></i></a> <a href="https://epsilon-y-beta.netlify.app/estadistica/2018-12-26-factores-que-influyen-rendimiento-academico">Factores Que Influyen Rendimiento Academico</a></li>
 </ol>
+<!-- fragmento de inclusión — texto de cierre del bloque «Publicaciones similares» (incluido en cada post) -->
 <p>Esperamos que encuentres estas publicaciones igualmente interesantes y útiles. ¡Disfruta de la lectura!</p>
 
 

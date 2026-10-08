@@ -40,20 +40,14 @@ curso: microeconometria_aplicada
 
 Este artículo está actualmente en proceso de edición, y todas las secciones serán ampliadas y refinadas en futuras revisiones.
 
----
-tipo: fragmento
-titulo: texto de apertura del bloque «Publicaciones similares» (incluido en cada post)
----
+<!-- fragmento de inclusión — texto de apertura del bloque «Publicaciones similares» (incluido en cada post) -->
 
 # Publicaciones Similares
 
 Si te interesó este artículo, te recomendamos que explores otros blogs y recursos relacionados que pueden ampliar tus conocimientos. Aquí te dejo algunas sugerencias:
 
 
----
-tipo: fragmento
-titulo: índice de publicaciones de 06-evaluacion-de-impacto; lo genera script_generador_publicacion_similar
----
+<!-- fragmento de inclusión — índice de publicaciones de 06-evaluacion-de-impacto; lo genera script_generador_publicacion_similar -->
 
 1. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/06-evaluacion-de-impacto/2022-04-04-01-introduccion-a-la-evaluacion-de-impacto/index.pdf) [01 Introduccion A La Evaluacion De Impacto](https://epsilon-y-beta.netlify.app/06-evaluacion-de-impacto/2022-04-04-01-introduccion-a-la-evaluacion-de-impacto)
 2. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/06-evaluacion-de-impacto/2022-04-11-02-introduccion-a-los-experimentos-aleatorios/index.pdf) [02 Introduccion A Los Experimentos Aleatorios](https://epsilon-y-beta.netlify.app/06-evaluacion-de-impacto/2022-04-11-02-introduccion-a-los-experimentos-aleatorios)
@@ -64,10 +58,7 @@ titulo: índice de publicaciones de 06-evaluacion-de-impacto; lo genera script_g
 7. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/06-evaluacion-de-impacto/2022-05-16-07-metodo-de-control-sintetico-mcs/index.pdf) [07 Metodo De Control Sintetico Mcs](https://epsilon-y-beta.netlify.app/06-evaluacion-de-impacto/2022-05-16-07-metodo-de-control-sintetico-mcs)
 
 
----
-tipo: fragmento
-titulo: texto de cierre del bloque «Publicaciones similares» (incluido en cada post)
----
+<!-- fragmento de inclusión — texto de cierre del bloque «Publicaciones similares» (incluido en cada post) -->
 
 Esperamos que encuentres estas publicaciones igualmente interesantes y útiles. ¡Disfruta de la lectura!
 

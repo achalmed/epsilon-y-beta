@@ -67,28 +67,19 @@ Dado que los datos disponibles presentan limitaciones, en este estudio se invest
 
 **Agradecimientos:** Queremos expresar nuestro más sincero agradecimiento al Centro de Información y Sistemas de la Universidad Nacional de San Cristóbal de Huamanga por proporcionarnos los datos necesarios para llevar a cabo este trabajo.
 
----
-tipo: fragmento
-titulo: texto de apertura del bloque «Publicaciones similares» (incluido en cada post)
----
+<!-- fragmento de inclusión — texto de apertura del bloque «Publicaciones similares» (incluido en cada post) -->
 
 # Publicaciones Similares
 
 Si te interesó este artículo, te recomendamos que explores otros blogs y recursos relacionados que pueden ampliar tus conocimientos. Aquí te dejo algunas sugerencias:
 
 
----
-tipo: fragmento
-titulo: índice de publicaciones de estadistica-para-economistas; lo genera script_generador_publicacion_similar
----
+<!-- fragmento de inclusión — índice de publicaciones de estadistica-para-economistas; lo genera script_generador_publicacion_similar -->
 
 1. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/estadistica-para-economistas/2019-12-30-rendimiento-academico-y-genero-de-ingresantes-a-unsch/index.pdf) [Rendimiento Academico Y Genero De Ingresantes A Unsch](https://epsilon-y-beta.netlify.app/estadistica-para-economistas/2019-12-30-rendimiento-academico-y-genero-de-ingresantes-a-unsch)
 
 
----
-tipo: fragmento
-titulo: texto de cierre del bloque «Publicaciones similares» (incluido en cada post)
----
+<!-- fragmento de inclusión — texto de cierre del bloque «Publicaciones similares» (incluido en cada post) -->
 
 Esperamos que encuentres estas publicaciones igualmente interesantes y útiles. ¡Disfruta de la lectura!
 

@@ -40,20 +40,14 @@ curso: econometria_ii
 
 Este artículo está actualmente en proceso de edición, y todas las secciones serán ampliadas y refinadas en futuras revisiones.
 
----
-tipo: fragmento
-titulo: texto de apertura del bloque «Publicaciones similares» (incluido en cada post)
----
+<!-- fragmento de inclusión — texto de apertura del bloque «Publicaciones similares» (incluido en cada post) -->
 
 # Publicaciones Similares
 
 Si te interesó este artículo, te recomendamos que explores otros blogs y recursos relacionados que pueden ampliar tus conocimientos. Aquí te dejo algunas sugerencias:
 
 
----
-tipo: fragmento
-titulo: índice de publicaciones de 05-econometria-bayesiana; lo genera script_generador_publicacion_similar
----
+<!-- fragmento de inclusión — índice de publicaciones de 05-econometria-bayesiana; lo genera script_generador_publicacion_similar -->
 
 1. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/05-econometria-bayesiana/2022-03-07-01-introduccion-a-la-econometria-bayesiana/index.pdf) [01 Introduccion A La Econometria Bayesiana](https://epsilon-y-beta.netlify.app/05-econometria-bayesiana/2022-03-07-01-introduccion-a-la-econometria-bayesiana)
 2. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/05-econometria-bayesiana/2022-03-14-02-modelo-de-regresion-lineal/index.pdf) [02 Modelo De Regresion Lineal](https://epsilon-y-beta.netlify.app/05-econometria-bayesiana/2022-03-14-02-modelo-de-regresion-lineal)
@@ -62,10 +56,7 @@ titulo: índice de publicaciones de 05-econometria-bayesiana; lo genera script_g
 5. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/05-econometria-bayesiana/2022-03-28-05-aplicaciones-econometricas/index.pdf) [05 Aplicaciones Econometricas](https://epsilon-y-beta.netlify.app/05-econometria-bayesiana/2022-03-28-05-aplicaciones-econometricas)
 
 
----
-tipo: fragmento
-titulo: texto de cierre del bloque «Publicaciones similares» (incluido en cada post)
----
+<!-- fragmento de inclusión — texto de cierre del bloque «Publicaciones similares» (incluido en cada post) -->
 
 Esperamos que encuentres estas publicaciones igualmente interesantes y útiles. ¡Disfruta de la lectura!
 
