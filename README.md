@@ -4,7 +4,7 @@ estado: activo
 ---
 # pub_epsilon-y-beta/ — Econometría: blog satélite del hub `04 index` (repo epsilon-y-beta, epsilon-y-beta.netlify.app)
 
-<!-- GENERADO por `04 index/scripts/pubs.py readme --aplicar` desde `04 index/_pubs/pubs.yml` (2026-10-06); no editar aquí: se regenera desde el hub -->
+<!-- GENERADO por `04 index/scripts/pubs.py readme --aplicar` desde `04 index/_pubs/pubs.yml` (2026-10-08); no editar aquí: se regenera desde el hub -->
 
 ## Qué es
 
@@ -46,6 +46,7 @@ cd ../.. && git add _pubs/pub_epsilon-y-beta && git commit -m "pubs: epsilon-y-b
 | `assets/scss/`, `assets/js/`, `assets/css/global.css`, `assets/css/components/`, `_extensions/`, `_filters/apa-floats-html.lua`, `scripts/build-page-css.sh` | tema propagado desde el hub por `sync-theme-pubs.sh`: no se edita aquí | |
 | `assets/img/`, `assets/fonts/`, `assets/gtm-*.html`, `assets/interactions.html`, `assets/scss/05-pages/`, `assets/css/pages/`, `_filters/_metadata-pdf.lua`, `_partials/` | propios del blog (no los escribe la sincronización) | |
 | `_site/` | sitio generado por `quarto render`; versionado a propósito: su push es el despliegue (`04 index/docs/decisiones.md` §4.1) | |
+| `THEME_VERSION` | sello del tema: commit del hub y sha256 del conjunto; lo escribe `sync-theme-pubs.sh --aplicar` (GENERADO) | |
 
 49 entradas. Cada entrada es `<sección>/AAAA-MM-DD-slug/index.qmd` con frontmatter apaquarto y fecha ISO;
 sus metadatos se editan en masa desde `scripts-quarto` (`metadata_manager`).
