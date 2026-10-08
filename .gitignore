@@ -536,3 +536,6 @@ estructura.txt
 # `#_site/` está comentado arriba. Las figuras de los posts (`_site/**/index_files/`) son parte del
 # sitio publicado: se re-incluyen frente a `*_files/`, que solo debe actuar sobre las fuentes.
 !/_site/**/*_files/
+
+# Dank Mono: fuente comercial sin uso; fuera de git (ola 6), copia en $RESPALDOS_DIR/residuos/2026-10-08-dankmono
+assets/fonts/DankMono-*
