@@ -24,6 +24,7 @@ llega por `04 index/scripts/sync-theme-pubs.sh`. Lo propio de este blog es `_qua
 quarto preview                              # vista previa local
 quarto render                               # regenera _site/ (freeze: true: el código no se re-ejecuta)
 git add -- <carpeta del post> _contenido_*.qmd _site && git commit -m "post: …"   # confirmar AQUÍ primero…
+../../scripts/puerta-r6.sh .                # puerta R6: _site/index.html al día antes del push (también es el hook pre-push)
 git push                                    # …al remoto propio (ssh git@github.com:achalmed/epsilon-y-beta.git)
 cd ../.. && git add _pubs/pub_epsilon-y-beta && git commit -m "pubs: epsilon-y-beta al último commit"   # y mover el puntero en el hub
 ```
@@ -47,6 +48,7 @@ cd ../.. && git add _pubs/pub_epsilon-y-beta && git commit -m "pubs: epsilon-y-b
 | `assets/img/`, `assets/fonts/`, `assets/gtm-*.html`, `assets/interactions.html`, `assets/scss/05-pages/`, `assets/css/pages/`, `_filters/_metadata-pdf.lua`, `_partials/` | propios del blog (no los escribe la sincronización) | |
 | `_site/` | sitio generado por `quarto render`; versionado a propósito: su push es el despliegue (`04 index/docs/decisiones.md` §4.1) | |
 | `THEME_VERSION` | sello del tema: commit del hub y sha256 del conjunto; lo escribe `sync-theme-pubs.sh --aplicar` (GENERADO) | |
+| `netlify.toml` | configuración de Netlify: publica `_site/` sin comando de build | |
 
 49 entradas. Cada entrada es `<sección>/AAAA-MM-DD-slug/index.qmd` con frontmatter apaquarto y fecha ISO;
 sus metadatos se editan en masa desde `scripts-quarto` (`metadata_manager`).
@@ -60,5 +62,5 @@ principio a fin), `04 index/docs/despliegue-netlify.md` (cómo publica cada siti
 ## Límite honesto
 
 - Este README es el único documento propio del blog y se regenera desde el hub: lo escrito aquí a mano se pierde.
-- `_site/` sigue en git: Netlify publica el _site/ empujado, sin build (decisiones §4.1 del hub).
+- `_site/` sigue en git: Netlify publica el _site/ empujado, sin build (decisiones §4.1 del hub); `netlify.toml` lo declara (`publish = "_site"`, sin comando de build), y el hook pre-push de la puerta R6 no viaja con el repo: lo instala `04 index/scripts/puerta-r6.sh --instalar`.
 - Licencia: código MPL-2.0 (`LICENSE`), contenido CC-BY-SA-4.0 según `license.qmd` del hub; unificarlas en los 12 sitios es la decisión D9.
