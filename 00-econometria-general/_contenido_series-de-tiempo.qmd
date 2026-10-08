@@ -1,7 +1,4 @@
----
-tipo: fragmento
-titulo: Series-de-Tiempo-2021
----
+<!-- fragmento de inclusión — Series-de-Tiempo-2021 -->
 
 # Series-de-Tiempo-2021
 

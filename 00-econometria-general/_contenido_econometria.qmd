@@ -1,7 +1,4 @@
----
-tipo: fragmento
-titulo: navegación de econometria en 00-econometria-general (a mano)
----
+<!-- fragmento de inclusión — navegación de econometria en 00-econometria-general (a mano) -->
 
 -   [Unidad 01](../unidad-01/index.qmd)
 
