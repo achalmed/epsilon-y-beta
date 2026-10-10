@@ -49,10 +49,6 @@ Si te interesó este artículo, te recomendamos que explores otros blogs y recur
 
 <!-- fragmento de inclusión — índice de publicaciones de 02-macroeconometria; lo genera script_generador_publicacion_similar -->
 
-1. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/02-macroeconometria/2021-09-20-01-analisis-univariado/index.pdf) [01 Analisis Univariado](https://epsilon-y-beta.netlify.app/02-macroeconometria/2021-09-20-01-analisis-univariado)
-2. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/02-macroeconometria/2021-09-27-03-analisis-multivariado/index.pdf) [03 Analisis Multivariado](https://epsilon-y-beta.netlify.app/02-macroeconometria/2021-09-27-03-analisis-multivariado)
-3. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/02-macroeconometria/2021-10-04-05-modelos-de-factores-latentes/index.pdf) [05 Modelos De Factores Latentes](https://epsilon-y-beta.netlify.app/02-macroeconometria/2021-10-04-05-modelos-de-factores-latentes)
-4. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/02-macroeconometria/2021-10-11-06-modelos-no-lineales-en-la-media/index.pdf) [06 Modelos No Lineales En La Media](https://epsilon-y-beta.netlify.app/02-macroeconometria/2021-10-11-06-modelos-no-lineales-en-la-media)
 
 
 <!-- fragmento de inclusión — texto de cierre del bloque «Publicaciones similares» (incluido en cada post) -->

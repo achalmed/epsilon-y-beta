@@ -49,7 +49,6 @@ Si te interesó este artículo, te recomendamos que explores otros blogs y recur
 
 <!-- fragmento de inclusión — índice de publicaciones de 04-econometria-financiera; lo genera script_generador_publicacion_similar -->
 
-1. [{{< fa regular file-pdf >}}](https://epsilon-y-beta.netlify.app/04-econometria-financiera/2022-02-28-01-volatilidad-en-las-series-de-tiempo/index.pdf) [01 Volatilidad En Las Series De Tiempo](https://epsilon-y-beta.netlify.app/04-econometria-financiera/2022-02-28-01-volatilidad-en-las-series-de-tiempo)
 
 
 <!-- fragmento de inclusión — texto de cierre del bloque «Publicaciones similares» (incluido en cada post) -->
