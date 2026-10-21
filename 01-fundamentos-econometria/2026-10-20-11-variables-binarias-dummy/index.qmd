@@ -1,0 +1,87 @@
+---
+copyrightnotice: 2026
+copyrightext: All rights reserved
+title: Variables binarias (dummy)
+shorttitle: VARIABLES BINARIAS (DUMMY)
+abstract: Este abstract será actualizado una vez que se complete el contenido final del artículo.
+keywords: []
+categories:
+- Fundamentos Econometria
+tags:
+- econometria_general
+- econometrics
+author-note:
+  status-changes:
+    affiliation-change: null
+    deceased: null
+  disclosures:
+    study-registration: null
+    data-sharing: null
+    related-report: null
+    conflict-of-interest: El autor no tiene conflictos de interés que revelar.
+    financial-support: null
+    gratitude: null
+    authorship-agreements: null
+description: 'Lección 3.4 de Econometría I: Variables binarias (dummy).'
+eval: false
+citation:
+  type: article-journal
+  author:
+  - Edison Achalma
+  pdf-url: https://epsilon-y-beta.netlify.app/01-fundamentos-econometria/2026-10-20-11-variables-binarias-dummy/index.pdf
+date: 2026-10-20
+draft: true
+image: ../featured.jpg
+curso: econometria-i
+tema: "3.4"
+generado: curriculo
+---
+
+<!-- Esqueleto generado desde el currículo (docencia/contenido/cursos/econometria-i/curso.yml, tema 3.4) por web/scripts/cursos.py. El cuerpo es del autor: el generador solo actualiza el título mientras siga sin texto. -->
+
+Este artículo está actualmente en proceso de edición, y todas las secciones serán ampliadas y refinadas en futuras revisiones.
+
+## Objetivos
+
+<!-- Qué podrá hacer el estudiante al terminar la lección: de tres a cinco objetivos observables (explicar, calcular, estimar, programar…). -->
+
+## Desarrollo
+
+<!-- La exposición del tema, de la intuición a la formalización: conceptos, supuestos o reglas, resultados y su interpretación. -->
+
+## Ejemplos
+
+<!-- Ejemplos resueltos paso a paso, con datos reales cuando los haya (datasets de datafw por su clave) y el código que los reproduce. -->
+
+## Ejercicios
+
+<!-- Ejercicios graduados para practicar, con la respuesta o una pista; los del banco del curso se citan, no se copian. -->
+
+## Autoevaluación
+
+<!-- Preguntas de corrección inmediata, declaradas en el frontmatter con la clave `quiz:` (web/_aula/docs/decisiones.md §1.7).
+Ejemplo del bloque `quiz:` (va en el frontmatter, no aquí):
+quiz:
+  - tipo: opcion
+    enunciado: "…"
+    opciones: ["…", "…", "…"]
+    correcta: 0
+    explicacion: "…"
+  - tipo: vf
+    enunciado: "…"
+    respuesta: false
+  - tipo: numerica
+    enunciado: "…"
+    respuesta: 3.14
+    tolerancia: 0.01
+-->
+
+## Recursos
+
+<!-- Lecturas (por su clave de Calibre o Zotero), simuladores del tema, datasets y enlaces a las lecciones vecinas. -->
+
+{{< include ../../_contenido-inicio.qmd >}}
+
+{{< include ../_contenido_01-fundamentos-econometria.qmd >}}
+
+{{< include ../../_contenido-final.qmd >}}

@@ -36,7 +36,8 @@ citation:
 date: 2022-06-06
 draft: true
 image: ../featured.jpg
-curso: econometria_ii
+curso: microeconometria-aplicada
+tema: "3.4"
 ---
 
 Este artículo está actualmente en proceso de edición, y todas las secciones serán ampliadas y refinadas en futuras revisiones.

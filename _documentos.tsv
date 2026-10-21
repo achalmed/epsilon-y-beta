@@ -1,0 +1,14 @@
+# _documentos.tsv — GENERADO por scripts/documentos.py; no editar
+# Caché del modo documentos (render.sh --documentos): una fila por página y formato; la clave es el sha256 de la
+# fuente y de la fecha de la página; sha256 es el de la salida en _site/. Ver web/docs/decisiones.md §4.5.
+fuente	formato	salida	clave	sha256
+00-econometria-general/2022-01-11-recaudacion-de-impuestos-y-crecimiento-economico-2017-2019/index.qmd	apaquarto-docx	00-econometria-general/2022-01-11-recaudacion-de-impuestos-y-crecimiento-economico-2017-2019/index.docx	f6f13e37a3d8244db3e8cfaabe201ea1ce16f67e2fda6f30eb31b656968f1dc1	d78188bbf94ce1cef67a91b4c25d4fb6d1efae93f95f89e5094198a83bc90121
+00-econometria-general/2022-01-11-recaudacion-de-impuestos-y-crecimiento-economico-2017-2019/index.qmd	apaquarto-pdf	00-econometria-general/2022-01-11-recaudacion-de-impuestos-y-crecimiento-economico-2017-2019/index.pdf	f6f13e37a3d8244db3e8cfaabe201ea1ce16f67e2fda6f30eb31b656968f1dc1	eb58b85a2b164a40eaed2d423d86c0821a21b054a051afb6da471492df811e41
+404.qmd	-	-	6d43f9521ba7339566cb0916b956449685d96fa7869226d8be77944eab963d5f	-
+estadistica-para-economistas/2019-12-30-rendimiento-academico-y-genero-de-ingresantes-a-unsch/index.qmd	apaquarto-docx	estadistica-para-economistas/2019-12-30-rendimiento-academico-y-genero-de-ingresantes-a-unsch/index.docx	73b10b646bf4d1b233ab68357a23f01c5024af2b351ddd49dbf2a05b5dc3bbfd	0ff9e92184f850b1a8d4b09f46454089d2a7d5518fc9308085af90ce6c747f4b
+estadistica-para-economistas/2019-12-30-rendimiento-academico-y-genero-de-ingresantes-a-unsch/index.qmd	apaquarto-pdf	estadistica-para-economistas/2019-12-30-rendimiento-academico-y-genero-de-ingresantes-a-unsch/index.pdf	73b10b646bf4d1b233ab68357a23f01c5024af2b351ddd49dbf2a05b5dc3bbfd	558246b78e371c380ca579561cfa4b395ba76dc12b85a514e60d98402dbaa071
+estadistica/2018-05-16-estadigrafos/index.qmd	apaquarto-docx	estadistica/2018-05-16-estadigrafos/index.docx	04a8971c7c9e1f2e9132a74b9de496a177b25b0798181e4c90fc56637f65e0fa	94cd75aa553e7d7709bb8478c0b90a67b30a261e9da65bb67e58deeb78e74c7f
+estadistica/2018-05-16-estadigrafos/index.qmd	apaquarto-pdf	estadistica/2018-05-16-estadigrafos/index.pdf	04a8971c7c9e1f2e9132a74b9de496a177b25b0798181e4c90fc56637f65e0fa	752dcc90d4e1c89ef31573e040fd6bf2bda821381b2957670deee72d698f7d39
+estadistica/2018-12-26-factores-que-influyen-rendimiento-academico/index.qmd	apaquarto-docx	estadistica/2018-12-26-factores-que-influyen-rendimiento-academico/index.docx	280324bddda068de43a406e53949744dc04785dadf5be5ce7ab86df2549f4038	8b6b7e49d76dd3f0732e8a4cbd964e5e670e5febcf75cca2fb6e284d05158437
+estadistica/2018-12-26-factores-que-influyen-rendimiento-academico/index.qmd	apaquarto-pdf	estadistica/2018-12-26-factores-que-influyen-rendimiento-academico/index.pdf	280324bddda068de43a406e53949744dc04785dadf5be5ce7ab86df2549f4038	84af3e18b3eb281ca73e96df71bf9598c328bff03b803d0ff7cda22ca7ef078b
+index.qmd	-	-	f67a7f64cae6e5c3a0e38ad5c5bfc53f1ab95c605e4339c91451da8d52191630	-

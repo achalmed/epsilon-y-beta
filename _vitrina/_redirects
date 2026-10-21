@@ -1,0 +1,6 @@
+# _redirects — GENERADO por aula (src/integracion/recursos.mjs); no editar.
+# Cada post del sitio Quarto de epsilon-y-beta lleva a su página nueva; los archivos del post (PDF, DOCX, figuras) también.
+/estadistica/2018-05-16-estadigrafos/*  /cursos/estadistica/estadigrafos/:splat  301
+/00-econometria-general/2022-01-11-recaudacion-de-impuestos-y-crecimiento-economico-2017-2019/*  /blog/recaudacion-de-impuestos-y-crecimiento-economico-2017-2019/:splat  301
+/estadistica-para-economistas/2019-12-30-rendimiento-academico-y-genero-de-ingresantes-a-unsch/*  /blog/rendimiento-academico-y-genero-de-ingresantes-a-unsch/:splat  301
+/estadistica/2018-12-26-factores-que-influyen-rendimiento-academico/*  /blog/factores-que-influyen-rendimiento-academico/:splat  301
