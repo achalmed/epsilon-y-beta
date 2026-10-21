@@ -34,13 +34,13 @@ cd ../.. && git add _pubs/epsilon-y-beta && git commit -m "pubs: epsilon-y-beta 
 | carpeta | qué es | entradas |
 |---|---|--:|
 | `00-econometria-general/` | sección temática | 1 |
-| `01-fundamentos-econometria/` | sección temática | 12 |
+| `01-fundamentos-econometria/` | sección temática | 15 |
 | `02-macroeconometria/` | sección temática | 4 |
-| `03-microeconometria/` | sección temática | 8 |
+| `03-microeconometria/` | sección temática | 10 |
 | `04-econometria-financiera/` | sección temática | 1 |
 | `05-econometria-bayesiana/` | sección temática | 5 |
 | `06-evaluacion-de-impacto/` | sección temática | 7 |
-| `07-topicos-de-econometria/` | sección temática | 8 |
+| `07-topicos-de-econometria/` | sección temática | 9 |
 | `estadistica/` | sección temática | 2 |
 | `estadistica-para-economistas/` | sección temática | 1 |
 | `_quarto.yml`, `index.qmd`, `404.qmd`, `_contenido-inicio.qmd`, `_contenido-final.qmd` | configuración y portada propias del blog | |
@@ -50,7 +50,7 @@ cd ../.. && git add _pubs/epsilon-y-beta && git commit -m "pubs: epsilon-y-beta 
 | `THEME_VERSION` | sello del tema: commit del hub y sha256 del conjunto; lo escribe `sync-theme-pubs.sh --aplicar` (GENERADO) | |
 | `netlify.toml` | configuración de Netlify: publica `_site/` sin comando de build | |
 
-49 entradas. Cada entrada es `<sección>/AAAA-MM-DD-slug/index.qmd` con frontmatter apaquarto y fecha ISO;
+55 entradas. Cada entrada es `<sección>/AAAA-MM-DD-slug/index.qmd` con frontmatter apaquarto y fecha ISO;
 sus metadatos se editan en masa desde `scripts-quarto` (`metadata_manager`).
 
 ## Documentación
