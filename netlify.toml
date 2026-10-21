@@ -4,4 +4,5 @@
 # `_vitrina/` (GENERADO; no se edita). `_site/` sigue siendo el render de Quarto, fuente de las lecciones; volver al
 # sitio Quarto es `publicar.sh epsilon-y-beta --volver --aplicar` (publish = "_site"). Netlify no ejecuta ningún comando.
 [build]
+  base = "/"          # la raíz del repo: el sitio tenía `_site` como base en su configuración de Netlify
   publish = "_vitrina"
