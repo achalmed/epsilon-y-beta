@@ -36,7 +36,8 @@ citation:
 date: 2022-05-16
 draft: true
 image: ../featured.jpg
-curso: econometria_ii
+curso: econometria-ii
+tema: "1.2"
 ---
 
 Este artículo está actualmente en proceso de edición, y todas las secciones serán ampliadas y refinadas en futuras revisiones.
