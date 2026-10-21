@@ -6,3 +6,7 @@
 [build]
   base = "/"          # la raíz del repo: el sitio tenía `_site` como base en su configuración de Netlify
   publish = "_vitrina"
+
+# Node 22: sin build no se usa, pero Netlify avisaba de que el entorno del sitio estaba en Node 16 (2026-10-21).
+[build.environment]
+  NODE_VERSION = "22"
