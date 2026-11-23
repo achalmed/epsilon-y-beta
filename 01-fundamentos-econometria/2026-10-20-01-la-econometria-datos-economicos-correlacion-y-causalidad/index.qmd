@@ -35,9 +35,26 @@ image: ../featured.jpg
 curso: econometria-i
 tema: "1.1"
 generado: curriculo
+propuesta: 391a24d3ff07
+quiz_origen: docencia/scripts/alineamiento.py exportar econometria-i s03 --formato quiz
+quiz:
+  - id: s03-p02
+    tipo: opcion
+    enunciado: Tu estimación de la pobreza rural de 2019 es 40,78 % y el INEI publica 40,8 %. ¿Replicaste la cifra?
+    opciones:
+    - 'Sí: redondeada a un decimal es igual a la publicada'
+    - 'No: difiere en 0,02 pp'
+    - No se puede saber sin el microdato del INEI
+    - Solo si el intervalo es idéntico
+    correcta: 0
+    retro:
+    - null
+    - 'Olvida que la cifra publicada está redondeada a un decimal: se compara al mismo redondeo.'
+    - No ve que replicar es reproducir la cifra publicada desde los mismos microdatos públicos.
+    - Exige para la cifra puntual la igualdad del intervalo, que depende además del método de la varianza.
 ---
 
-<!-- Esqueleto generado desde el currículo (docencia/contenido/cursos/econometria-i/curso.yml, tema 1.1) por web/scripts/cursos.py. El cuerpo es del autor: el generador solo actualiza el título mientras siga sin texto. -->
+<!-- Esqueleto generado desde el currículo (docencia/contenido/cursos/econometria-i/curso.yml, tema 1.1) por web/scripts/cursos.py. El cuerpo es del autor: el generador solo actualiza el título mientras siga sin texto. Cada «Propuesta» la armó docencia/scripts/leccion.py desde el alineamiento, tus apuntes, tus fichas, el curso tomado y el banco: estructura, preguntas y fuentes. El texto es tuyo; nada ajeno se copia. Mientras el cuerpo siga como lo dejó el generador (su huella en `propuesta:`), la propuesta se rehace sola. -->
 
 Este artículo está actualmente en proceso de edición, y todas las secciones serán ampliadas y refinadas en futuras revisiones.
 
@@ -45,40 +62,60 @@ Este artículo está actualmente en proceso de edición, y todas las secciones s
 
 <!-- Qué podrá hacer el estudiante al terminar la lección: de tres a cinco objetivos observables (explicar, calcular, estimar, programar…). -->
 
+<!-- Propuesta:
+Resultados del alineamiento de econometria-i que trabaja el tema (por las preguntas del banco que lo declaran):
+- ra1 (relacional): Explica cómo los estratos, los conglomerados y el factor de expansión de la ENAHO cambian la estimación de una tasa y su error estándar, y estima una proporción por dominio con el diseño completo.
+- ra3 (abstracto_ampliado): Replica una cifra oficial del INEI desde los microdatos y la documenta en un README que permite a un tercero reproducirla.
+- ra4 (relacional): Juzga la precisión de una estimación por dominio (coeficiente de variación, n, intervalo) y decide si es publicable con el criterio del INEI.
+Escribe de tres a cinco objetivos observables de la lección que los concreten.
+-->
+
 ## Desarrollo
 
 <!-- La exposición del tema, de la intuición a la formalización: conceptos, supuestos o reglas, resultados y su interpretación. -->
+
+<!-- Propuesta:
+Tus fichas de esas obras (42), por obra: Calibre 10192 «Perú: evolución de la pobreza monetaria 2016-2025. Informe técnico»: 42 fichas (textual 39, fuente 3) en escritura/reports/2026-11-03-ayacucho-pobreza-empleo-desarrollo/fuentes/fichas, escritura/reports/2026-11-03-biblioteca-inteligencia-economica/fuentes/fichas, escritura/reports/2026-11-03-programa-alimentacion-escolar-pae/fuentes/fichas, p. 13, 19, 55, 59, 68, 73.
+-->
 
 ## Ejemplos
 
 <!-- Ejemplos resueltos paso a paso, con datos reales cuando los haya (datasets de datafw por su clave) y el código que los reproduce. -->
 
+<!-- Propuesta:
+La sesión s01-diseno-muestral-de-la-enaho trabaja el tema: su laboratorio.py puede dar un ejemplo resuelto.
+La sesión s03-replicacion-de-una-cifra-oficial trabaja el tema: su replicacion.py puede dar un ejemplo resuelto.
+Datos del curso para los ejemplos (datafw): inei/enaho/2019/modulo34/datos/sumaria-2019.dta (s01, s02, s03 (pobreza monetaria con diseño muestral)); inei/enaho/2024/modulo34/datos/sumaria-2024.dta (s01, s02, s03 (pobreza monetaria con diseño muestral)).
+-->
+
 ## Ejercicios
 
 <!-- Ejercicios graduados para practicar, con la respuesta o una pista; los del banco del curso se citan, no se copian. -->
 
+<!-- Propuesta:
+Preguntas abiertas del banco sobre el tema (tuyas; se corrigen en la puesta en común):
+- s01-p01 (s01): ¿Por qué la tasa de pobreza calculada sin pesos sobre los hogares de la ENAHO 2019 (17,2 %) es menor que la oficial (20,2 %)?
+- s03-p04 (s03): Tus tasas replican al decimal, pero tu total de personas pobres de 2024 (≈ 9,51 millones) no coincide con el que se deduce del informe del INEI (≈ 9,40 millones). ¿Qué haces en el informe?
+-->
+
 ## Autoevaluación
 
-<!-- Preguntas de corrección inmediata, declaradas en el frontmatter con la clave `quiz:` (web/_aula/docs/decisiones.md §1.7).
-Ejemplo del bloque `quiz:` (va en el frontmatter, no aquí):
-quiz:
-  - tipo: opcion
-    enunciado: "…"
-    opciones: ["…", "…", "…"]
-    correcta: 0
-    explicacion: "…"
-  - tipo: vf
-    enunciado: "…"
-    respuesta: false
-  - tipo: numerica
-    enunciado: "…"
-    respuesta: 3.14
-    tolerancia: 0.01
+<!-- Preguntas de corrección inmediata, declaradas en el frontmatter con la clave `quiz:` (web/_aula/docs/decisiones.md §1.7). -->
+
+<!-- Propuesta:
+El `quiz:` del frontmatter (1 preguntas) es una vista del banco: `docencia/scripts/alineamiento.py exportar econometria-i s03 --formato quiz`, solo las del tema. Se cambia en recuperacion.yml, no aquí.
 -->
 
 ## Recursos
 
 <!-- Lecturas (por su clave de Calibre o Zotero), simuladores del tema, datasets y enlaces a las lecciones vecinas. -->
+
+<!-- Propuesta:
+Fuentes por su número de Calibre:
+- Calibre 9884 «Notas de técnicas de muestreo» (bibliografía de la sesión del tema)
+- Calibre 10192 «Perú: evolución de la pobreza monetaria 2016-2025. Informe técnico» (bibliografía de la sesión del tema)
+- Calibre 11027 «Ficha técnica. Encuesta Nacional de Hogares (ENAHO) 2024» (bibliografía de la sesión del tema)
+-->
 
 {{< include ../../_contenido-inicio.qmd >}}
 

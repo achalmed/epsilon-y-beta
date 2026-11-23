@@ -35,9 +35,19 @@ image: ../featured.jpg
 curso: econometria-i
 tema: "3.4"
 generado: curriculo
+propuesta: 4a44b4e1c7e5
+quiz_origen: docencia/scripts/alineamiento.py exportar econometria-i s02 --formato quiz
+quiz:
+  - id: s02-p03
+    tipo: numerica
+    enunciado: En la regresión del log del gasto per cápita, el coeficiente de «rural» es −0,635. ¿Qué diferencia porcentual de gasto representa?
+    respuesta: -47
+    tolerancia: 0.5
+    unidad: '%'
+    explicacion: ≈ −47 % (e^−0,635 − 1)
 ---
 
-<!-- Esqueleto generado desde el currículo (docencia/contenido/cursos/econometria-i/curso.yml, tema 3.4) por web/scripts/cursos.py. El cuerpo es del autor: el generador solo actualiza el título mientras siga sin texto. -->
+<!-- Esqueleto generado desde el currículo (docencia/contenido/cursos/econometria-i/curso.yml, tema 3.4) por web/scripts/cursos.py. El cuerpo es del autor: el generador solo actualiza el título mientras siga sin texto. Cada «Propuesta» la armó docencia/scripts/leccion.py desde el alineamiento, tus apuntes, tus fichas, el curso tomado y el banco: estructura, preguntas y fuentes. El texto es tuyo; nada ajeno se copia. Mientras el cuerpo siga como lo dejó el generador (su huella en `propuesta:`), la propuesta se rehace sola. -->
 
 Este artículo está actualmente en proceso de edición, y todas las secciones serán ampliadas y refinadas en futuras revisiones.
 
@@ -45,13 +55,28 @@ Este artículo está actualmente en proceso de edición, y todas las secciones s
 
 <!-- Qué podrá hacer el estudiante al terminar la lección: de tres a cinco objetivos observables (explicar, calcular, estimar, programar…). -->
 
+<!-- Propuesta:
+Resultados del alineamiento de econometria-i que trabaja el tema (por las preguntas del banco que lo declaran):
+- ra2 (relacional): Interpreta una diferencia de tasas o un coeficiente de regresión por su tamaño y su intervalo de confianza, y usa el valor p conforme a los seis principios de la ASA.
+Escribe de tres a cinco objetivos observables de la lección que los concreten.
+-->
+
 ## Desarrollo
 
 <!-- La exposición del tema, de la intuición a la formalización: conceptos, supuestos o reglas, resultados y su interpretación. -->
 
+<!-- Propuesta:
+Tus fichas de esas obras (42), por obra: Calibre 10192 «Perú: evolución de la pobreza monetaria 2016-2025. Informe técnico»: 42 fichas (textual 39, fuente 3) en escritura/reports/2026-11-03-ayacucho-pobreza-empleo-desarrollo/fuentes/fichas, escritura/reports/2026-11-03-biblioteca-inteligencia-economica/fuentes/fichas, escritura/reports/2026-11-03-programa-alimentacion-escolar-pae/fuentes/fichas, p. 13, 19, 55, 59, 68, 73.
+-->
+
 ## Ejemplos
 
 <!-- Ejemplos resueltos paso a paso, con datos reales cuando los haya (datasets de datafw por su clave) y el código que los reproduce. -->
+
+<!-- Propuesta:
+La sesión s02-inferencia-segun-la-asa trabaja el tema: su inferencia.py puede dar un ejemplo resuelto.
+Datos del curso para los ejemplos (datafw): inei/enaho/2019/modulo34/datos/sumaria-2019.dta (s01, s02, s03 (pobreza monetaria con diseño muestral)); inei/enaho/2024/modulo34/datos/sumaria-2024.dta (s01, s02, s03 (pobreza monetaria con diseño muestral)).
+-->
 
 ## Ejercicios
 
@@ -59,26 +84,20 @@ Este artículo está actualmente en proceso de edición, y todas las secciones s
 
 ## Autoevaluación
 
-<!-- Preguntas de corrección inmediata, declaradas en el frontmatter con la clave `quiz:` (web/_aula/docs/decisiones.md §1.7).
-Ejemplo del bloque `quiz:` (va en el frontmatter, no aquí):
-quiz:
-  - tipo: opcion
-    enunciado: "…"
-    opciones: ["…", "…", "…"]
-    correcta: 0
-    explicacion: "…"
-  - tipo: vf
-    enunciado: "…"
-    respuesta: false
-  - tipo: numerica
-    enunciado: "…"
-    respuesta: 3.14
-    tolerancia: 0.01
+<!-- Preguntas de corrección inmediata, declaradas en el frontmatter con la clave `quiz:` (web/_aula/docs/decisiones.md §1.7). -->
+
+<!-- Propuesta:
+El `quiz:` del frontmatter (1 preguntas) es una vista del banco: `docencia/scripts/alineamiento.py exportar econometria-i s02 --formato quiz`, solo las del tema. Se cambia en recuperacion.yml, no aquí.
 -->
 
 ## Recursos
 
 <!-- Lecturas (por su clave de Calibre o Zotero), simuladores del tema, datasets y enlaces a las lecciones vecinas. -->
+
+<!-- Propuesta:
+Fuentes por su número de Calibre:
+- Calibre 10192 «Perú: evolución de la pobreza monetaria 2016-2025. Informe técnico» (bibliografía de la sesión del tema)
+-->
 
 {{< include ../../_contenido-inicio.qmd >}}
 
